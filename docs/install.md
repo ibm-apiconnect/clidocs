@@ -150,7 +150,7 @@ To install and run the toolkit, complete the following steps:
       - If you don't have the required permissions to create a permanent environment variable, you can create a temporary one that will only be used while you are running the API Designer application. The following steps must be performed every time you start API Designer:
         1. Open the Windows command prompt.
         1. Run the following command to set the temporary environment variable:
-        
+
             ```batch
             set APIC_DESIGNER_CREDENTIALS=<designer_credentials_file_path>\designer_credentials.json
             ```
@@ -161,7 +161,7 @@ To install and run the toolkit, complete the following steps:
             Note: Leave the command prompt open for the next step. You must set the temporary variable and start the API Designer within the same Windows command session.
             :::
 
-        2. Now run the following command to start API Designer:
+        1. Now run the following command to start API Designer:
 
             ```powershell
             C:\"Program Files\API Designer\API Designer.exe"
@@ -191,11 +191,13 @@ To install and run the toolkit, complete the following steps:
 
 1. Start the API Designer application from the location to where you stored the extracted file.
 
-:::Note:
+:::note[Uninstall]
 
 - To uninstall the API Designer application on a Windows platform with a non Administrator account, complete the following steps:
-  
-  In Windows File Explorer, navigate to the `USER_HOME\AppData\Local\Programs\api-designer` folder.
-  Run the Uninstall API Designer application application. Do not use the Add or remove programs window.
+
+  - In Windows File Explorer, navigate to the `USER_HOME\AppData\Local\Programs\api-designer` folder.
+  - Run the Uninstall API Designer application application. Do not use the Add or remove programs window.
+
 - To uninstall the API Designer application on a Windows platform with an Administrator account, you can either run the Uninstall API Designer application application, or you can use the Add or remove programs window.
+
 :::
