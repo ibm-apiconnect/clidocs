@@ -4,26 +4,26 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Get Help!',
+    title: 'Get started with the CLI!',
     description: (
       <>
-        Get help on customer problems
+        How to use the API Connect command line interface
       </>
     ),
   },
   {
-    title: 'APIC Support',
+    title: 'Ideal for CICD',
     description: (
       <>
-        Not to be shared with customers, for APIC L2/L3 use only!
+        Perfect for automating usage of API Connect!
       </>
     ),
   },
   {
-    title: 'Please help us help you!',
+    title: 'Reference information',
     description: (
       <>
-        Contribute back by adding more content in git!
+        Every command listed with arguments
       </>
     ),
   },

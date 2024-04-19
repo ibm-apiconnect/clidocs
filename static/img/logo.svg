@@ -17,7 +17,7 @@
             }
         </style>
     </defs>
-    <g id="Banner/Playbook">
+    <g id="Banner/Clidocs">
         <g id="basic-header">
                 <text id="APIC" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500" line-spacing="18" letter-spacing="0.1" fill="#FFFFFF">
                     <tspan x="46" y="29">API Connect</tspan>
@@ -26,12 +26,12 @@
                     <tspan x="16" y="29">IBM</tspan>
                 </text>
         </g>
-        <g id="Playbook" stroke-width="1" fill-rule="evenodd" transform="translate(142.000000, 15.000000)" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="normal">
+        <g id="Clidocs" stroke-width="1" fill-rule="evenodd" transform="translate(142.000000, 15.000000)" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="normal">
             <text id="|" opacity="0.4" fill="#F3F3F3">
                 <tspan x="0" y="14">|</tspan>
             </text>
             <text fill="#C49CFF">
-                <tspan x="18" y="14">Playbook</tspan>
+                <tspan x="18" y="14">CLI Docs</tspan>
             </text>
         </g>
     </g>
