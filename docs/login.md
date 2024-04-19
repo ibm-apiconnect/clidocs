@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Logging into the toolkit
+# Logging in to the toolkit
 
 Information on how to login to the toolkit using different user registries and realms.
 
