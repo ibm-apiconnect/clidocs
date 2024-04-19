@@ -10,7 +10,7 @@ How to use the API Connect command line interface.
 
 How to install the API Connect toolkit.
 
-The toolkit can be downloaded directly from IBM Fix Central (be careful to get the same version as your API Connect deployment), or it can be downloaded directly from your API Manager UI. Both methods are documented in the product documentation: [https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=configuration-installing-toolkit](https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=configuration-installing-toolkit)
+The toolkit can be downloaded directly from IBM Fix Central (be careful to get the same version as your API Connect deployment), or it can be downloaded directly from your API Manager UI. Both methods are covered here: [Installing](./install)
 
 ## Toolkit modes
 

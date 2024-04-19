@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Logging in to the toolkit
@@ -187,4 +187,4 @@ Warning: Using default toolkit credentials.
 Logged into mgmt_endpoint_url successfully
 ```
 
-Note: If you see a message stating that credentials cannot be found, download new credentials as explained in [Installing](./intro).
+Note: If you see a message stating that credentials cannot be found, download new credentials as explained in [Installing](./install).
