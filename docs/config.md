@@ -16,18 +16,28 @@ The values of local configuration variables are stored in the `project-root/.api
 
 Use the following commands to work with configuration variables:
 
-`apic config:get varname` - Get a configuration variable. Use apic config to display the values of all local configuration variables or apic config -g to display the values of all global configuration variables.
-`apic config:set varname` - Set or update the specified configuration variable.
-`apic config:delete varname` - Delete the specified configuration variable.
-`apic config:clear` - Delete all configuration variables.
-You set configuration property values by using the apic config:set command. By setting configuration properties (for example catalog and app), you do not need to supply values for these options when you enter a command.
+`apic config:get varname` - Get a configuration variable. Use `apic config` to display the values of all local configuration variables or `apic config -g` to display the values of all global configuration variables.
 
-Additionally, you can use apic properties commands to work with configuration properties:
+`apic config:set varname` - Set or update the specified configuration variable.
+
+`apic config:delete varname` - Delete the specified configuration variable.
+
+`apic config:clear` - Delete all configuration variables.
+
+You set configuration property values by using the `apic config:set` command. By setting configuration properties (for example catalog and app), you do not need to supply values for these options when you enter a command.
+
+Additionally, you can use `apic properties` commands to work with configuration properties:
+
 `apic properties:clear` - Clear the configuration properties.
+
 `apic properties:create` - Augment the configuration properties with additional name/value pairs.
+
 `apic properties:delete` - Delete the configuration property.
+
 `apic properties:get` - Get the configuration property.
+
 `apic properties:list` - List the configuration properties.
+
 `apic properties:update` - Update the configuration property.
 
 :::note
