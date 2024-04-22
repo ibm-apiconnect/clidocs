@@ -2,7 +2,7 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-The website is published here: [https://pages.github.com/ibm-apiconnect/clidocs](https://pages.github.com/ibm-apiconnect/clidocs)
+The website is published here: [https://ibm-apiconnect.github.io/clidocs/](https://ibm-apiconnect.github.io/clidocs/)
 
 ## Installation
 
@@ -40,4 +40,4 @@ Not using SSH:
 GIT_USER=<Your GitHub username> yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This command will build the website and push to the `gh-pages` branch. Do not push to the gh-pages branch directly yourself, only via the deploy command.
