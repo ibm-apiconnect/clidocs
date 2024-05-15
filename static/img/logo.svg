@@ -19,7 +19,7 @@
     </defs>
     <g id="Banner/Clidocs">
         <g id="basic-header">
-                <text id="APIC" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500" line-spacing="18" letter-spacing="0.1" fill="#FFFFFF">
+                <text id="API Connect" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500" line-spacing="18" letter-spacing="0.1" fill="#FFFFFF">
                     <tspan x="46" y="29">API Connect</tspan>
                 </text>
                 <text id="IBM" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="normal" line-spacing="18" letter-spacing="0.1" fill="#FFFFFF">

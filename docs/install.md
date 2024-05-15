@@ -82,7 +82,7 @@ To install and run the toolkit, complete the following steps:
           ./apic-slim command_name_and_parameters
           ```
 
-          For details of the CLI commands, see the relevant reference section on this site for your APIC version.
+          For details of the CLI commands, see the relevant reference section on this site for your API Connect version.
 
     - For the Windows platform, complete the following steps:
       1. Open a command prompt and navigate to the folder where you extracted the contents of the toolkit compressed file.
@@ -98,7 +98,7 @@ To install and run the toolkit, complete the following steps:
           apic-slim command_name_and_parameters
           ```
 
-        For details of the CLI commands, see the relevant reference section on this site for your APIC version.
+        For details of the CLI commands, see the relevant reference section on this site for your API Connect version.
 
     :::
     Tip: Add the folder location of your CLI file to your `PATH` variable so that you can run CLI commands from anywhere in your file system.

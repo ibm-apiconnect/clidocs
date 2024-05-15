@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'APIC CLI Docs',
+  title: 'IBM API Connect CLI Docs',
   tagline: 'Toolkit reference documentation site',
   favicon: 'img/favicon.ico',
 
@@ -62,9 +62,9 @@ const config = {
     ({
       // Replace with your project's social card
       navbar: {
-        title: 'APIC CLI documentation',
+        title: 'IBM API Connect CLI documentation',
         logo: {
-          alt: 'APIC Logo',
+          alt: 'API Connect Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -75,7 +75,7 @@ const config = {
             label: 'CLI Reference',
           },
           {to: 'https://apic-api.apiconnect.ibmcloud.com/v10/10.0.LATEST.html#/documentation/introduction', label: 'API Docs', position: 'left'},
-          {to: 'https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts', label: 'APIC v10.0.5 Docs', position: 'left'},
+          {to: 'https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts', label: 'API Connect v10.0.5 Docs', position: 'left'},
         ],
       },
       footer: {
@@ -94,7 +94,7 @@ const config = {
             title: 'IBM Documentation Centers',
             items: [
               {
-                label: 'IBM APIC v10.0.5',
+                label: 'IBM API Connect v10.0.5',
                 to: 'https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts',
               },
             ],
