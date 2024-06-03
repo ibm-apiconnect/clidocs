@@ -22,10 +22,6 @@ apic draft-apis:validate [flags]
 ```
 Online Draft API validation
   $ apic draft-apis:validate --org <provider-org-name-or-id> --server mgmnthost.com globalweather:1.0.0
-Online validation of API definition against a specific catalog
-  $ apic draft-apis:validate --org <provider-org-name-or-id> --server mgmnthost.com --catalog_name <catalog-name> --scope <scope>  globalweather:1.0.0
-Online validation of API definition against a specific catalog and 1 or more configured gateway services
-  $ apic draft-apis:validate --org <provider-org-name-or-id> --server mgmnthost.com --catalog_name <catalog-name> --scope <scope> --gateway_service_names <gateway-service-name> globalweather:1.0.0
 ```
 
 ## Options

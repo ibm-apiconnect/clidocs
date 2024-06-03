@@ -1,6 +1,6 @@
 # apic reports:orgApplicationDetail
 
-Application detail report (org)
+Application detail report
 
 ## Synopsis
 

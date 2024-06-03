@@ -1,6 +1,6 @@
 # apic reports:spacePlansLeaderboard
 
-Get the data needed to populate the Plans leaderboard (space)
+Get the data needed to populate the Plans leaderboard
 
 ## Synopsis
 

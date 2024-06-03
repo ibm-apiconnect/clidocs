@@ -1,6 +1,6 @@
 # apic reports:catalogConsumerTrend
 
-Consumer trend report (catalog)
+Consumer trend report
 
 ## Synopsis
 

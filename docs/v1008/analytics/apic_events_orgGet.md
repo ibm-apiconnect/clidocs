@@ -4,7 +4,7 @@ Get specific event at provider organization scope
 
 ## Synopsis
 
-Return a single analytics API event by ID scoped to the provider organization. The item in the result set is determined by the passed in request query to this API. In this API, references to 'field' refer to the analytics API event fields documented here: https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=data-api-event-record-fields
+Return a single analytics API event by ID scoped to the provider organization. The item in the result set is determined by the passed in request query to this API. In this API, references to 'field' refer to the analytics API event fields documented here: https://www.ibm.com/docs/en/api-connect/10.0.x?topic=SSMNED_10.0.8/com.ibm.apic.apionprem.doc/rapim_analytics_apieventrecordfields.htm
 
 ```
 apic events:orgGet --mode analytics [flags]

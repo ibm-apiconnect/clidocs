@@ -1,6 +1,6 @@
 # apic reports:spaceConsumerorgsLeaderboard
 
-Consumer organization leaderboard (space)
+Consumer organization leaderboard
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:cloudApiusage
 
-API usage report (cloud)
+API usage report
 
 ## Synopsis
 

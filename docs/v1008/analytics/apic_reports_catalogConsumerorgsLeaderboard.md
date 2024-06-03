@@ -1,6 +1,6 @@
 # apic reports:catalogConsumerorgsLeaderboard
 
-Consumer organization leaderboard (catalog)
+Consumer organization leaderboard
 
 ## Synopsis
 

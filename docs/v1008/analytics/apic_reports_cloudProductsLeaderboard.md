@@ -1,6 +1,6 @@
 # apic reports:cloudProductsLeaderboard
 
-Get the data needed to populate the Products leaderboard (cloud)
+Get the data needed to populate the Products leaderboard
 
 ## Synopsis
 

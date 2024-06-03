@@ -1,6 +1,6 @@
 # apic reports:orgApiusagePlansLeaderboard
 
-API usage report plan leaderboard (org)
+API usage report plan leaderboard
 
 ## Synopsis
 

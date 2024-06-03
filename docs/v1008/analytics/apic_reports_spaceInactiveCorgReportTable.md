@@ -1,6 +1,6 @@
 # apic reports:spaceInactiveCorgReportTable
 
-Inactive consumer orgs report table (space)
+Inactive consumer orgs report table
 
 ## Synopsis
 

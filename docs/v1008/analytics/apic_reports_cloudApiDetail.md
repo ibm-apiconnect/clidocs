@@ -1,6 +1,6 @@
 # apic reports:cloudApiDetail
 
-API detail report (cloud)
+API detail report
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:catalogProductDetail
 
-Product detail report (catalog)
+Product detail report
 
 ## Synopsis
 

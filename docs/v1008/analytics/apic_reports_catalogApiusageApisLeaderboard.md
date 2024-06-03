@@ -1,6 +1,6 @@
 # apic reports:catalogApiusageApisLeaderboard
 
-API usage report API leaderboard (catalog)
+API usage report API mini-leaderboard
 
 ## Synopsis
 

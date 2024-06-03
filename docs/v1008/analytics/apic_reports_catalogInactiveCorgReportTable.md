@@ -1,6 +1,6 @@
 # apic reports:catalogInactiveCorgReportTable
 
-Inactive consumer orgs report table (catalog)
+Inactive consumer orgs report table
 
 ## Synopsis
 

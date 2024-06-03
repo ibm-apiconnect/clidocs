@@ -1,6 +1,6 @@
 # apic reports:cloudConsumerTrend
 
-Consumer trend report (cloud)
+Consumer trend report
 
 ## Synopsis
 

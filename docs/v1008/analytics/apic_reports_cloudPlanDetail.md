@@ -1,6 +1,6 @@
 # apic reports:cloudPlanDetail
 
-Plan detail report (cloud)
+Plan detail report
 
 ## Synopsis
 

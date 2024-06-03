@@ -1,6 +1,6 @@
 # apic reports:cloudApplicationsLeaderboard
 
-Application leaderboard (cloud)
+Application leaderboard
 
 ## Synopsis
 

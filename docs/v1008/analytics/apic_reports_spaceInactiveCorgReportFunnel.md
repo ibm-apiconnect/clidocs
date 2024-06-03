@@ -1,6 +1,6 @@
 # apic reports:spaceInactiveCorgReportFunnel
 
-Inactive consumer orgs report funnel (space)
+Inactive consumer orgs report funnel
 
 ## Synopsis
 

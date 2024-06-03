@@ -1,6 +1,6 @@
 # apic reports:orgBreakdownLeaderboard
 
-Breakdown leaderboard (org)
+Breakdown leaderboard
 
 ## Synopsis
 

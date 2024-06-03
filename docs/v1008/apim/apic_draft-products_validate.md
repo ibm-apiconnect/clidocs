@@ -17,6 +17,13 @@ apic draft-products:validate [flags]
       apic draft-products:validate [flags] NAME:VERSION
 ```
 
+## Examples
+
+```
+Online Draft Product validation
+  $ apic draft-products:validate --org <provider-org-name-or-id> --server mgmnthost.com mydraftproduct:1.0.0
+```
+
 ## Options
 
 ```

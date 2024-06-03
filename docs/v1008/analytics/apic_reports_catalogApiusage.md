@@ -1,6 +1,6 @@
 # apic reports:catalogApiusage
 
-API usage report (catalog)
+API usage report
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:catalogDeprecatedProduct
 
-Deprecated product report table (catalog)
+Deprecated product report table
 
 ## Synopsis
 

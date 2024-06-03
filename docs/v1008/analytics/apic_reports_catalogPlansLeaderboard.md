@@ -1,6 +1,6 @@
 # apic reports:catalogPlansLeaderboard
 
-Plan leaderboard (catalog)
+Plan leaderboard
 
 ## Synopsis
 

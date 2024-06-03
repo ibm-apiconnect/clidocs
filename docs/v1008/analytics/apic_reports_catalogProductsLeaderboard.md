@@ -1,6 +1,6 @@
 # apic reports:catalogProductsLeaderboard
 
-Product leaderboard (catalog)
+Product leaderboard
 
 ## Synopsis
 

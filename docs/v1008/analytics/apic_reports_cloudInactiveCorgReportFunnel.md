@@ -1,6 +1,6 @@
 # apic reports:cloudInactiveCorgReportFunnel
 
-Inactive consumer orgs report funnel (cloud)
+Inactive consumer orgs report funnel
 
 ## Synopsis
 

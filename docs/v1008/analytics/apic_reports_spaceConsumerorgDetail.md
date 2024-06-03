@@ -1,6 +1,6 @@
 # apic reports:spaceConsumerorgDetail
 
-Consumer org detail report (space)
+Consumer org detail report
 
 ## Synopsis
 

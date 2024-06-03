@@ -1,6 +1,6 @@
 # apic reports:cloudInactiveProductReport
 
-Inactive product report table (cloud)
+Inactive product report table
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:spaceProductsLeaderboard
 
-Product leaderboard (space)
+Product leaderboard
 
 ## Synopsis
 

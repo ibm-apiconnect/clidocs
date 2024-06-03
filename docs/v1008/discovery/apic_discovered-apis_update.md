@@ -14,6 +14,7 @@ Update the Discovered API object by name and version
           - version
           - api_type
           - document_specification
+          - info
           - servers
           - paths
           - base_paths

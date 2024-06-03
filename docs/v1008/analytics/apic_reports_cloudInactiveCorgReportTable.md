@@ -1,6 +1,6 @@
 # apic reports:cloudInactiveCorgReportTable
 
-Inactive consumer orgs report table (cloud)
+Inactive consumer orgs report table
 
 ## Synopsis
 

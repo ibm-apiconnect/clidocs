@@ -1,6 +1,6 @@
 # apic reports:catalogConsumerTrendApplicationsLeaderboard
 
-Consumer trend report application leaderboard (catalog)
+Consumer trend report application mini-leaderboard
 
 ## Synopsis
 

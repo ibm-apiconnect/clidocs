@@ -1,6 +1,6 @@
 # apic reports:catalogBreakdownLeaderboard
 
-Breakdown leaderboard (catalog)
+Breakdown leaderboard
 
 ## Synopsis
 

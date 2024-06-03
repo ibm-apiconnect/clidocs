@@ -1,6 +1,6 @@
 # apic reports:catalogPlanDetail
 
-Plan detail report (catalog)
+Plan detail report
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:catalogApplicationsLeaderboard
 
-Application leaderboard (catalog)
+Application leaderboard
 
 ## Synopsis
 

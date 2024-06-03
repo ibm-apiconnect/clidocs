@@ -1,6 +1,6 @@
 # apic reports:orgInactiveCorgReportFunnel
 
-Inactive consumer orgs report funnel (org)
+Inactive consumer orgs report funnel
 
 ## Synopsis
 

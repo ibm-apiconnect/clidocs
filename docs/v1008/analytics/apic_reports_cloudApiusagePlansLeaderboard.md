@@ -1,6 +1,6 @@
 # apic reports:cloudApiusagePlansLeaderboard
 
-API usage report plan leaderboard (cloud)
+API usage report plan leaderboard
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:catalogInactiveProductReport
 
-Inactive product report table (catalog)
+Inactive product report table
 
 ## Synopsis
 

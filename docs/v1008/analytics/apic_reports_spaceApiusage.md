@@ -1,6 +1,6 @@
 # apic reports:spaceApiusage
 
-API usage report (space)
+API usage report
 
 ## Synopsis
 

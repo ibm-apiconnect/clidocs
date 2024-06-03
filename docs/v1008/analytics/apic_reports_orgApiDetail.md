@@ -1,6 +1,6 @@
 # apic reports:orgApiDetail
 
-API detail report (org)
+API detail report
 
 ## Synopsis
 

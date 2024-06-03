@@ -1,6 +1,6 @@
 # apic reports:spaceDeprecatedProduct
 
-Deprecated product report table (space)
+Deprecated product report table
 
 ## Synopsis
 

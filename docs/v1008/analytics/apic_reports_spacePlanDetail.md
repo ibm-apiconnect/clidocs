@@ -1,6 +1,6 @@
 # apic reports:spacePlanDetail
 
-Plan detail report (space)
+Plan detail report
 
 ## Synopsis
 

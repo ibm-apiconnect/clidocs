@@ -1,6 +1,6 @@
 # apic reports:cloudConsumerorgDetail
 
-Consumer org detail report (cloud)
+Consumer org detail report
 
 ## Synopsis
 

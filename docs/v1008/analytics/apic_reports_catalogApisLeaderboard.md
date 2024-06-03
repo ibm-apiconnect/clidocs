@@ -1,6 +1,6 @@
 # apic reports:catalogApisLeaderboard
 
-API leaderboard (catalog)
+API leaderboard
 
 ## Synopsis
 

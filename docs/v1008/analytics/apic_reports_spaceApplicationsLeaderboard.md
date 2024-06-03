@@ -1,6 +1,6 @@
 # apic reports:spaceApplicationsLeaderboard
 
-Application leaderboard (space)
+Application leaderboard
 
 ## Synopsis
 

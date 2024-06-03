@@ -20,6 +20,10 @@ apic events:cloudCount --mode analytics [flags]
 
 ```
       --accept-language string                   Natural language and locale that the client prefers.
+      --ai_cache_hit string                      Filter results by AI cache hit.
+      --ai_model string                          Filter results by AI model name.
+      --ai_request_tokens string                 Filter results by AI request tokens.
+      --ai_response_tokens string                Filter results by AI response tokens.
       --analytics-service string                 Analytics service name or ID. (required)
       --api_id string                            Filter results by API ID.
       --api_name string                          Filter results by API name.

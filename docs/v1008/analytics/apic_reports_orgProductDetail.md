@@ -1,6 +1,6 @@
 # apic reports:orgProductDetail
 
-Product detail report (org)
+Product detail report
 
 ## Synopsis
 

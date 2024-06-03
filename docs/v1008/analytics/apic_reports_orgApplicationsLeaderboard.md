@@ -1,6 +1,6 @@
 # apic reports:orgApplicationsLeaderboard
 
-Application leaderboard (org)
+Application leaderboard
 
 ## Synopsis
 

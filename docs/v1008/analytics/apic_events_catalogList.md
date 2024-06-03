@@ -4,7 +4,7 @@ List events at catalog scope
 
 ## Synopsis
 
-Return a result set of analytics API events scoped to the catalog. The items in the result set are determined by the passed in request query to this API. The order of the result set is sorted from newest to oldest events by specified 'datetime'. In this API, references to 'field' refer to the analytics API event fields documented here: https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=data-api-event-record-fields Note this operation is limited to only being able to return 10,000 events, if you need more than that then use the scroll operation at cloud or organization scope.
+Return a result set of analytics API events scoped to the catalog. The items in the result set are determined by the passed in request query to this API. The order of the result set is sorted from newest to oldest events by specified 'datetime'. In this API, references to 'field' refer to the analytics API event fields documented here: https://www.ibm.com/docs/en/api-connect/10.0.x?topic=SSMNED_10.0.8/com.ibm.apic.apionprem.doc/rapim_analytics_apieventrecordfields.htm Note this operation is limited to only being able to return 10,000 events, if you need more than that then use the scroll operation at cloud or organization scope.
 
 ```
 apic events:catalogList --mode analytics [flags]
@@ -20,6 +20,11 @@ apic events:catalogList --mode analytics [flags]
 
 ```
       --accept-language string                   Natural language and locale that the client prefers.
+      --ai_cache_hit string                      Filter results by AI cache hit.
+      --ai_model string                          Filter results by AI model name.
+      --ai_request_tokens string                 Filter results by AI request tokens.
+      --ai_response_tokens string                Filter results by AI response tokens.
+      --ai_total_tokens string                   Filter results by total AI response tokens.
       --analytics-service string                 Analytics service name or ID. (required)
       --api_id string                            Filter results by API ID.
       --api_name string                          Filter results by API name.

@@ -1,6 +1,6 @@
 # apic reports:cloudDeprecatedProduct
 
-Deprecated product report table (cloud)
+Deprecated product report table
 
 ## Synopsis
 

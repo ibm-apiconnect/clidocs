@@ -1,6 +1,6 @@
 # apic reports:orgApiusageProductsLeaderboard
 
-API usage report product leaderboard (org)
+API usage report product leaderboard
 
 ## Synopsis
 

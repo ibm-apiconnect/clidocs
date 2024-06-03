@@ -1,6 +1,6 @@
 # apic reports:orgProductsLeaderboard
 
-Product leaderboard (org)
+Product leaderboard
 
 ## Synopsis
 

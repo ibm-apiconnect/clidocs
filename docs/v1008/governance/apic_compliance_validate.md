@@ -1,11 +1,12 @@
 # apic compliance:validate
 
-Validate an OpenAPI Document
+Validate an OpenAPI or Product
 
 ## Synopsis
 
-Validate a Single OpenAPI Document with a specified list of Spectral Rulesets.
-If no rulesets are provided, spectral-oas and spectral-owasp Global Rulesets will be used for an OpenAPI document, whereas for an AsyncAPI document, the spectral-async Global Ruleset will be used.
+Validate a Single OpenAPI or a Single Product with a specified list of Rulesets.
+If no Rulesets are provided, spectral-oas and spectral-owasp Global Rulesets will be used for an OpenAPI document, whereas for an AsyncAPI document, the spectral-async Global Ruleset will be used.
+If validating a Product, a list of one or more Rulesets to be used must be provided.
 
 ```
 apic compliance:validate --mode governance [flags]

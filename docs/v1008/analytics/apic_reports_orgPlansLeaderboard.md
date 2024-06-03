@@ -1,6 +1,6 @@
 # apic reports:orgPlansLeaderboard
 
-Get the data needed to populate the Plans leaderboard (org)
+Get the data needed to populate the Plans leaderboard
 
 ## Synopsis
 

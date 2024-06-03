@@ -17,6 +17,7 @@ Update the Gateway Service object by name or id
           - integration_url
           - gateway_service_type
           - api_endpoint_base
+          - service_supported_features
           
           Fields allowed but ignored:
           - id

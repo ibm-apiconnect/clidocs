@@ -20,6 +20,11 @@ apic dashboards:orgProduct --mode analytics [flags]
 
 ```
       --accept-language string                   Natural language and locale that the client prefers.
+      --ai_cache_hit string                      Filter results by AI cache hit.
+      --ai_model string                          Filter results by AI model name.
+      --ai_request_tokens string                 Filter results by AI request tokens.
+      --ai_response_tokens string                Filter results by AI response tokens.
+      --ai_total_tokens string                   Filter results by total AI response tokens.
       --analytics-service string                 Analytics service name or ID. (required)
       --api_id string                            Filter results by API ID.
       --api_name string                          Filter results by API name.
@@ -28,7 +33,7 @@ apic dashboards:orgProduct --mode analytics [flags]
       --app_id string                            Filter results by application ID.
       --app_lifecycle_state string               Filter results by application lifecycle state.
       --app_name string                          Filter results by application name.
-      --bucket_interval string                   If set, return events with this specific bucket interval in the dashboard. The value would be in the format of xy, where x is a positive integer and y is the time unit (d, h, m or s). For example '8h', '2d', '5m'.
+      --bucket_interval --timeframe              The time interval between data points. For example, if you set --timeframe to 1 day, and you want 24 datapoints on the chart, then set `bucket_interval` to 1h. Format is an integer followed by the units: s|m|h|d (seconds, minutes, hours or days).
 
       --bytes_received string                    Filter results by the number of bytes received.
       --bytes_sent string                        Filter results by the number of bytes sent.

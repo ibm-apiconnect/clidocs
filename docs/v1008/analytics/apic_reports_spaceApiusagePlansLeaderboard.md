@@ -1,6 +1,6 @@
 # apic reports:spaceApiusagePlansLeaderboard
 
-API usage report plan leaderboard (space)
+API usage report plan leaderboard
 
 ## Synopsis
 

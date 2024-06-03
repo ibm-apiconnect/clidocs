@@ -1,6 +1,6 @@
 # apic reports:cloudApplicationDetail
 
-Application detail report (cloud)
+Application detail report
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:orgInactiveProductReport
 
-Inactive product report table (org)
+Inactive product report table
 
 ## Synopsis
 

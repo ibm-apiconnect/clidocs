@@ -1,6 +1,6 @@
 # apic reports:spaceApplicationDetail
 
-Application detail report (space)
+Application detail report
 
 ## Synopsis
 

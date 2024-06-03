@@ -12,6 +12,7 @@ Create a Portal Service object
           
           Fields not allowed:
           - owned
+          - service_supported_features
           
           Fields allowed but ignored:
           - id

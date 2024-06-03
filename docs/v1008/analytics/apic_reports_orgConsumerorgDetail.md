@@ -1,6 +1,6 @@
 # apic reports:orgConsumerorgDetail
 
-Consumer org detail report (org)
+Consumer org detail report
 
 ## Synopsis
 

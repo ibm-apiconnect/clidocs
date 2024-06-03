@@ -1,6 +1,6 @@
 # apic reports:catalogApplicationDetail
 
-Application detail report (catalog)
+Application detail report
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:spaceApiDetail
 
-API detail report (space)
+API detail report
 
 ## Synopsis
 

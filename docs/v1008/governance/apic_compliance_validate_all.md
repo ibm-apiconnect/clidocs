@@ -1,10 +1,10 @@
 # apic compliance:validate_all
 
-Validate Draft APIs within a Provider Organization using a Configuration File
+Validate APIs or Products within a Provider Organization using a Configuration File
 
 ## Synopsis
 
-Validate one or more Draft APIs within a Provider Organization, using a Configuration File which contains the URLs of the Draft APIs to validate and the Rulesets to use.
+Validate APIs or Products within a Provider Organization, using a Configuration File which contains the URLs of either APIs or Products to validate, as well as the Rulesets to use.
 
 ```
 apic compliance:validate_all --mode governance [flags]

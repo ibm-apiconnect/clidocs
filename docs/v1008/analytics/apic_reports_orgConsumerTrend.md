@@ -1,6 +1,6 @@
 # apic reports:orgConsumerTrend
 
-Consumer trend report (org)
+Consumer trend report
 
 ## Synopsis
 

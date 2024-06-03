@@ -1,6 +1,6 @@
 # apic reports:orgInactiveCorgReportTable
 
-Inactive consumer orgs report table (org)
+Inactive consumer orgs report table
 
 ## Synopsis
 

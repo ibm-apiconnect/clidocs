@@ -1,6 +1,6 @@
 # apic reports:cloudBreakdownLeaderboard
 
-Breakdown leaderboard (cloud)
+Breakdown leaderboard
 
 ## Synopsis
 

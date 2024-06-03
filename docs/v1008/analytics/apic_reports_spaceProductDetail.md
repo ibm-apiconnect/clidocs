@@ -1,6 +1,6 @@
 # apic reports:spaceProductDetail
 
-Product detail report (space)
+Product detail report
 
 ## Synopsis
 

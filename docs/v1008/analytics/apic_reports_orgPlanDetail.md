@@ -1,6 +1,6 @@
 # apic reports:orgPlanDetail
 
-Plan detail report (org)
+Plan detail report
 
 ## Synopsis
 

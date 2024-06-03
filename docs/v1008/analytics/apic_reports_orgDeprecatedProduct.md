@@ -1,6 +1,6 @@
 # apic reports:orgDeprecatedProduct
 
-Deprecated product report table (org)
+Deprecated product report table
 
 ## Synopsis
 

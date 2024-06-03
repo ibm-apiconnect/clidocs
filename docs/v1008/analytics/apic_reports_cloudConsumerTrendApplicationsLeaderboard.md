@@ -1,6 +1,6 @@
 # apic reports:cloudConsumerTrendApplicationsLeaderboard
 
-Consumer trend report application leaderboard (cloud)
+Consumer trend report application leaderboard
 
 ## Synopsis
 

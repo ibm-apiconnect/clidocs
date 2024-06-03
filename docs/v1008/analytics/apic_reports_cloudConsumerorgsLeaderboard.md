@@ -1,6 +1,6 @@
 # apic reports:cloudConsumerorgsLeaderboard
 
-Consumer organization leaderboard (cloud)
+Consumer organization leaderboard
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:orgApiusage
 
-API usage report (org)
+API usage report
 
 ## Synopsis
 

@@ -1,6 +1,6 @@
 # apic reports:orgConsumerTrendApplicationsLeaderboard
 
-Consumer trend report application leaderboard (org)
+Consumer trend report application leaderboard
 
 ## Synopsis
 

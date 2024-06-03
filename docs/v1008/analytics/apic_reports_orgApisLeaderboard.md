@@ -1,6 +1,6 @@
 # apic reports:orgApisLeaderboard
 
-API leaderboard (org)
+API leaderboard
 
 ## Synopsis
 

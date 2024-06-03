@@ -1,6 +1,6 @@
 # apic reports:catalogApiDetail
 
-API detail report (catalog)
+API detail report
 
 ## Synopsis
 

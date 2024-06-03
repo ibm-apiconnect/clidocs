@@ -1,6 +1,6 @@
 # apic reports:cloudProductDetail
 
-Product detail report (cloud)
+Product detail report
 
 ## Synopsis
 

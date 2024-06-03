@@ -1,6 +1,6 @@
 # apic reports:spaceConsumerTrendApplicationsLeaderboard
 
-Consumer trend report application leaderboard (space)
+Consumer trend report application leaderboard
 
 ## Synopsis
 

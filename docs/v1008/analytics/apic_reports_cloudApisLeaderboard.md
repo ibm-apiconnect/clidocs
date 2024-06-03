@@ -1,6 +1,6 @@
 # apic reports:cloudApisLeaderboard
 
-API leaderboard (cloud)
+API leaderboard
 
 ## Synopsis
 

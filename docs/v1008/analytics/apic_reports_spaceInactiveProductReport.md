@@ -1,6 +1,6 @@
 # apic reports:spaceInactiveProductReport
 
-Inactive product report table (space)
+Inactive product report table
 
 ## Synopsis
 

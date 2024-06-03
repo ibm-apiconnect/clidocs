@@ -13,6 +13,7 @@ Update the Portal Service object by name or id
           Fields not allowed:
           - owned
           - endpoint
+          - service_supported_features
           
           Fields allowed but ignored:
           - id

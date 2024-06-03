@@ -1,6 +1,6 @@
 # apic reports:cloudPlansLeaderboard
 
-Get the data needed to populate the Plans leaderboard (cloud)
+Get the data needed to populate the Plans leaderboard
 
 ## Synopsis
 

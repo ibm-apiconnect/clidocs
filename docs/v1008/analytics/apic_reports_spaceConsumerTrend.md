@@ -1,6 +1,6 @@
 # apic reports:spaceConsumerTrend
 
-Consumer trend report (space)
+Consumer trend report
 
 ## Synopsis
 
