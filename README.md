@@ -4,6 +4,12 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 The website is published here: [https://ibm-apiconnect.github.io/clidocs/](https://ibm-apiconnect.github.io/clidocs/)
 
+## Doc generation
+
+The makes for each individual command are generated using the `apic` CLI downloaded from the API Manager of a stack of an appropriate version. Make sure you are using the release branch correct for that version. Then run `apic docs -m {mode}` to create a `docs` subdirectory with the markdown files in it. Then copy those to the right place in the clidocs tree, and run it again for a different mode, repeat until you have worked your way through all the modes.
+
+Don't forget to `git add` any new files for new commands that have been added.
+
 ## Installation
 
 ```bash
