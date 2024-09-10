@@ -54,6 +54,22 @@ apic catalogs:list --mode consumer --scope catalog --server server1 --catalog ca
 
 To avoid having to supply the parameter on every consumer CLI command, you can set the mode configuration variable.
 
+### governance
+
+This mode applies to the governance instances of the CLI. This mode supports commands that you can use for the creation and management of rulesets and rules to be used for the validation of organizational governance policies on API and Product documents. The mode also supports running and managing validation scans of APIs and Products published to a Catalog or Space. An example of running a command in the governance mode:
+
+```bash
+apic --mode governance compliance:validate --org myOrg --server server1 --rulesets ruleset_name_1,ruleset_name_2 API_OR_PRODUCT_FILE_PATH
+```
+
+### discovery
+
+This mode applies to the discovery instances of the CLI. This mode supports commands that you can use for the creation and management of data sources to be used for the discovery of API documents. The mode also supports the management of API documents that were discovered. An example of running a command in the discovery mode:
+
+```bash
+apic --mode discovery data-sources:create --org myOrg --server server1 DATA_SOURCE_FILE_PATH
+```
+
 ## Scripting
 
 It's often helpful to automate a series of apic commands In a shell script. Since the apic tool first requires you to interactively accept the license, you must first use the following command:
