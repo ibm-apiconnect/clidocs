@@ -75,7 +75,7 @@ apic --mode discovery data-sources:create --org myOrg --server server1 DATA_SOUR
 This mode applies to the engagement instances of the CLI, this is available in API Connect 10.0.9+. This mode supports commands that you can use for the creation and management of engagement rules and destinations. An example of running a command in the engagement mode:
 
 ```bash
-apic --mode engagement rules:list --org myOrg --server server1
+apic --mode engagement rules:orgList --org myOrg --server server1
 ```
 
 ## Scripting
