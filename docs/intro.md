@@ -70,6 +70,14 @@ This mode applies to the discovery instances of the CLI. This mode supports comm
 apic --mode discovery data-sources:create --org myOrg --server server1 DATA_SOURCE_FILE_PATH
 ```
 
+### engagement
+
+This mode applies to the engagement instances of the CLI, this is available in API Connect 10.0.9+. This mode supports commands that you can use for the creation and management of engagement rules and destinations. An example of running a command in the engagement mode:
+
+```bash
+apic --mode engagement rules:list --org myOrg --server server1
+```
+
 ## Scripting
 
 It's often helpful to automate a series of apic commands In a shell script. Since the apic tool first requires you to interactively accept the license, you must first use the following command:
