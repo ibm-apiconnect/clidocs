@@ -17,10 +17,8 @@ apic consumer-orgs:list [flags]
 ## Possible Usages
 
 ```
-
-      apic consumer-orgs:list [flags] --space-initiated
-      apic consumer-orgs:list [flags]
-
+apic consumer-orgs:list [flags] --space-initiated
+apic consumer-orgs:list [flags]
 ```
 
 ## Options

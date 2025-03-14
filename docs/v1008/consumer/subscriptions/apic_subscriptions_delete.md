@@ -17,9 +17,7 @@ apic subscriptions:delete --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriptions:delete --mode consumer [flags] SUBSCRIPTION
-
+apic subscriptions:delete --mode consumer [flags] SUBSCRIPTION
 ```
 
 ## Options

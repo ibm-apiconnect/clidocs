@@ -17,9 +17,7 @@ apic jobs:get [flags]
 ## Possible Usages
 
 ```
-
-      apic jobs:get [flags] JOB
-
+apic jobs:get [flags] JOB
 ```
 
 ## Options

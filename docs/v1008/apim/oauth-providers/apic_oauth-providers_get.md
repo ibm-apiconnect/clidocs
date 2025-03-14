@@ -17,9 +17,7 @@ apic oauth-providers:get [flags]
 ## Possible Usages
 
 ```
-
-      apic oauth-providers:get [flags] OAUTH_PROVIDER
-
+apic oauth-providers:get [flags] OAUTH_PROVIDER
 ```
 
 ## Options

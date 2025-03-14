@@ -17,9 +17,7 @@ apic custom-theme:delete-import --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-theme:delete-import --mode portaladmin [flags]
-
+apic custom-theme:delete-import --mode portaladmin [flags]
 ```
 
 ## Options

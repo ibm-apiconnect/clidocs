@@ -2,6 +2,9 @@
 tags:
 - "group: notification-templates"
 - "scope: catalog"
+- "scope: cloud"
+- "scope: org"
+- "scope: space"
 ---
 # apic notification-templates:get
 
@@ -18,24 +21,22 @@ apic notification-templates:get [flags]
 ## Possible Usages
 
 ```
-
-      apic notification-templates:get [flags] --scope space --subcollection space NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope space --subcollection consumer NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope org --subcollection space NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope org --subcollection provider NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope org --subcollection consumer NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope org --subcollection catalog NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope org --subcollection admin NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope cloud --subcollection space NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope cloud --subcollection provider NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope cloud --subcollection consumer NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope cloud --subcollection cloud NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope cloud --subcollection catalog NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope cloud --subcollection admin NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope catalog --subcollection space NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope catalog --subcollection consumer NOTIFICATION_TEMPLATE
-      apic notification-templates:get [flags] --scope catalog --subcollection catalog NOTIFICATION_TEMPLATE
-
+apic notification-templates:get [flags] --scope space --subcollection space NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope space --subcollection consumer NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope org --subcollection space NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope org --subcollection provider NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope org --subcollection consumer NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope org --subcollection catalog NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope org --subcollection admin NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope cloud --subcollection space NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope cloud --subcollection provider NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope cloud --subcollection consumer NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope cloud --subcollection cloud NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope cloud --subcollection catalog NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope cloud --subcollection admin NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope catalog --subcollection space NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope catalog --subcollection consumer NOTIFICATION_TEMPLATE
+apic notification-templates:get [flags] --scope catalog --subcollection catalog NOTIFICATION_TEMPLATE
 ```
 
 ## Options

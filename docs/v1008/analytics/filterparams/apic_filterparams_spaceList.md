@@ -18,9 +18,7 @@ apic filterparams:spaceList --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic filterparams:spaceList --mode analytics [flags]
-
+apic filterparams:spaceList --mode analytics [flags]
 ```
 
 ## Options

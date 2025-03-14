@@ -18,9 +18,7 @@ apic reports:cloudDeprecatedProduct --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudDeprecatedProduct --mode analytics [flags]
-
+apic reports:cloudDeprecatedProduct --mode analytics [flags]
 ```
 
 ## Options

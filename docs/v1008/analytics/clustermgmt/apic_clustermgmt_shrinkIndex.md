@@ -17,9 +17,7 @@ apic clustermgmt:shrinkIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:shrinkIndex --mode analytics [flags]
-
+apic clustermgmt:shrinkIndex --mode analytics [flags]
 ```
 
 ## Options

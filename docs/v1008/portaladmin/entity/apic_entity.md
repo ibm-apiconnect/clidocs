@@ -14,6 +14,7 @@ Entity operations
 apic entity --mode portaladmin [flags]
 ```
 
+
 ## Options
 
 ```

@@ -27,9 +27,19 @@ apic availability-zones:create [flags]
 ## Possible Usages
 
 ```
+apic availability-zones:create [flags] AVAILABILITY_ZONE_FILE
+```
 
-      apic availability-zones:create [flags] AVAILABILITY_ZONE_FILE
+## Request examples
 
+----------------------------------------
+#### Example availability zone creation.
+----------------------------------------
+
+```
+name: acme-zone
+summary: An example availability zone
+title: acme zone
 ```
 
 ## Options

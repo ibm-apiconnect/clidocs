@@ -18,9 +18,7 @@ apic reports:orgDeprecatedProduct --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:orgDeprecatedProduct --mode analytics [flags]
-
+apic reports:orgDeprecatedProduct --mode analytics [flags]
 ```
 
 ## Options

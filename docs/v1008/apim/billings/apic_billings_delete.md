@@ -17,9 +17,7 @@ apic billings:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic billings:delete [flags] BILLING
-
+apic billings:delete [flags] BILLING
 ```
 
 ## Options

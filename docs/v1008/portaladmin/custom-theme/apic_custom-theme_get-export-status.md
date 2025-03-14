@@ -17,9 +17,7 @@ apic custom-theme:get-export-status --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-theme:get-export-status --mode portaladmin [flags]
-
+apic custom-theme:get-export-status --mode portaladmin [flags]
 ```
 
 ## Options

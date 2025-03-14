@@ -14,6 +14,7 @@ Groups operations
 apic groups --mode consumer [flags]
 ```
 
+
 ## Options
 
 ```

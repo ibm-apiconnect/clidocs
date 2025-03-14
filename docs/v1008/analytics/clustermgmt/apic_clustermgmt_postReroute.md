@@ -17,9 +17,7 @@ apic clustermgmt:postReroute --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:postReroute --mode analytics [flags] REROUTE_BODY_FILE
-
+apic clustermgmt:postReroute --mode analytics [flags] REROUTE_BODY_FILE
 ```
 
 ## Options

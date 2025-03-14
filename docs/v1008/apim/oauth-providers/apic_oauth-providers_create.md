@@ -14,7 +14,6 @@ Create a Oauth Provider object
           - id
           - type
           - api_version
-          - scope
           - created_at
           - updated_at
           - url
@@ -27,9 +26,78 @@ apic oauth-providers:create [flags]
 ## Possible Usages
 
 ```
+apic oauth-providers:create [flags] OAUTH_PROVIDER_FILE
+```
 
-      apic oauth-providers:create [flags] OAUTH_PROVIDER_FILE
+## Request examples
 
+----------------------------------------------------
+#### Example of third party oauth provider creation.
+----------------------------------------------------
+
+```
+gateway_version: "6000"
+grants:
+- access_code
+- implicit
+- application
+- password
+- jwt
+name: acme-oauth-provider
+provider_type: third_party
+scopes:
+  sample_scope_1: Sample scope description
+third_party_config:
+  auth_header_pass_thru: true
+  authorize_endpoint: https://example.com/oauth2/authorize
+  basic_auth:
+    password: acme@123
+    request_headername: x-introspect-basic-authorization-header
+    username: acme
+  introspect_cache_type: protocol
+  introspection_endpoint:
+    endpoint: https://example.com/oauth2/introspect
+    tls_client_profile_url: https://acme-apim.example.com/api/orgs/org1/tls-client-profiles/tls-client-profile1
+  security:
+  - basic-auth
+  token_endpoint: https://example.com/oauth2/token
+  token_validation_requirement: connected
+title: Acme third party oauth provider creation
+```
+
+-----------------------------------------------
+#### Example of native oauth provider creation.
+-----------------------------------------------
+
+```
+gateway_version: "6000"
+grants:
+- access_code
+- implicit
+- application
+- password
+name: acme-oauth-provider
+native_provider:
+  api:
+    basePath: /sample
+    info:
+      description: sample decsription
+    x-ibm-configuration:
+      gateway: datapower-api-gateway
+  authorize_path: /oauth2/authorize
+  clients:
+  - confidential
+  - public
+  native_provider_5000: {}
+  pkce:
+    allow_plain: false
+    enabled: true
+    required: false
+  token_path: /oauth2/token
+provider_type: native
+scopes:
+  sample_scope_1: Sample scope description
+title: Acme native oauth provider creation
 ```
 
 ## Options

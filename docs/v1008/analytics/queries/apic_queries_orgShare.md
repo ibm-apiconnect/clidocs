@@ -18,9 +18,7 @@ apic queries:orgShare --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:orgShare --mode analytics [flags] ID
-
+apic queries:orgShare --mode analytics [flags] ID
 ```
 
 ## Options

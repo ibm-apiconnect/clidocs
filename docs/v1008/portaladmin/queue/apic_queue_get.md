@@ -17,9 +17,7 @@ apic queue:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic queue:get --mode portaladmin [flags]
-
+apic queue:get --mode portaladmin [flags]
 ```
 
 ## Options

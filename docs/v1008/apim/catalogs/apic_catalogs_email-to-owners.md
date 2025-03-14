@@ -17,9 +17,22 @@ apic catalogs:email-to-owners [flags]
 ## Possible Usages
 
 ```
+apic catalogs:email-to-owners [flags] CATALOG EMAIL_TO_OWNERS_FILE
+```
 
-      apic catalogs:email-to-owners [flags] CATALOG EMAIL_TO_OWNERS_FILE
+## Request examples
 
+--------------------------------
+#### Example of email to owners.
+--------------------------------
+
+```
+body: This is an example email to owners
+consumer_org_urls:
+- https://api.acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org1
+- 'https://api.acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org2  '
+content_type: text
+subject: An email to owners
 ```
 
 ## Options

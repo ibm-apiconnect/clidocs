@@ -17,12 +17,10 @@ apic integrations:create [flags]
 ## Possible Usages
 
 ```
-
-      apic integrations:create [flags] --subcollection user-registry INTEGRATION_FILE
-      apic integrations:create [flags] --subcollection payment-method INTEGRATION_FILE
-      apic integrations:create [flags] --subcollection gateway-service INTEGRATION_FILE
-      apic integrations:create [flags] --subcollection billing INTEGRATION_FILE
-
+apic integrations:create [flags] --subcollection user-registry INTEGRATION_FILE
+apic integrations:create [flags] --subcollection payment-method INTEGRATION_FILE
+apic integrations:create [flags] --subcollection gateway-service INTEGRATION_FILE
+apic integrations:create [flags] --subcollection billing INTEGRATION_FILE
 ```
 
 ## Options

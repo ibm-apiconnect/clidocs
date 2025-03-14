@@ -17,9 +17,7 @@ apic clustermgmt:getNodesHotThreadsById --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getNodesHotThreadsById --mode analytics [flags] ID
-
+apic clustermgmt:getNodesHotThreadsById --mode analytics [flags] ID
 ```
 
 ## Options

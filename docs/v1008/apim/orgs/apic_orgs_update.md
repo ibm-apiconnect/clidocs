@@ -30,9 +30,18 @@ apic orgs:update [flags]
 ## Possible Usages
 
 ```
+apic orgs:update [flags] ORG ORG_FILE
+```
 
-      apic orgs:update [flags] ORG ORG_FILE
+## Request examples
 
+------------------------
+#### Example org update.
+------------------------
+
+```
+summary: An example org update
+title: ACME Org Updated
 ```
 
 ## Options

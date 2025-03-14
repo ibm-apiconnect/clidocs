@@ -21,13 +21,11 @@ apic member-invitations:list [flags]
 ## Possible Usages
 
 ```
-
-      apic member-invitations:list [flags] --scope consumer-org --space-initiated
-      apic member-invitations:list [flags] --scope space
-      apic member-invitations:list [flags] --scope org
-      apic member-invitations:list [flags] --scope consumer-org
-      apic member-invitations:list [flags] --scope catalog
-
+apic member-invitations:list [flags] --scope consumer-org --space-initiated
+apic member-invitations:list [flags] --scope space
+apic member-invitations:list [flags] --scope org
+apic member-invitations:list [flags] --scope consumer-org
+apic member-invitations:list [flags] --scope catalog
 ```
 
 ## Options

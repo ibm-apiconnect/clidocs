@@ -4,17 +4,18 @@ tags:
 ---
 # apic
 
-APIConnect toolkit f747c274f99753239bd5d94f5ca5f76533c979ec (Built 2024-11-05T02:54:48Z)
+APIConnect toolkit c28097289a57613d2600bf6846e8c691fa42ca2b (Built 2025-03-08T13:45:59Z)
 
 
 ## Synopsis
 
-APIConnect toolkit f747c274f99753239bd5d94f5ca5f76533c979ec (Built 2024-11-05T02:54:48Z)
+APIConnect toolkit c28097289a57613d2600bf6846e8c691fa42ca2b (Built 2025-03-08T13:45:59Z)
 
 
 ```
 apic [flags]
 ```
+
 
 ## Examples
 

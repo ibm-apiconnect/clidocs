@@ -17,10 +17,8 @@ apic orgs:list [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:list [flags] --my
-      apic orgs:list [flags]
-
+apic orgs:list [flags] --my
+apic orgs:list [flags]
 ```
 
 ## Options

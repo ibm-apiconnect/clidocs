@@ -17,10 +17,8 @@ apic credentials:reset [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:reset [flags] --space-initiated CREDENTIAL
-      apic credentials:reset [flags] CREDENTIAL
-
+apic credentials:reset [flags] --space-initiated CREDENTIAL
+apic credentials:reset [flags] CREDENTIAL
 ```
 
 ## Options

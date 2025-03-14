@@ -19,10 +19,8 @@ apic configured-tls-client-profiles:list [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-tls-client-profiles:list [flags] --scope space CONFIGURED_TLS_CLIENT_PROFILE_NAME
-      apic configured-tls-client-profiles:list [flags] --scope catalog CONFIGURED_TLS_CLIENT_PROFILE_NAME
-
+apic configured-tls-client-profiles:list [flags] --scope space CONFIGURED_TLS_CLIENT_PROFILE_NAME
+apic configured-tls-client-profiles:list [flags] --scope catalog CONFIGURED_TLS_CLIENT_PROFILE_NAME
 ```
 
 ## Options

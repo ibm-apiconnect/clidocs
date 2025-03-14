@@ -17,9 +17,7 @@ apic users:sign-up --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic users:sign-up --mode consumer [flags] SIGN_UP_FILE
-
+apic users:sign-up --mode consumer [flags] SIGN_UP_FILE
 ```
 
 ## Options

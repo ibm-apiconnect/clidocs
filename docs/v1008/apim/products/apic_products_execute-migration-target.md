@@ -19,12 +19,10 @@ apic products:execute-migration-target [flags]
 ## Possible Usages
 
 ```
-
-      apic products:execute-migration-target [flags] --id --scope space ID
-      apic products:execute-migration-target [flags] --id --scope catalog ID
-      apic products:execute-migration-target [flags] --scope space NAME:VERSION
-      apic products:execute-migration-target [flags] --scope catalog NAME:VERSION
-
+apic products:execute-migration-target [flags] --id --scope space ID
+apic products:execute-migration-target [flags] --id --scope catalog ID
+apic products:execute-migration-target [flags] --scope space NAME:VERSION
+apic products:execute-migration-target [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

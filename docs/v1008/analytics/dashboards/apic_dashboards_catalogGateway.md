@@ -18,9 +18,7 @@ apic dashboards:catalogGateway --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:catalogGateway --mode analytics [flags]
-
+apic dashboards:catalogGateway --mode analytics [flags]
 ```
 
 ## Options

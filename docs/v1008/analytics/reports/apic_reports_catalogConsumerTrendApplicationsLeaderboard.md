@@ -18,9 +18,7 @@ apic reports:catalogConsumerTrendApplicationsLeaderboard --mode analytics [flags
 ## Possible Usages
 
 ```
-
-      apic reports:catalogConsumerTrendApplicationsLeaderboard --mode analytics [flags]
-
+apic reports:catalogConsumerTrendApplicationsLeaderboard --mode analytics [flags]
 ```
 
 ## Options

@@ -17,10 +17,8 @@ apic subscriptions:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriptions:clear [flags] --space-initiated
-      apic subscriptions:clear [flags]
-
+apic subscriptions:clear [flags] --space-initiated
+apic subscriptions:clear [flags]
 ```
 
 ## Options

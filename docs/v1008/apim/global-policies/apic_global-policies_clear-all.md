@@ -19,10 +19,8 @@ apic global-policies:clear-all [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policies:clear-all [flags] --scope space
-      apic global-policies:clear-all [flags] --scope catalog
-
+apic global-policies:clear-all [flags] --scope space
+apic global-policies:clear-all [flags] --scope catalog
 ```
 
 ## Options

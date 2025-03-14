@@ -17,9 +17,7 @@ apic factory-reset:delete --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic factory-reset:delete --mode portaladmin [flags]
-
+apic factory-reset:delete --mode portaladmin [flags]
 ```
 
 ## Options

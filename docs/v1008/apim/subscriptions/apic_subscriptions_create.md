@@ -34,10 +34,22 @@ apic subscriptions:create [flags]
 ## Possible Usages
 
 ```
+apic subscriptions:create [flags] --space-initiated SUBSCRIPTION_FILE
+apic subscriptions:create [flags] SUBSCRIPTION_FILE
+```
 
-      apic subscriptions:create [flags] --space-initiated SUBSCRIPTION_FILE
-      apic subscriptions:create [flags] SUBSCRIPTION_FILE
+## Request examples
 
+------------------------------------
+#### Example of subscription create.
+------------------------------------
+
+```
+name: acme-subscription
+plan: acme-plan
+product_url: https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/products/acme-product
+summary: An example subscription create
+title: ACME Subscription
 ```
 
 ## Options

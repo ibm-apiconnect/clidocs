@@ -20,11 +20,9 @@ apic scans:clear --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic scans:clear --mode governance [flags] --scope space
-      apic scans:clear --mode governance [flags] --scope org
-      apic scans:clear --mode governance [flags] --scope catalog
-
+apic scans:clear --mode governance [flags] --scope space
+apic scans:clear --mode governance [flags] --scope org
+apic scans:clear --mode governance [flags] --scope catalog
 ```
 
 ## Options

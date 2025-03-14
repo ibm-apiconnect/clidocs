@@ -18,9 +18,7 @@ apic dashboards:orgAi --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:orgAi --mode analytics [flags]
-
+apic dashboards:orgAi --mode analytics [flags]
 ```
 
 ## Options

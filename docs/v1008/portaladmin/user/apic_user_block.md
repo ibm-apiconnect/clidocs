@@ -17,9 +17,7 @@ apic user:block --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic user:block --mode portaladmin [flags]
-
+apic user:block --mode portaladmin [flags]
 ```
 
 ## Options

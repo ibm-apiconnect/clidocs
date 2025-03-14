@@ -18,9 +18,7 @@ apic dashboards:cloudConsumption --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:cloudConsumption --mode analytics [flags]
-
+apic dashboards:cloudConsumption --mode analytics [flags]
 ```
 
 ## Options

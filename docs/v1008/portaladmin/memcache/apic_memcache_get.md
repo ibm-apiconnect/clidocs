@@ -17,9 +17,7 @@ apic memcache:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic memcache:get --mode portaladmin [flags]
-
+apic memcache:get --mode portaladmin [flags]
 ```
 
 ## Options

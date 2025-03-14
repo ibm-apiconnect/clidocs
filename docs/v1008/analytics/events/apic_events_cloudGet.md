@@ -18,9 +18,7 @@ apic events:cloudGet --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:cloudGet --mode analytics [flags] ID
-
+apic events:cloudGet --mode analytics [flags] ID
 ```
 
 ## Options

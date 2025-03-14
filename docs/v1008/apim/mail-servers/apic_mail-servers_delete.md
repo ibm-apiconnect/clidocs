@@ -17,9 +17,7 @@ apic mail-servers:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic mail-servers:delete [flags] MAIL_SERVER
-
+apic mail-servers:delete [flags] MAIL_SERVER
 ```
 
 ## Options

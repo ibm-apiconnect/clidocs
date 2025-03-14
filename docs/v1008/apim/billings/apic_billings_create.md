@@ -32,9 +32,23 @@ apic billings:create [flags]
 ## Possible Usages
 
 ```
+apic billings:create [flags] BILLING_FILE
+```
 
-      apic billings:create [flags] BILLING_FILE
+## Request examples
 
+--------------------------------
+#### Example of billing creation
+--------------------------------
+
+```
+configuration:
+  full_access_key: pqhcnmweryunauenosswo
+  publishable_key: yuqtunsdgoqwtyiofghnj
+integration_url: https://acme-apim.example.com/api/cloud/integrations/billing/stripe
+name: acme-billing
+summary: An example billing creation
+title: Acme billing
 ```
 
 ## Options

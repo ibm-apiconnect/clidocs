@@ -17,9 +17,7 @@ apic themes:disable --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic themes:disable --mode portaladmin [flags]
-
+apic themes:disable --mode portaladmin [flags]
 ```
 
 ## Options

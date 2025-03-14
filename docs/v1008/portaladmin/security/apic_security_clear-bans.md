@@ -17,9 +17,7 @@ apic security:clear-bans --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic security:clear-bans --mode portaladmin [flags]
-
+apic security:clear-bans --mode portaladmin [flags]
 ```
 
 ## Options

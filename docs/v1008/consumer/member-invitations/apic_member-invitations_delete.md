@@ -18,9 +18,7 @@ apic member-invitations:delete --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic member-invitations:delete --mode consumer [flags] --scope org MEMBER_INVITATION
-
+apic member-invitations:delete --mode consumer [flags] --scope org MEMBER_INVITATION
 ```
 
 ## Options

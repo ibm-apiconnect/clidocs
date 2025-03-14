@@ -17,10 +17,8 @@ apic permissions:get --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic permissions:get --mode consumer [flags] --subcollection org PERMISSION
-      apic permissions:get --mode consumer [flags] --subcollection consumer PERMISSION
-
+apic permissions:get --mode consumer [flags] --subcollection org PERMISSION
+apic permissions:get --mode consumer [flags] --subcollection consumer PERMISSION
 ```
 
 ## Options

@@ -17,11 +17,9 @@ apic permissions:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic permissions:list --mode consumer [flags] --subcollection org
-      apic permissions:list --mode consumer [flags] --subcollection consumer
-      apic permissions:list --mode consumer [flags] --my
-
+apic permissions:list --mode consumer [flags] --subcollection org
+apic permissions:list --mode consumer [flags] --subcollection consumer
+apic permissions:list --mode consumer [flags] --my
 ```
 
 ## Options

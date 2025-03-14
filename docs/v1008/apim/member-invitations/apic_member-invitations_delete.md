@@ -21,13 +21,11 @@ apic member-invitations:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic member-invitations:delete [flags] --scope consumer-org --space-initiated MEMBER_INVITATION
-      apic member-invitations:delete [flags] --scope space MEMBER_INVITATION
-      apic member-invitations:delete [flags] --scope org MEMBER_INVITATION
-      apic member-invitations:delete [flags] --scope consumer-org MEMBER_INVITATION
-      apic member-invitations:delete [flags] --scope catalog MEMBER_INVITATION
-
+apic member-invitations:delete [flags] --scope consumer-org --space-initiated MEMBER_INVITATION
+apic member-invitations:delete [flags] --scope space MEMBER_INVITATION
+apic member-invitations:delete [flags] --scope org MEMBER_INVITATION
+apic member-invitations:delete [flags] --scope consumer-org MEMBER_INVITATION
+apic member-invitations:delete [flags] --scope catalog MEMBER_INVITATION
 ```
 
 ## Options

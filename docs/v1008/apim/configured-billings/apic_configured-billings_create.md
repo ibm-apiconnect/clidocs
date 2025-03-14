@@ -31,9 +31,17 @@ apic configured-billings:create [flags]
 ## Possible Usages
 
 ```
+apic configured-billings:create [flags] CONFIGURED_BILLING_FILE
+```
 
-      apic configured-billings:create [flags] CONFIGURED_BILLING_FILE
+## Request examples
 
+--------------------------------------------
+#### Example of configured billing creation.
+--------------------------------------------
+
+```
+billing_url: https://api.acme-apim.example.com/api/orgs/acme-org/billings/acme-billing
 ```
 
 ## Options

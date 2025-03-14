@@ -18,9 +18,28 @@ apic roles:create [flags]
 ## Possible Usages
 
 ```
+apic roles:create [flags] --scope org ROLE_FILE
+```
 
-      apic roles:create [flags] --scope org ROLE_FILE
+## Request examples
 
+-------------------------------------------------------------------------------
+#### Example of role creation at org scope with external_group_mapping enabled.
+-------------------------------------------------------------------------------
+
+```
+external_group_mapping:
+  ldap_groups:
+  - cn=CloudAdmins,ou=groups,dc=apic,dc=com
+  user_group_filter_prefix: (&(uniquemember=
+  user_group_filter_suffix: )(objectClass=groupOfUniqueNames))
+  user_registry_url: https://acme-apim.example.com/api/user-registries/org1/user-registry-1
+name: acme-role
+permission_urls:
+- https://acme-apim.example.com/api/cloud/permissions/cloud/analytics:view
+- https://acme-apim.example.com/api/cloud/permissions/org/member:view
+summary: An example role
+title: Acme role
 ```
 
 ## Options

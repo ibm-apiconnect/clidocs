@@ -26,9 +26,25 @@ apic mail-servers:create [flags]
 ## Possible Usages
 
 ```
+apic mail-servers:create [flags] MAIL_SERVER_FILE
+```
 
-      apic mail-servers:create [flags] MAIL_SERVER_FILE
+## Request examples
 
+-------------------------------------
+#### Example of mail server creation.
+-------------------------------------
+
+```
+credentials:
+  password: Passw0rd123
+  username: acmeuser
+host: acme.example.com
+name: acme-mailserver
+port: 25
+secure: true
+title: acme mail server
+tls_client_profile_url: https://acme-apim.example.com/api/orgs/org1/tls-client-profiles/tls-client-profile1
 ```
 
 ## Options

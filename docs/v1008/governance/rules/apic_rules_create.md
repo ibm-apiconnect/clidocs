@@ -26,9 +26,7 @@ apic rules:create --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rules:create --mode governance [flags] RULE_FILE
-
+apic rules:create --mode governance [flags] RULE_FILE
 ```
 
 ## Options

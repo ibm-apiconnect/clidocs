@@ -17,10 +17,8 @@ apic payment-methods:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic payment-methods:delete [flags] --space-initiated PAYMENT_METHOD
-      apic payment-methods:delete [flags] PAYMENT_METHOD
-
+apic payment-methods:delete [flags] --space-initiated PAYMENT_METHOD
+apic payment-methods:delete [flags] PAYMENT_METHOD
 ```
 
 ## Options

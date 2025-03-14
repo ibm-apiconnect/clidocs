@@ -32,9 +32,7 @@ apic payment-methods:create --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic payment-methods:create --mode consumer [flags] PAYMENT_METHOD_FILE
-
+apic payment-methods:create --mode consumer [flags] PAYMENT_METHOD_FILE
 ```
 
 ## Options

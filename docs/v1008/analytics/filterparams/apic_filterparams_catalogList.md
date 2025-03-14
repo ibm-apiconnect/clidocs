@@ -18,9 +18,7 @@ apic filterparams:catalogList --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic filterparams:catalogList --mode analytics [flags]
-
+apic filterparams:catalogList --mode analytics [flags]
 ```
 
 ## Options

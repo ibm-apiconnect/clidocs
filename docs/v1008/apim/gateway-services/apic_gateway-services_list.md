@@ -17,10 +17,8 @@ apic gateway-services:list [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-services:list [flags] --scope org
-      apic gateway-services:list [flags]
-
+apic gateway-services:list [flags] --scope org
+apic gateway-services:list [flags]
 ```
 
 ## Options

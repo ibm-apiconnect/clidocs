@@ -18,9 +18,7 @@ apic dashboards:spaceProduct --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:spaceProduct --mode analytics [flags]
-
+apic dashboards:spaceProduct --mode analytics [flags]
 ```
 
 ## Options

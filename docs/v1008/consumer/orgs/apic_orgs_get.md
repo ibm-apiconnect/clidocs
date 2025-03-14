@@ -17,9 +17,7 @@ apic orgs:get --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:get --mode consumer [flags] ORG
-
+apic orgs:get --mode consumer [flags] ORG
 ```
 
 ## Options

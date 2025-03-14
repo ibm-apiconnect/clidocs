@@ -17,10 +17,8 @@ apic subscriptions:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriptions:delete [flags] --space-initiated SUBSCRIPTION
-      apic subscriptions:delete [flags] SUBSCRIPTION
-
+apic subscriptions:delete [flags] --space-initiated SUBSCRIPTION
+apic subscriptions:delete [flags] SUBSCRIPTION
 ```
 
 ## Options

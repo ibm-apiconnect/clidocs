@@ -18,9 +18,7 @@ apic dashboards:spaceConsumer --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:spaceConsumer --mode analytics [flags]
-
+apic dashboards:spaceConsumer --mode analytics [flags]
 ```
 
 ## Options

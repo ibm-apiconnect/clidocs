@@ -17,9 +17,7 @@ apic clustermgmt:getStorageSettings --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getStorageSettings --mode analytics [flags]
-
+apic clustermgmt:getStorageSettings --mode analytics [flags]
 ```
 
 ## Options

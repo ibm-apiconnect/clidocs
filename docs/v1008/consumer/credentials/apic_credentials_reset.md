@@ -17,9 +17,7 @@ apic credentials:reset --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:reset --mode consumer [flags] CREDENTIAL
-
+apic credentials:reset --mode consumer [flags] CREDENTIAL
 ```
 
 ## Options

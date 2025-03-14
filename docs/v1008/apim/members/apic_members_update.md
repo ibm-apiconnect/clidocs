@@ -21,13 +21,78 @@ apic members:update [flags]
 ## Possible Usages
 
 ```
+apic members:update [flags] --scope consumer-org --space-initiated MEMBER MEMBER_FILE
+apic members:update [flags] --scope space MEMBER MEMBER_FILE
+apic members:update [flags] --scope org MEMBER MEMBER_FILE
+apic members:update [flags] --scope consumer-org MEMBER MEMBER_FILE
+apic members:update [flags] --scope catalog MEMBER MEMBER_FILE
+```
 
-      apic members:update [flags] --scope consumer-org --space-initiated MEMBER MEMBER_FILE
-      apic members:update [flags] --scope space MEMBER MEMBER_FILE
-      apic members:update [flags] --scope org MEMBER MEMBER_FILE
-      apic members:update [flags] --scope consumer-org MEMBER MEMBER_FILE
-      apic members:update [flags] --scope catalog MEMBER MEMBER_FILE
+## Request examples
 
+-----------------------------------------------
+#### Example of member update at catalog scope.
+-----------------------------------------------
+
+```
+name: updated-acme-member
+role_urls:
+- https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/roles/role1
+- https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/roles/role2
+summary: An example member update
+title: Updated ACME Member
+```
+
+----------------------------------------------------
+#### Example of member update at consumer-org scope.
+----------------------------------------------------
+
+```
+name: updated-acme-member
+role_urls:
+- https://acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org/roles/role1
+- https://acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org/roles/role1
+summary: An example member update
+title: Updated ACME Member
+```
+
+---------------------------------------------------------------
+#### Example of member update at consumer-org(space-initiated).
+---------------------------------------------------------------
+
+```
+name: updated-acme-member
+role_urls:
+- https://acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-space/acme-consumer-org/roles/role1
+- https://acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-space/acme-consumer-org/roles/role1
+summary: An example member update
+title: Updated ACME Member
+```
+
+-------------------------------------------
+#### Example of member update at org scope.
+-------------------------------------------
+
+```
+name: updated-acme-member
+role_urls:
+- https://acme-apim.example.com/api/orgs/acme-org/roles/role1
+- https://acme-apim.example.com/api/orgs/acme-org/roles/role2
+summary: An example member update
+title: Updated ACME Member
+```
+
+---------------------------------------------
+#### Example of member update at space scope.
+---------------------------------------------
+
+```
+name: updated-acme-member
+role_urls:
+- https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/roles/role1
+- https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/roles/role1
+summary: An example member update
+title: Updated ACME Member
 ```
 
 ## Options

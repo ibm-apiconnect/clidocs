@@ -19,12 +19,10 @@ apic configured-tls-client-profiles:get [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-tls-client-profiles:get [flags] --id --scope space ID
-      apic configured-tls-client-profiles:get [flags] --id --scope catalog ID
-      apic configured-tls-client-profiles:get [flags] --scope space NAME:VERSION
-      apic configured-tls-client-profiles:get [flags] --scope catalog NAME:VERSION
-
+apic configured-tls-client-profiles:get [flags] --id --scope space ID
+apic configured-tls-client-profiles:get [flags] --id --scope catalog ID
+apic configured-tls-client-profiles:get [flags] --scope space NAME:VERSION
+apic configured-tls-client-profiles:get [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic apps:delete --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic apps:delete --mode consumer [flags] APP
-
+apic apps:delete --mode consumer [flags] APP
 ```
 
 ## Options

@@ -19,12 +19,88 @@ apic products:update [flags]
 ## Possible Usages
 
 ```
+apic products:update [flags] --id --scope space ID PRODUCT_FILE
+apic products:update [flags] --id --scope catalog ID PRODUCT_FILE
+apic products:update [flags] --scope space NAME:VERSION PRODUCT_FILE
+apic products:update [flags] --scope catalog NAME:VERSION PRODUCT_FILE
+```
 
-      apic products:update [flags] --id --scope space ID PRODUCT_FILE
-      apic products:update [flags] --id --scope catalog ID PRODUCT_FILE
-      apic products:update [flags] --scope space NAME:VERSION PRODUCT_FILE
-      apic products:update [flags] --scope catalog NAME:VERSION PRODUCT_FILE
+## Request examples
 
+--------------------------------------------------------------------
+#### Example of product update by name and version at catalog scope.
+--------------------------------------------------------------------
+
+```
+visibility:
+  subscribe:
+    enabled: true
+    group_urls: []
+    org_urls:
+    - https://api.acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org
+    type: custom
+  view:
+    enabled: true
+    group_urls: []
+    org_urls: []
+    type: authenticated
+```
+
+------------------------------------------------------
+#### Example of product update by id at catalog scope.
+------------------------------------------------------
+
+```
+visibility:
+  subscribe:
+    enabled: true
+    group_urls: []
+    org_urls:
+    - https://api.acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org
+    type: custom
+  view:
+    enabled: true
+    group_urls: []
+    org_urls: []
+    type: authenticated
+```
+
+------------------------------------------------------------------
+#### Example of product update by name and version at space scope.
+------------------------------------------------------------------
+
+```
+visibility:
+  subscribe:
+    enabled: true
+    group_urls: []
+    org_urls:
+    - https://api.acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-space/acme-consumer-org
+    type: custom
+  view:
+    enabled: true
+    group_urls: []
+    org_urls: []
+    type: authenticated
+```
+
+----------------------------------------------------
+#### Example of product update by id at space scope.
+----------------------------------------------------
+
+```
+visibility:
+  subscribe:
+    enabled: true
+    group_urls: []
+    org_urls:
+    - https://api.acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-space/acme-consumer-org
+    type: custom
+  view:
+    enabled: true
+    group_urls: []
+    org_urls: []
+    type: authenticated
 ```
 
 ## Options

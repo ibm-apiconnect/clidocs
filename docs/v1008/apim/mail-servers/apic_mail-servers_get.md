@@ -17,9 +17,7 @@ apic mail-servers:get [flags]
 ## Possible Usages
 
 ```
-
-      apic mail-servers:get [flags] MAIL_SERVER
-
+apic mail-servers:get [flags] MAIL_SERVER
 ```
 
 ## Options

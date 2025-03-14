@@ -18,9 +18,7 @@ apic reports:spaceConsumerorgDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceConsumerorgDetail --mode analytics [flags] CONSUMER_ORG_NAME
-
+apic reports:spaceConsumerorgDetail --mode analytics [flags] CONSUMER_ORG_NAME
 ```
 
 ## Options

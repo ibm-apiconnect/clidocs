@@ -27,9 +27,7 @@ apic apps:create --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic apps:create --mode consumer [flags] APP_FILE
-
+apic apps:create --mode consumer [flags] APP_FILE
 ```
 
 ## Options

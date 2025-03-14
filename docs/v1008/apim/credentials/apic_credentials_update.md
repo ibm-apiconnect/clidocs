@@ -33,10 +33,21 @@ apic credentials:update [flags]
 ## Possible Usages
 
 ```
+apic credentials:update [flags] --space-initiated CREDENTIAL CREDENTIAL_FILE
+apic credentials:update [flags] CREDENTIAL CREDENTIAL_FILE
+```
 
-      apic credentials:update [flags] --space-initiated CREDENTIAL CREDENTIAL_FILE
-      apic credentials:update [flags] CREDENTIAL CREDENTIAL_FILE
+## Request examples
 
+-------------------------------------------------
+#### Example of credential update at space scope.
+-------------------------------------------------
+
+```
+client_id: acme
+client_secret: acme1234
+summary: An example credential update
+title: Acme credential update
 ```
 
 ## Options

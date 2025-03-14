@@ -17,9 +17,7 @@ apic payment-methods:delete --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic payment-methods:delete --mode consumer [flags] PAYMENT_METHOD
-
+apic payment-methods:delete --mode consumer [flags] PAYMENT_METHOD
 ```
 
 ## Options

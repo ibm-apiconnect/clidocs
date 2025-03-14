@@ -19,10 +19,52 @@ apic extensions:create [flags]
 ## Possible Usages
 
 ```
+apic extensions:create [flags] --scope space EXTENSION_FILE
+apic extensions:create [flags] --scope catalog EXTENSION_FILE
+```
 
-      apic extensions:create [flags] --scope space EXTENSION_FILE
-      apic extensions:create [flags] --scope catalog EXTENSION_FILE
+## Request examples
 
+----------------------------------------------------
+#### Example of extension creation at catalog scope.
+----------------------------------------------------
+
+```
+extension: 1.0.0
+info:
+  contact:
+    email: acme@example.com
+    name: Aaron Cohen
+    url: http://acme.example.com
+  description: An example extension creation.
+  license:
+    name: Tom Clayton
+    url: http://acmelicense.example.com
+  name: acme-extension
+  termsOfService: https://www.acme.com/legal
+  title: Acme extension creation
+  version: 1.0.0
+```
+
+--------------------------------------------------
+#### Example of extension creation at space scope.
+--------------------------------------------------
+
+```
+extension: 1.0.0
+info:
+  contact:
+    email: acme@example.com
+    name: Aaron Cohen
+    url: http://acme.example.com
+  description: An example extension creation.
+  license:
+    name: Tom Clayton
+    url: http://acmelicense.example.com
+  name: acme-extension
+  termsOfService: https://www.acme.com/legal
+  title: Acme extension creation
+  version: 1.0.0
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic clustermgmt:postReloadSecureSettings --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:postReloadSecureSettings --mode analytics [flags] SECURE_SETTINGS_PASSWORD
-
+apic clustermgmt:postReloadSecureSettings --mode analytics [flags] SECURE_SETTINGS_PASSWORD
 ```
 
 ## Options

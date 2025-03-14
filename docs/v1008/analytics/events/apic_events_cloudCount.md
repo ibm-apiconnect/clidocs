@@ -18,9 +18,7 @@ apic events:cloudCount --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:cloudCount --mode analytics [flags]
-
+apic events:cloudCount --mode analytics [flags]
 ```
 
 ## Options

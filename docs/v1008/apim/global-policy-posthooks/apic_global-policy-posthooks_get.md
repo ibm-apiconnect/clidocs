@@ -19,10 +19,8 @@ apic global-policy-posthooks:get [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policy-posthooks:get [flags] --scope space
-      apic global-policy-posthooks:get [flags] --scope catalog
-
+apic global-policy-posthooks:get [flags] --scope space
+apic global-policy-posthooks:get [flags] --scope catalog
 ```
 
 ## Options

@@ -18,9 +18,17 @@ apic properties:create [flags]
 ## Possible Usages
 
 ```
+apic properties:create [flags] --scope catalog NAME_VALUE_PAIRS_FILE
+```
 
-      apic properties:create [flags] --scope catalog NAME_VALUE_PAIRS_FILE
+## Request examples
 
+----------------------------------
+#### Example of property creation.
+----------------------------------
+
+```
+acme: acmevalue
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic availability-zones:get [flags]
 ## Possible Usages
 
 ```
-
-      apic availability-zones:get [flags] AVAILABILITY_ZONE
-
+apic availability-zones:get [flags] AVAILABILITY_ZONE
 ```
 
 ## Options

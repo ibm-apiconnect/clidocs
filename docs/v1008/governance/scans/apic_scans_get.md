@@ -20,11 +20,9 @@ apic scans:get --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic scans:get --mode governance [flags] --scope space SCAN
-      apic scans:get --mode governance [flags] --scope org SCAN
-      apic scans:get --mode governance [flags] --scope catalog SCAN
-
+apic scans:get --mode governance [flags] --scope space SCAN
+apic scans:get --mode governance [flags] --scope org SCAN
+apic scans:get --mode governance [flags] --scope catalog SCAN
 ```
 
 ## Options

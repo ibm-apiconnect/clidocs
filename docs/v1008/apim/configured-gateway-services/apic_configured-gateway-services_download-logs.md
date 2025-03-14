@@ -19,10 +19,8 @@ apic configured-gateway-services:download-logs [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-gateway-services:download-logs [flags] --scope space CONFIGURED_GATEWAY_SERVICE
-      apic configured-gateway-services:download-logs [flags] --scope catalog CONFIGURED_GATEWAY_SERVICE
-
+apic configured-gateway-services:download-logs [flags] --scope space CONFIGURED_GATEWAY_SERVICE
+apic configured-gateway-services:download-logs [flags] --scope catalog CONFIGURED_GATEWAY_SERVICE
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic space-settings:get [flags]
 ## Possible Usages
 
 ```
-
-      apic space-settings:get [flags]
-
+apic space-settings:get [flags]
 ```
 
 ## Options

@@ -17,12 +17,10 @@ apic integrations:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic integrations:delete [flags] --subcollection user-registry INTEGRATION
-      apic integrations:delete [flags] --subcollection payment-method INTEGRATION
-      apic integrations:delete [flags] --subcollection gateway-service INTEGRATION
-      apic integrations:delete [flags] --subcollection billing INTEGRATION
-
+apic integrations:delete [flags] --subcollection user-registry INTEGRATION
+apic integrations:delete [flags] --subcollection payment-method INTEGRATION
+apic integrations:delete [flags] --subcollection gateway-service INTEGRATION
+apic integrations:delete [flags] --subcollection billing INTEGRATION
 ```
 
 ## Options

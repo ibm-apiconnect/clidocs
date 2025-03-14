@@ -17,9 +17,7 @@ apic truststores:get [flags]
 ## Possible Usages
 
 ```
-
-      apic truststores:get [flags] TRUSTSTORE
-
+apic truststores:get [flags] TRUSTSTORE
 ```
 
 ## Options

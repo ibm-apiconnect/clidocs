@@ -17,9 +17,7 @@ apic application:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic application:get --mode portaladmin [flags] APPLICATION
-
+apic application:get --mode portaladmin [flags] APPLICATION
 ```
 
 ## Options

@@ -20,11 +20,9 @@ apic policies:clone [flags]
 ## Possible Usages
 
 ```
-
-      apic policies:clone [flags] --scope space
-      apic policies:clone [flags] --scope org
-      apic policies:clone [flags] --scope catalog
-
+apic policies:clone [flags] --scope space
+apic policies:clone [flags] --scope org
+apic policies:clone [flags] --scope catalog
 ```
 
 ## Options

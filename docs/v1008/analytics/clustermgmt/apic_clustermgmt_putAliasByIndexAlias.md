@@ -17,9 +17,7 @@ apic clustermgmt:putAliasByIndexAlias --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:putAliasByIndexAlias --mode analytics [flags] ALIAS_BODY_FILE
-
+apic clustermgmt:putAliasByIndexAlias --mode analytics [flags] ALIAS_BODY_FILE
 ```
 
 ## Options

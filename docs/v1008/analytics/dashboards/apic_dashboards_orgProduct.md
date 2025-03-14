@@ -18,9 +18,7 @@ apic dashboards:orgProduct --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:orgProduct --mode analytics [flags]
-
+apic dashboards:orgProduct --mode analytics [flags]
 ```
 
 ## Options

@@ -17,10 +17,8 @@ apic portal-services:get [flags]
 ## Possible Usages
 
 ```
-
-      apic portal-services:get [flags] --scope org PORTAL_SERVICE
-      apic portal-services:get [flags] PORTAL_SERVICE
-
+apic portal-services:get [flags] --scope org PORTAL_SERVICE
+apic portal-services:get [flags] PORTAL_SERVICE
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic custom-webserver-page:set --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-webserver-page:set --mode portaladmin [flags] CUSTOM_WEBSERVER_PAGE_FILE
-
+apic custom-webserver-page:set --mode portaladmin [flags] CUSTOM_WEBSERVER_PAGE_FILE
 ```
 
 ## Options

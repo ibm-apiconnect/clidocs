@@ -18,9 +18,7 @@ apic properties:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic properties:clear [flags] --scope catalog
-
+apic properties:clear [flags] --scope catalog
 ```
 
 ## Options

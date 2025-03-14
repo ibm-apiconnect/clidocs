@@ -17,9 +17,7 @@ apic orgs:get [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:get [flags] ORG
-
+apic orgs:get [flags] ORG
 ```
 
 ## Options

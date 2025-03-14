@@ -18,9 +18,7 @@ apic members:clear --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic members:clear --mode consumer [flags] --scope org
-
+apic members:clear --mode consumer [flags] --scope org
 ```
 
 ## Options

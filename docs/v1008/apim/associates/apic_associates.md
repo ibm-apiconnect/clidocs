@@ -14,6 +14,7 @@ Associates operations
 apic associates [flags]
 ```
 
+
 ## Options
 
 ```

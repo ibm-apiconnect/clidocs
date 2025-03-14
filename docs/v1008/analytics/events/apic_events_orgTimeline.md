@@ -18,9 +18,7 @@ apic events:orgTimeline --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:orgTimeline --mode analytics [flags]
-
+apic events:orgTimeline --mode analytics [flags]
 ```
 
 ## Options

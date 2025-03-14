@@ -17,10 +17,8 @@ apic discovered-apis:copy-to-draft --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic discovered-apis:copy-to-draft --mode discovery [flags] --id ID
-      apic discovered-apis:copy-to-draft --mode discovery [flags] NAME:VERSION
-
+apic discovered-apis:copy-to-draft --mode discovery [flags] --id ID
+apic discovered-apis:copy-to-draft --mode discovery [flags] NAME:VERSION
 ```
 
 ## Options

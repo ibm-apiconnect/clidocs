@@ -19,10 +19,8 @@ apic products:list-all [flags]
 ## Possible Usages
 
 ```
-
-      apic products:list-all [flags] --scope space
-      apic products:list-all [flags] --scope catalog
-
+apic products:list-all [flags] --scope space
+apic products:list-all [flags] --scope catalog
 ```
 
 ## Options

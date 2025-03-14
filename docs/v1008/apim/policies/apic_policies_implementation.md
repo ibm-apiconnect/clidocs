@@ -19,12 +19,10 @@ apic policies:implementation [flags]
 ## Possible Usages
 
 ```
-
-      apic policies:implementation [flags] --id --scope space ID
-      apic policies:implementation [flags] --id --scope catalog ID
-      apic policies:implementation [flags] --scope space NAME:VERSION
-      apic policies:implementation [flags] --scope catalog NAME:VERSION
-
+apic policies:implementation [flags] --id --scope space ID
+apic policies:implementation [flags] --id --scope catalog ID
+apic policies:implementation [flags] --scope space NAME:VERSION
+apic policies:implementation [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

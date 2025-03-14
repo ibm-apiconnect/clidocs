@@ -18,9 +18,7 @@ apic queries:cloudTransferOwner --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:cloudTransferOwner --mode analytics [flags] ID NEW_OWNER_USER_URL
-
+apic queries:cloudTransferOwner --mode analytics [flags] ID NEW_OWNER_USER_URL
 ```
 
 ## Options

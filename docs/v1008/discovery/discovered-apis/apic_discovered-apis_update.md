@@ -45,10 +45,8 @@ apic discovered-apis:update --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic discovered-apis:update --mode discovery [flags] --id ID DISCOVERED_API_FILE
-      apic discovered-apis:update --mode discovery [flags] NAME:VERSION DISCOVERED_API_FILE
-
+apic discovered-apis:update --mode discovery [flags] --id ID DISCOVERED_API_FILE
+apic discovered-apis:update --mode discovery [flags] NAME:VERSION DISCOVERED_API_FILE
 ```
 
 ## Options

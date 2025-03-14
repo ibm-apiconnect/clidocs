@@ -14,6 +14,7 @@ Gateway Extensions operations
 apic gateway-extensions [flags]
 ```
 
+
 ## Options
 
 ```

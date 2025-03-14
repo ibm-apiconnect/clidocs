@@ -17,9 +17,7 @@ apic identity-providers:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic identity-providers:list --mode consumer [flags]
-
+apic identity-providers:list --mode consumer [flags]
 ```
 
 ## Options

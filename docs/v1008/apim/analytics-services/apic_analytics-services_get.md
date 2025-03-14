@@ -17,12 +17,10 @@ apic analytics-services:get [flags]
 ## Possible Usages
 
 ```
-
-      apic analytics-services:get [flags] --scope space ANALYTICS_SERVICE
-      apic analytics-services:get [flags] --scope org ANALYTICS_SERVICE
-      apic analytics-services:get [flags] --scope catalog ANALYTICS_SERVICE
-      apic analytics-services:get [flags] ANALYTICS_SERVICE
-
+apic analytics-services:get [flags] --scope space ANALYTICS_SERVICE
+apic analytics-services:get [flags] --scope org ANALYTICS_SERVICE
+apic analytics-services:get [flags] --scope catalog ANALYTICS_SERVICE
+apic analytics-services:get [flags] ANALYTICS_SERVICE
 ```
 
 ## Options

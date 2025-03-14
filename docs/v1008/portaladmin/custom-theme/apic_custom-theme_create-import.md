@@ -17,9 +17,7 @@ apic custom-theme:create-import --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-theme:create-import --mode portaladmin [flags] CUSTOM_THEME_FILE
-
+apic custom-theme:create-import --mode portaladmin [flags] CUSTOM_THEME_FILE
 ```
 
 ## Options

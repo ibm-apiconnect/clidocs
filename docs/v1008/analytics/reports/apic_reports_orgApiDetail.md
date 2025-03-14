@@ -18,9 +18,7 @@ apic reports:orgApiDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:orgApiDetail --mode analytics [flags]
-
+apic reports:orgApiDetail --mode analytics [flags]
 ```
 
 ## Options

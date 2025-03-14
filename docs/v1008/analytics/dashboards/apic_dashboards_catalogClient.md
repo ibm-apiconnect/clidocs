@@ -18,9 +18,7 @@ apic dashboards:catalogClient --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:catalogClient --mode analytics [flags]
-
+apic dashboards:catalogClient --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic role:list --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic role:list --mode portaladmin [flags]
-
+apic role:list --mode portaladmin [flags]
 ```
 
 ## Options

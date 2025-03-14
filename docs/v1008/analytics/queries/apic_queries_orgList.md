@@ -18,9 +18,7 @@ apic queries:orgList --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:orgList --mode analytics [flags]
-
+apic queries:orgList --mode analytics [flags]
 ```
 
 ## Options

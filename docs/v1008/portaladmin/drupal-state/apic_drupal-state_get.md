@@ -17,9 +17,7 @@ apic drupal-state:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic drupal-state:get --mode portaladmin [flags]
-
+apic drupal-state:get --mode portaladmin [flags]
 ```
 
 ## Options

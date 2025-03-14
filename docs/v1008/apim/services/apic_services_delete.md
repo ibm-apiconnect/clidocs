@@ -17,10 +17,8 @@ apic services:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic services:delete [flags] --id --space-initiated ID
-      apic services:delete [flags] --space-initiated NAME:VERSION
-
+apic services:delete [flags] --id --space-initiated ID
+apic services:delete [flags] --space-initiated NAME:VERSION
 ```
 
 ## Options

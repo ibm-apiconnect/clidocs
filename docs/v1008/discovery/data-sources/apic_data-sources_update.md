@@ -30,9 +30,7 @@ apic data-sources:update --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic data-sources:update --mode discovery [flags] DATA_SOURCE DATA_SOURCE_FILE
-
+apic data-sources:update --mode discovery [flags] DATA_SOURCE DATA_SOURCE_FILE
 ```
 
 ## Options

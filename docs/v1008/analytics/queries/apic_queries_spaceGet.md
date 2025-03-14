@@ -18,9 +18,7 @@ apic queries:spaceGet --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:spaceGet --mode analytics [flags] ID
-
+apic queries:spaceGet --mode analytics [flags] ID
 ```
 
 ## Options

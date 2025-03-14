@@ -17,9 +17,7 @@ apic maintenance:search-api-index-rebuild --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic maintenance:search-api-index-rebuild --mode portaladmin [flags]
-
+apic maintenance:search-api-index-rebuild --mode portaladmin [flags]
 ```
 
 ## Options

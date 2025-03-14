@@ -17,9 +17,7 @@ apic site:state --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic site:state --mode portaladmin [flags]
-
+apic site:state --mode portaladmin [flags]
 ```
 
 ## Options

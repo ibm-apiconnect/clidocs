@@ -17,9 +17,7 @@ apic mail-servers:list [flags]
 ## Possible Usages
 
 ```
-
-      apic mail-servers:list [flags]
-
+apic mail-servers:list [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic reports:spaceDeprecatedProduct --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceDeprecatedProduct --mode analytics [flags]
-
+apic reports:spaceDeprecatedProduct --mode analytics [flags]
 ```
 
 ## Options

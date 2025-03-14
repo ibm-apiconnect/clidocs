@@ -18,9 +18,7 @@ apic reports:spaceConsumerTrendApplicationsLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceConsumerTrendApplicationsLeaderboard --mode analytics [flags]
-
+apic reports:spaceConsumerTrendApplicationsLeaderboard --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic apps:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic apps:list --mode consumer [flags]
-
+apic apps:list --mode consumer [flags]
 ```
 
 ## Options

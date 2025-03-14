@@ -17,9 +17,7 @@ apic data-sources:delete --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic data-sources:delete --mode discovery [flags] DATA_SOURCE
-
+apic data-sources:delete --mode discovery [flags] DATA_SOURCE
 ```
 
 ## Options

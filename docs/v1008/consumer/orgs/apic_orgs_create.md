@@ -17,9 +17,7 @@ apic orgs:create --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:create --mode consumer [flags] --my ORG_FILE
-
+apic orgs:create --mode consumer [flags] --my ORG_FILE
 ```
 
 ## Options

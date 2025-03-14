@@ -17,9 +17,7 @@ apic user:information --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic user:information --mode portaladmin [flags]
-
+apic user:information --mode portaladmin [flags]
 ```
 
 ## Options

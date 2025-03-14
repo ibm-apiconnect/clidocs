@@ -17,9 +17,7 @@ apic user:unblock --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic user:unblock --mode portaladmin [flags]
-
+apic user:unblock --mode portaladmin [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic properties:list [flags]
 ## Possible Usages
 
 ```
-
-      apic properties:list [flags] --scope catalog
-
+apic properties:list [flags] --scope catalog
 ```
 
 ## Options

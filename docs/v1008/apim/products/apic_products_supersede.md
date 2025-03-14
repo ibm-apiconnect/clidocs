@@ -19,12 +19,64 @@ apic products:supersede [flags]
 ## Possible Usages
 
 ```
+apic products:supersede [flags] --id --scope space ID PRODUCT_PLAN_MAPPING_FILE
+apic products:supersede [flags] --id --scope catalog ID PRODUCT_PLAN_MAPPING_FILE
+apic products:supersede [flags] --scope space NAME:VERSION PRODUCT_PLAN_MAPPING_FILE
+apic products:supersede [flags] --scope catalog NAME:VERSION PRODUCT_PLAN_MAPPING_FILE
+```
 
-      apic products:supersede [flags] --id --scope space ID PRODUCT_PLAN_MAPPING_FILE
-      apic products:supersede [flags] --id --scope catalog ID PRODUCT_PLAN_MAPPING_FILE
-      apic products:supersede [flags] --scope space NAME:VERSION PRODUCT_PLAN_MAPPING_FILE
-      apic products:supersede [flags] --scope catalog NAME:VERSION PRODUCT_PLAN_MAPPING_FILE
+## Request examples
 
+-----------------------------------------------------------------------
+#### Example of supersede, replace and set migration target of product.
+-----------------------------------------------------------------------
+
+```
+plans:
+- source: default-plan
+  target: 200Per5minHardLimit
+- source: 200Per5minHardLimit
+  target: 100Per5Min
+product_url: https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/products/product-id
+```
+
+-----------------------------------------------------------------------
+#### Example of supersede, replace and set migration target of product.
+-----------------------------------------------------------------------
+
+```
+plans:
+- source: default-plan
+  target: 200Per5minHardLimit
+- source: 200Per5minHardLimit
+  target: 100Per5Min
+product_url: https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/products/product-id
+```
+
+--------------------------------------------------------------------------------------
+#### Example of supersede, replace and set migration target of product at space scope.
+--------------------------------------------------------------------------------------
+
+```
+plans:
+- source: default-plan
+  target: 200Per5minHardLimit
+- source: 200Per5minHardLimit
+  target: 100Per5Min
+product_url: https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/products/product-id
+```
+
+--------------------------------------------------------------------------------------
+#### Example of supersede, replace and set migration target of product at space scope.
+--------------------------------------------------------------------------------------
+
+```
+plans:
+- source: default-plan
+  target: 200Per5minHardLimit
+- source: 200Per5minHardLimit
+  target: 100Per5Min
+product_url: https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/products/product-id
 ```
 
 ## Options

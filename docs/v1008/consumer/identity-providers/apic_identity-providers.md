@@ -14,6 +14,7 @@ Identity Providers operations
 apic identity-providers --mode consumer [flags]
 ```
 
+
 ## Options
 
 ```

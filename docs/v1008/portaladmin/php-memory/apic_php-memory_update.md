@@ -17,9 +17,7 @@ apic php-memory:update --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic php-memory:update --mode portaladmin [flags]
-
+apic php-memory:update --mode portaladmin [flags]
 ```
 
 ## Options

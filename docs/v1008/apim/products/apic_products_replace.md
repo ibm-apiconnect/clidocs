@@ -40,12 +40,10 @@ apic products:replace [flags]
 ## Possible Usages
 
 ```
-
-      apic products:replace [flags] --id --scope space ID PRODUCT_PLAN_MAPPING_FILE
-      apic products:replace [flags] --id --scope catalog ID PRODUCT_PLAN_MAPPING_FILE
-      apic products:replace [flags] --scope space NAME:VERSION PRODUCT_PLAN_MAPPING_FILE
-      apic products:replace [flags] --scope catalog NAME:VERSION PRODUCT_PLAN_MAPPING_FILE
-
+apic products:replace [flags] --id --scope space ID PRODUCT_PLAN_MAPPING_FILE
+apic products:replace [flags] --id --scope catalog ID PRODUCT_PLAN_MAPPING_FILE
+apic products:replace [flags] --scope space NAME:VERSION PRODUCT_PLAN_MAPPING_FILE
+apic products:replace [flags] --scope catalog NAME:VERSION PRODUCT_PLAN_MAPPING_FILE
 ```
 
 ## Options

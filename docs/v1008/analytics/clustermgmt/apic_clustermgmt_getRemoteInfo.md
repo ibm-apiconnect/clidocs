@@ -17,9 +17,7 @@ apic clustermgmt:getRemoteInfo --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getRemoteInfo --mode analytics [flags]
-
+apic clustermgmt:getRemoteInfo --mode analytics [flags]
 ```
 
 ## Options

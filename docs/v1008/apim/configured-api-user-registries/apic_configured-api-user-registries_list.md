@@ -19,10 +19,8 @@ apic configured-api-user-registries:list [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-api-user-registries:list [flags] --scope space
-      apic configured-api-user-registries:list [flags] --scope catalog
-
+apic configured-api-user-registries:list [flags] --scope space
+apic configured-api-user-registries:list [flags] --scope catalog
 ```
 
 ## Options

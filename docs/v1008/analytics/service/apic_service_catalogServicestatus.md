@@ -18,9 +18,7 @@ apic service:catalogServicestatus --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic service:catalogServicestatus --mode analytics [flags]
-
+apic service:catalogServicestatus --mode analytics [flags]
 ```
 
 ## Options

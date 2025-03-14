@@ -17,9 +17,7 @@ apic clustermgmt:postAliases --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:postAliases --mode analytics [flags] ALIASES_BODY_FILE
-
+apic clustermgmt:postAliases --mode analytics [flags] ALIASES_BODY_FILE
 ```
 
 ## Options

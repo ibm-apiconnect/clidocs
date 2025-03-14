@@ -17,9 +17,7 @@ apic site:create-import --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic site:create-import --mode portaladmin [flags] SITE_FILE
-
+apic site:create-import --mode portaladmin [flags] SITE_FILE
 ```
 
 ## Options

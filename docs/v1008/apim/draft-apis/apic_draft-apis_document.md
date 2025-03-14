@@ -17,10 +17,8 @@ apic draft-apis:document [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-apis:document [flags] --id ID
-      apic draft-apis:document [flags] NAME:VERSION
-
+apic draft-apis:document [flags] --id ID
+apic draft-apis:document [flags] NAME:VERSION
 ```
 
 ## Options

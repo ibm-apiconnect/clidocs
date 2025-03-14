@@ -19,10 +19,8 @@ apic configured-gateway-services:list [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-gateway-services:list [flags] --scope space
-      apic configured-gateway-services:list [flags] --scope catalog
-
+apic configured-gateway-services:list [flags] --scope space
+apic configured-gateway-services:list [flags] --scope catalog
 ```
 
 ## Options

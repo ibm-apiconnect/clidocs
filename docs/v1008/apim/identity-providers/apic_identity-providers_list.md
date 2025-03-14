@@ -19,10 +19,8 @@ apic identity-providers:list [flags]
 ## Possible Usages
 
 ```
-
-      apic identity-providers:list [flags] --scope provider
-      apic identity-providers:list [flags] --scope admin
-
+apic identity-providers:list [flags] --scope provider
+apic identity-providers:list [flags] --scope admin
 ```
 
 ## Options

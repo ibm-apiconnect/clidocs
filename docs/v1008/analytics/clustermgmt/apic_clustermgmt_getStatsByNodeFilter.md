@@ -17,9 +17,7 @@ apic clustermgmt:getStatsByNodeFilter --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getStatsByNodeFilter --mode analytics [flags]
-
+apic clustermgmt:getStatsByNodeFilter --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic cloud-settings:designer-credentials-list [flags]
 ## Possible Usages
 
 ```
-
-      apic cloud-settings:designer-credentials-list [flags]
-
+apic cloud-settings:designer-credentials-list [flags]
 ```
 
 ## Options

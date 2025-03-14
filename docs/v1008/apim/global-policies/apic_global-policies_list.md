@@ -19,10 +19,8 @@ apic global-policies:list [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policies:list [flags] --scope space GLOBAL_POLICY_NAME
-      apic global-policies:list [flags] --scope catalog GLOBAL_POLICY_NAME
-
+apic global-policies:list [flags] --scope space GLOBAL_POLICY_NAME
+apic global-policies:list [flags] --scope catalog GLOBAL_POLICY_NAME
 ```
 
 ## Options

@@ -19,10 +19,8 @@ apic global-policies:create [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policies:create [flags] --scope space GLOBAL_POLICY_FILE
-      apic global-policies:create [flags] --scope catalog GLOBAL_POLICY_FILE
-
+apic global-policies:create [flags] --scope space GLOBAL_POLICY_FILE
+apic global-policies:create [flags] --scope catalog GLOBAL_POLICY_FILE
 ```
 
 ## Options

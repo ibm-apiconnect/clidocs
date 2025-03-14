@@ -17,9 +17,7 @@ apic clustermgmt:resolveIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:resolveIndex --mode analytics [flags] INDEX_NAME
-
+apic clustermgmt:resolveIndex --mode analytics [flags] INDEX_NAME
 ```
 
 ## Options

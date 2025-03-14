@@ -18,9 +18,7 @@ apic queries:spaceUpdate --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:spaceUpdate --mode analytics [flags] ID QUERY_UPDATE_REQUEST_FILE
-
+apic queries:spaceUpdate --mode analytics [flags] ID QUERY_UPDATE_REQUEST_FILE
 ```
 
 ## Options

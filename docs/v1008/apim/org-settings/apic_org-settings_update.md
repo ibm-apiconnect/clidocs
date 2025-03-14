@@ -26,9 +26,23 @@ apic org-settings:update [flags]
 ## Possible Usages
 
 ```
+apic org-settings:update [flags] ORG_SETTING_FILE
+```
 
-      apic org-settings:update [flags] ORG_SETTING_FILE
+## Request examples
 
+---------------------------------------------------------------------
+#### Example of fields which can be updated on a org settings object.
+---------------------------------------------------------------------
+
+```
+custom_notification_templates_enabled: true
+email_sender:
+  address: acme-mail@example.com
+  custom: true
+  name: ACME Mail
+invitation_ttl: 172500
+title: Updated ACME org settings
 ```
 
 ## Options

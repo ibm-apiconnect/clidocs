@@ -17,9 +17,7 @@ apic cloud-settings:audit-endpoint-test-connection [flags]
 ## Possible Usages
 
 ```
-
-      apic cloud-settings:audit-endpoint-test-connection [flags] ENDPOINT
-
+apic cloud-settings:audit-endpoint-test-connection [flags] ENDPOINT
 ```
 
 ## Options

@@ -27,9 +27,7 @@ apic apps:update --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic apps:update --mode consumer [flags] APP APP_FILE
-
+apic apps:update --mode consumer [flags] APP APP_FILE
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic reports:spaceApplicationsLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceApplicationsLeaderboard --mode analytics [flags]
-
+apic reports:spaceApplicationsLeaderboard --mode analytics [flags]
 ```
 
 ## Options

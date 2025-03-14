@@ -17,9 +17,7 @@ apic maintenance:rebuild-node-access --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic maintenance:rebuild-node-access --mode portaladmin [flags]
-
+apic maintenance:rebuild-node-access --mode portaladmin [flags]
 ```
 
 ## Options

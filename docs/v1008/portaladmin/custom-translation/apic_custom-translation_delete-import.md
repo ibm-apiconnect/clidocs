@@ -17,9 +17,7 @@ apic custom-translation:delete-import --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-translation:delete-import --mode portaladmin [flags]
-
+apic custom-translation:delete-import --mode portaladmin [flags]
 ```
 
 ## Options

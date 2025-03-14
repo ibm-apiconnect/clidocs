@@ -17,9 +17,7 @@ apic credentials:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:list --mode consumer [flags]
-
+apic credentials:list --mode consumer [flags]
 ```
 
 ## Options

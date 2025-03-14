@@ -17,9 +17,7 @@ apic clustermgmt:snapshotStatus --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:snapshotStatus --mode analytics [flags]
-
+apic clustermgmt:snapshotStatus --mode analytics [flags]
 ```
 
 ## Options

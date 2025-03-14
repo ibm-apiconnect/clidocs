@@ -20,11 +20,9 @@ apic webhooks:list [flags]
 ## Possible Usages
 
 ```
-
-      apic webhooks:list [flags] --scope cloud
-      apic webhooks:list [flags] --scope catalog
-      apic webhooks:list [flags] --scope all
-
+apic webhooks:list [flags] --scope cloud
+apic webhooks:list [flags] --scope catalog
+apic webhooks:list [flags] --scope all
 ```
 
 ## Options

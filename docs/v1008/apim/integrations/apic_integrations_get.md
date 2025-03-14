@@ -17,12 +17,10 @@ apic integrations:get [flags]
 ## Possible Usages
 
 ```
-
-      apic integrations:get [flags] --subcollection user-registry INTEGRATION
-      apic integrations:get [flags] --subcollection payment-method INTEGRATION
-      apic integrations:get [flags] --subcollection gateway-service INTEGRATION
-      apic integrations:get [flags] --subcollection billing INTEGRATION
-
+apic integrations:get [flags] --subcollection user-registry INTEGRATION
+apic integrations:get [flags] --subcollection payment-method INTEGRATION
+apic integrations:get [flags] --subcollection gateway-service INTEGRATION
+apic integrations:get [flags] --subcollection billing INTEGRATION
 ```
 
 ## Options

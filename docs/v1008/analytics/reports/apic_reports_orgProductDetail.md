@@ -18,9 +18,7 @@ apic reports:orgProductDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:orgProductDetail --mode analytics [flags]
-
+apic reports:orgProductDetail --mode analytics [flags]
 ```
 
 ## Options

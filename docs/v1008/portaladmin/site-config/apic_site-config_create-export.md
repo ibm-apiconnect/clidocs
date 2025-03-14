@@ -17,9 +17,7 @@ apic site-config:create-export --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic site-config:create-export --mode portaladmin [flags]
-
+apic site-config:create-export --mode portaladmin [flags]
 ```
 
 ## Options

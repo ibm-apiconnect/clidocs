@@ -17,9 +17,7 @@ apic clustermgmt:getIngestionNodeInfo --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIngestionNodeInfo --mode analytics [flags]
-
+apic clustermgmt:getIngestionNodeInfo --mode analytics [flags]
 ```
 
 ## Options

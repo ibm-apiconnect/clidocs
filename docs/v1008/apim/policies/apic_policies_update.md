@@ -19,12 +19,10 @@ apic policies:update [flags]
 ## Possible Usages
 
 ```
-
-      apic policies:update [flags] --id --scope space ID POLICY_FILE [ POLICY-YAML ]
-      apic policies:update [flags] --id --scope catalog ID POLICY_FILE [ POLICY-YAML ]
-      apic policies:update [flags] --scope space NAME:VERSION POLICY_FILE [ POLICY-YAML ]
-      apic policies:update [flags] --scope catalog NAME:VERSION POLICY_FILE [ POLICY-YAML ]
-
+apic policies:update [flags] --id --scope space ID POLICY_FILE [ POLICY-YAML ]
+apic policies:update [flags] --id --scope catalog ID POLICY_FILE [ POLICY-YAML ]
+apic policies:update [flags] --scope space NAME:VERSION POLICY_FILE [ POLICY-YAML ]
+apic policies:update [flags] --scope catalog NAME:VERSION POLICY_FILE [ POLICY-YAML ]
 ```
 
 ## Options

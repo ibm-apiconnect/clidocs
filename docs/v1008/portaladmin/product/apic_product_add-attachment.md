@@ -17,9 +17,7 @@ apic product:add-attachment --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic product:add-attachment --mode portaladmin [flags] PRODUCT PRODUCT_FILE
-
+apic product:add-attachment --mode portaladmin [flags] PRODUCT PRODUCT_FILE
 ```
 
 ## Options

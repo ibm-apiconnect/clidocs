@@ -17,10 +17,8 @@ apic apis:list-all --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:list-all --mode consumer [flags] --scope org
-      apic apis:list-all --mode consumer [flags]
-
+apic apis:list-all --mode consumer [flags] --scope org
+apic apis:list-all --mode consumer [flags]
 ```
 
 ## Options

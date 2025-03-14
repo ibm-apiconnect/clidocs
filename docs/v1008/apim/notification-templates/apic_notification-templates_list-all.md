@@ -21,12 +21,10 @@ apic notification-templates:list-all [flags]
 ## Possible Usages
 
 ```
-
-      apic notification-templates:list-all [flags] --scope space
-      apic notification-templates:list-all [flags] --scope org
-      apic notification-templates:list-all [flags] --scope cloud
-      apic notification-templates:list-all [flags] --scope catalog
-
+apic notification-templates:list-all [flags] --scope space
+apic notification-templates:list-all [flags] --scope org
+apic notification-templates:list-all [flags] --scope cloud
+apic notification-templates:list-all [flags] --scope catalog
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic dashboards:catalogConsumption --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:catalogConsumption --mode analytics [flags]
-
+apic dashboards:catalogConsumption --mode analytics [flags]
 ```
 
 ## Options

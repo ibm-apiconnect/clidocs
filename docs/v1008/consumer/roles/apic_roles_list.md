@@ -18,9 +18,7 @@ apic roles:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic roles:list --mode consumer [flags] --scope org
-
+apic roles:list --mode consumer [flags] --scope org
 ```
 
 ## Options

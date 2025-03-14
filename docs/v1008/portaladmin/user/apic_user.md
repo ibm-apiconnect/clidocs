@@ -14,6 +14,7 @@ User operations
 apic user --mode portaladmin [flags]
 ```
 
+
 ## Options
 
 ```

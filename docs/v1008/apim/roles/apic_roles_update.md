@@ -20,11 +20,66 @@ apic roles:update [flags]
 ## Possible Usages
 
 ```
+apic roles:update [flags] --scope space ROLE ROLE_FILE
+apic roles:update [flags] --scope org ROLE ROLE_FILE
+apic roles:update [flags] --scope catalog ROLE ROLE_FILE
+```
 
-      apic roles:update [flags] --scope space ROLE ROLE_FILE
-      apic roles:update [flags] --scope org ROLE ROLE_FILE
-      apic roles:update [flags] --scope catalog ROLE ROLE_FILE
+## Request examples
 
+---------------------------------------------
+#### Example of role update at catalog scope.
+---------------------------------------------
+
+```
+external_group_mapping:
+  ldap_groups:
+  - cn=CloudAdmins,ou=groups,dc=apic,dc=com
+  user_group_filter_prefix: (&(uniquemember=
+  user_group_filter_suffix: )(objectClass=groupOfUniqueNames))
+  user_registry_url: https://acme-apim.example.com/api/user-registries/org1/user-registry-1
+permission_urls:
+- https://acme-apim.example.com/api/cloud/permissions/org/member:view
+- https://acme-apim.example.com/api/cloud/permissions/org/member:manage
+summary: An example role update
+title: Acme role update
+```
+
+-----------------------------------------
+#### Example of role update at org scope.
+-----------------------------------------
+
+```
+external_group_mapping:
+  ldap_groups:
+  - cn=CloudAdmins,ou=groups,dc=apic,dc=com
+  user_group_filter_prefix: (&(uniquemember=
+  user_group_filter_suffix: )(objectClass=groupOfUniqueNames))
+  user_registry_url: https://acme-apim.example.com/api/user-registries/org1/user-registry-1
+permission_urls:
+- https://acme-apim.example.com/api/cloud/permissions/cloud/analytics:view
+- https://acme-apim.example.com/api/cloud/permissions/org/member:view
+- https://acme-apim.example.com/api/cloud/permissions/org/member:manage
+summary: An example role update
+title: Acme role update
+```
+
+-------------------------------------------
+#### Example of role update at space scope.
+-------------------------------------------
+
+```
+external_group_mapping:
+  ldap_groups:
+  - cn=CloudAdmins,ou=groups,dc=apic,dc=com
+  user_group_filter_prefix: (&(uniquemember=
+  user_group_filter_suffix: )(objectClass=groupOfUniqueNames))
+  user_registry_url: https://acme-apim.example.com/api/user-registries/org1/user-registry-1
+permission_urls:
+- https://acme-apim.example.com/api/cloud/permissions/org/member:view
+- https://acme-apim.example.com/api/cloud/permissions/org/member:manage
+summary: An example role update
+title: Acme role update
 ```
 
 ## Options

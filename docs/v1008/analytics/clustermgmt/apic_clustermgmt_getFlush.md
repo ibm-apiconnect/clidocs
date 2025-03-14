@@ -17,9 +17,7 @@ apic clustermgmt:getFlush --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getFlush --mode analytics [flags]
-
+apic clustermgmt:getFlush --mode analytics [flags]
 ```
 
 ## Options

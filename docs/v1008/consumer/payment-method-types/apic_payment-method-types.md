@@ -14,6 +14,7 @@ Payment Method Types operations
 apic payment-method-types --mode consumer [flags]
 ```
 
+
 ## Options
 
 ```

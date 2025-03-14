@@ -19,10 +19,8 @@ apic products:clone [flags]
 ## Possible Usages
 
 ```
-
-      apic products:clone [flags] --scope space
-      apic products:clone [flags] --scope catalog
-
+apic products:clone [flags] --scope space
+apic products:clone [flags] --scope catalog
 ```
 
 ## Options

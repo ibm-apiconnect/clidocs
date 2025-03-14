@@ -17,9 +17,7 @@ apic clustermgmt:postVotingConfigExclusions --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:postVotingConfigExclusions --mode analytics [flags]
-
+apic clustermgmt:postVotingConfigExclusions --mode analytics [flags]
 ```
 
 ## Options

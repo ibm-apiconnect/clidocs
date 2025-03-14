@@ -17,10 +17,8 @@ apic credentials:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:delete [flags] --space-initiated CREDENTIAL
-      apic credentials:delete [flags] CREDENTIAL
-
+apic credentials:delete [flags] --space-initiated CREDENTIAL
+apic credentials:delete [flags] CREDENTIAL
 ```
 
 ## Options

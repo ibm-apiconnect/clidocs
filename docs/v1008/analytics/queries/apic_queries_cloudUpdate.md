@@ -18,9 +18,7 @@ apic queries:cloudUpdate --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:cloudUpdate --mode analytics [flags] ID QUERY_UPDATE_REQUEST_FILE
-
+apic queries:cloudUpdate --mode analytics [flags] ID QUERY_UPDATE_REQUEST_FILE
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic credentials:clear --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:clear --mode consumer [flags]
-
+apic credentials:clear --mode consumer [flags]
 ```
 
 ## Options

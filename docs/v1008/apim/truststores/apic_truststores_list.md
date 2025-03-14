@@ -17,9 +17,7 @@ apic truststores:list [flags]
 ## Possible Usages
 
 ```
-
-      apic truststores:list [flags]
-
+apic truststores:list [flags]
 ```
 
 ## Options

@@ -28,9 +28,19 @@ apic spaces:create [flags]
 ## Possible Usages
 
 ```
+apic spaces:create [flags] SPACE_FILE
+```
 
-      apic spaces:create [flags] SPACE_FILE
+## Request examples
 
+-------------------------------
+#### Example of space creation.
+-------------------------------
+
+```
+name: acme-space
+summary: An example space creation
+title: Acme space
 ```
 
 ## Options

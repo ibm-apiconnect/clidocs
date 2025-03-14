@@ -18,9 +18,7 @@ apic events:cloudTimeline --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:cloudTimeline --mode analytics [flags]
-
+apic events:cloudTimeline --mode analytics [flags]
 ```
 
 ## Options

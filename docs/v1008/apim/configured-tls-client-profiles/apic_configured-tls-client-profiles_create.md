@@ -19,10 +19,26 @@ apic configured-tls-client-profiles:create [flags]
 ## Possible Usages
 
 ```
+apic configured-tls-client-profiles:create [flags] --scope space CONFIGURED_TLS_CLIENT_PROFILE_FILE
+apic configured-tls-client-profiles:create [flags] --scope catalog CONFIGURED_TLS_CLIENT_PROFILE_FILE
+```
 
-      apic configured-tls-client-profiles:create [flags] --scope space CONFIGURED_TLS_CLIENT_PROFILE_FILE
-      apic configured-tls-client-profiles:create [flags] --scope catalog CONFIGURED_TLS_CLIENT_PROFILE_FILE
+## Request examples
 
+----------------------------------------------------------------------
+#### Example configured catalog user registry create at catalog scope.
+----------------------------------------------------------------------
+
+```
+tls_client_profile_url: https://api.acme-apim.example.com/api/orgs/acme-org/tls-client-profiles/acme-tls-client-profile
+```
+
+--------------------------------------------------------------------
+#### Example configured catalog user registry create at space scope.
+--------------------------------------------------------------------
+
+```
+tls_client_profile_url: https://api.acme-apim.example.com/api/orgs/acme-org/tls-client-profiles/acme-tls-client-profile
 ```
 
 ## Options

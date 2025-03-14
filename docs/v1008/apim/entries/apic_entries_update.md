@@ -18,9 +18,7 @@ apic entries:update [flags]
 ## Possible Usages
 
 ```
-
-      apic entries:update [flags] --scope truststore ENTRY ENTRY_FILE
-
+apic entries:update [flags] --scope truststore ENTRY ENTRY_FILE
 ```
 
 ## Options

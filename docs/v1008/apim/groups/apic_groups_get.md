@@ -19,11 +19,9 @@ apic groups:get [flags]
 ## Possible Usages
 
 ```
-
-      apic groups:get [flags] --space-initiated GROUP
-      apic groups:get [flags] --scope cloud GROUP
-      apic groups:get [flags] --scope catalog GROUP
-
+apic groups:get [flags] --space-initiated GROUP
+apic groups:get [flags] --scope cloud GROUP
+apic groups:get [flags] --scope catalog GROUP
 ```
 
 ## Options

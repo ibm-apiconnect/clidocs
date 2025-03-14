@@ -21,12 +21,10 @@ apic notification-styles:get [flags]
 ## Possible Usages
 
 ```
-
-      apic notification-styles:get [flags] --scope org
-      apic notification-styles:get [flags] --scope consumer
-      apic notification-styles:get [flags] --scope cloud
-      apic notification-styles:get [flags] --scope catalog
-
+apic notification-styles:get [flags] --scope org
+apic notification-styles:get [flags] --scope consumer
+apic notification-styles:get [flags] --scope cloud
+apic notification-styles:get [flags] --scope catalog
 ```
 
 ## Options

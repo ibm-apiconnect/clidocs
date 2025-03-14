@@ -18,9 +18,7 @@ apic queries:spaceClone --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:spaceClone --mode analytics [flags] ID
-
+apic queries:spaceClone --mode analytics [flags] ID
 ```
 
 ## Options

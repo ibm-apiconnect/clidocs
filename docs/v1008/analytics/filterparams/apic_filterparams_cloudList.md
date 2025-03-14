@@ -18,9 +18,7 @@ apic filterparams:cloudList --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic filterparams:cloudList --mode analytics [flags]
-
+apic filterparams:cloudList --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic credentials:reset-client-secret --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:reset-client-secret --mode consumer [flags] CREDENTIAL
-
+apic credentials:reset-client-secret --mode consumer [flags] CREDENTIAL
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic dashboards:cloudProduct --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:cloudProduct --mode analytics [flags]
-
+apic dashboards:cloudProduct --mode analytics [flags]
 ```
 
 ## Options

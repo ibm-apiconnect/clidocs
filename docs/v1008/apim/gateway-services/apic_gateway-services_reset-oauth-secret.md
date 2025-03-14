@@ -17,9 +17,7 @@ apic gateway-services:reset-oauth-secret [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-services:reset-oauth-secret [flags] GATEWAY_SERVICE
-
+apic gateway-services:reset-oauth-secret [flags] GATEWAY_SERVICE
 ```
 
 ## Options

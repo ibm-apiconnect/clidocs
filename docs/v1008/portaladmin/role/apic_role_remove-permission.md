@@ -17,9 +17,7 @@ apic role:remove-permission --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic role:remove-permission --mode portaladmin [flags] ROLE
-
+apic role:remove-permission --mode portaladmin [flags] ROLE
 ```
 
 ## Options

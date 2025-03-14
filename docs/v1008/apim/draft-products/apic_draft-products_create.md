@@ -27,9 +27,43 @@ apic draft-products:create [flags]
 ## Possible Usages
 
 ```
+apic draft-products:create [flags] DRAFT_PRODUCT_FILE
+```
 
-      apic draft-products:create [flags] DRAFT_PRODUCT_FILE
+## Request examples
 
+---------------------------------------
+#### Example of draft product creation.
+---------------------------------------
+
+```
+apis:
+  acme-api1.0.0:
+    name: acme-api:1.0.0
+  acme2-api1.0.0:
+    name: acme2-api:1.0.0
+gateways:
+- datapower-api-gateway
+info:
+  name: acme-draft-product
+  summary: An example draft product creation
+  title: acme draft product creation
+  version: 1.0.0
+plans:
+  default-plan:
+    description: Default Plan
+    rate-limits:
+      default:
+        value: 100/1hour
+    title: Default Plan
+product: 1.0.0
+visibility:
+  subscribe:
+    enabled: true
+    type: authenticated
+  view:
+    enabled: true
+    type: public
 ```
 
 ## Options

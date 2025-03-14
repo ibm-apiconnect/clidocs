@@ -18,9 +18,7 @@ apic events:cloudScrollDelete --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:cloudScrollDelete --mode analytics [flags] SCROLL_ID
-
+apic events:cloudScrollDelete --mode analytics [flags] SCROLL_ID
 ```
 
 ## Options

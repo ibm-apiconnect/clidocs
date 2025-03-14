@@ -18,9 +18,7 @@ apic events:catalogGet --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:catalogGet --mode analytics [flags] ID
-
+apic events:catalogGet --mode analytics [flags] ID
 ```
 
 ## Options

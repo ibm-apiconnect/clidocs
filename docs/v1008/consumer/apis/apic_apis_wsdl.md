@@ -17,10 +17,8 @@ apic apis:wsdl --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:wsdl --mode consumer [flags] --scope org ID
-      apic apis:wsdl --mode consumer [flags] ID
-
+apic apis:wsdl --mode consumer [flags] --scope org ID
+apic apis:wsdl --mode consumer [flags] ID
 ```
 
 ## Options

@@ -17,9 +17,18 @@ apic users:request-password-reset [flags]
 ## Possible Usages
 
 ```
+apic users:request-password-reset [flags] REQUEST_PASSWORD_RESET_FILE
+```
 
-      apic users:request-password-reset [flags] REQUEST_PASSWORD_RESET_FILE
+## Request examples
 
+--------------------------------------------
+#### Example of user request password reset.
+--------------------------------------------
+
+```
+email: acme@example.com
+realm: provider/default-idp-2
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic tls-client-profiles:list [flags]
 ## Possible Usages
 
 ```
-
-      apic tls-client-profiles:list [flags] TLS_CLIENT_PROFILE_NAME
-
+apic tls-client-profiles:list [flags] TLS_CLIENT_PROFILE_NAME
 ```
 
 ## Options

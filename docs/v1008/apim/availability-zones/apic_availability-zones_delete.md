@@ -17,9 +17,7 @@ apic availability-zones:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic availability-zones:delete [flags] AVAILABILITY_ZONE
-
+apic availability-zones:delete [flags] AVAILABILITY_ZONE
 ```
 
 ## Options

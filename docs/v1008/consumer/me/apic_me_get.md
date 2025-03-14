@@ -17,9 +17,7 @@ apic me:get --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic me:get --mode consumer [flags]
-
+apic me:get --mode consumer [flags]
 ```
 
 ## Options

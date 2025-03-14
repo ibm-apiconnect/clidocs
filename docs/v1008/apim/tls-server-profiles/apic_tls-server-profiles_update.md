@@ -26,10 +26,34 @@ apic tls-server-profiles:update [flags]
 ## Possible Usages
 
 ```
+apic tls-server-profiles:update [flags] --id ID TLS_SERVER_PROFILE_FILE
+apic tls-server-profiles:update [flags] NAME:VERSION TLS_SERVER_PROFILE_FILE
+```
 
-      apic tls-server-profiles:update [flags] --id ID TLS_SERVER_PROFILE_FILE
-      apic tls-server-profiles:update [flags] NAME:VERSION TLS_SERVER_PROFILE_FILE
+## Request examples
 
+--------------------------------------------------------------
+#### Example of tls server profile update by name and version.
+--------------------------------------------------------------
+
+```
+ciphers:
+- TLS_CHACHA20_POLY1305_SHA256
+- TLS_AES_128_GCM_SHA256
+- ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+- ECDHE_RSA_WITH_AES_128_CBC_SHA
+- DHE_RSA_WITH_AES_256_GCM_SHA384
+- DHE_RSA_WITH_AES_256_CBC_SHA256
+keystore_url: https://acme-apim.example.com/api/orgs/acmeorg/keystores/acmekeystore
+limit_renegotiation: false
+mutual_authentication: require
+protocols:
+- tls_v1.2
+- tls_v1.3
+summary: An example TLS server profile update
+title: acme TLS Server profile update
+truststore_url: https://acme-apim.example.com/api/orgs/acmeorg/truststores/acmetruststore
+version: 1.0.0
 ```
 
 ## Options

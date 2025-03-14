@@ -28,9 +28,26 @@ apic catalog-settings:update [flags]
 ## Possible Usages
 
 ```
+apic catalog-settings:update [flags] CATALOG_SETTING_FILE
+```
 
-      apic catalog-settings:update [flags] CATALOG_SETTING_FILE
+## Request examples
 
+-------------------------------------------------------------------------
+#### Example of fields which can be updated on a catalog settings object.
+-------------------------------------------------------------------------
+
+```
+application_lifecycle:
+  enabled: true
+consumer_self_service_onboarding_approval: false
+consumer_self_service_onboarding_ttl: 259200
+production_mode: true
+spaces_enabled: false
+summary: Updated catalog settings
+task_self_approval: true
+title: Updated ACME catalog settings
+user_registry_default_url: https://api.acme.example.com/user-registry
 ```
 
 ## Options

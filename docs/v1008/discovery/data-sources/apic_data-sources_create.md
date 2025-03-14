@@ -26,9 +26,7 @@ apic data-sources:create --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic data-sources:create --mode discovery [flags] DATA_SOURCE_FILE
-
+apic data-sources:create --mode discovery [flags] DATA_SOURCE_FILE
 ```
 
 ## Options

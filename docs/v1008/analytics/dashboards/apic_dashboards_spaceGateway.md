@@ -18,9 +18,7 @@ apic dashboards:spaceGateway --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:spaceGateway --mode analytics [flags]
-
+apic dashboards:spaceGateway --mode analytics [flags]
 ```
 
 ## Options

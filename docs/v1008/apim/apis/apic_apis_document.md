@@ -19,12 +19,10 @@ apic apis:document [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:document [flags] --id --scope space ID
-      apic apis:document [flags] --id --scope catalog ID
-      apic apis:document [flags] --scope space NAME:VERSION
-      apic apis:document [flags] --scope catalog NAME:VERSION
-
+apic apis:document [flags] --id --scope space ID
+apic apis:document [flags] --id --scope catalog ID
+apic apis:document [flags] --scope space NAME:VERSION
+apic apis:document [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

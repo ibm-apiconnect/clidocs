@@ -17,9 +17,7 @@ apic content:get-export-status --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic content:get-export-status --mode portaladmin [flags]
-
+apic content:get-export-status --mode portaladmin [flags]
 ```
 
 ## Options

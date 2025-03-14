@@ -14,6 +14,7 @@ Events operations
 apic events --mode analytics [flags]
 ```
 
+
 ## Options
 
 ```

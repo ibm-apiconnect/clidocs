@@ -17,18 +17,37 @@ apic draft-products:publish [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-products:publish [flags] --stage --scope space DRAFT_PRODUCT_PUBLISH_FILE
-      apic draft-products:publish [flags] --stage DRAFT_PRODUCT_PUBLISH_FILE
-      apic draft-products:publish [flags] --scope space DRAFT_PRODUCT_PUBLISH_FILE
-      apic draft-products:publish [flags] DRAFT_PRODUCT_PUBLISH_FILE
-
+apic draft-products:publish [flags] --stage --scope space DRAFT_PRODUCT_PUBLISH_FILE
+apic draft-products:publish [flags] --stage DRAFT_PRODUCT_PUBLISH_FILE
+apic draft-products:publish [flags] --scope space DRAFT_PRODUCT_PUBLISH_FILE
+apic draft-products:publish [flags] DRAFT_PRODUCT_PUBLISH_FILE
 ```
 
 ## Examples
 
 ```
 apic draft-products:publish -c myCatalog -o myOrg -s server_URL mydraftproduct.yaml
+```
+
+## Request examples
+
+--------------------------------------
+#### Example of draft product publish.
+--------------------------------------
+
+```
+draft_product_url: https://api.acme-apim.example.com/api/orgs/acme-org/drafts/draft-products/draft-product-id
+visibility:
+  subscribe:
+    enabled: true
+    orgs: []
+    tags: []
+    type: authenticated
+  view:
+    enabled: true
+    orgs: []
+    tags: []
+    type: public
 ```
 
 ## Options

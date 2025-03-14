@@ -30,9 +30,21 @@ apic api-keys:create [flags]
 ## Possible Usages
 
 ```
+apic api-keys:create [flags] API_KEY_FILE
+```
 
-      apic api-keys:create [flags] API_KEY_FILE
+## Request examples
 
+------------------------------
+#### Example API Key creation.
+------------------------------
+
+```
+client_type: toolkit
+description: acme api key
+name: acme-apikey
+token_exp: 3719
+ttl: 4150
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic clustermgmt:getNodesByIdOrMetric --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getNodesByIdOrMetric --mode analytics [flags]
-
+apic clustermgmt:getNodesByIdOrMetric --mode analytics [flags]
 ```
 
 ## Options

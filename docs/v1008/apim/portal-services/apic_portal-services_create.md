@@ -36,9 +36,22 @@ apic portal-services:create [flags]
 ## Possible Usages
 
 ```
+apic portal-services:create [flags] PORTAL_SERVICE_FILE
+```
 
-      apic portal-services:create [flags] PORTAL_SERVICE_FILE
+## Request examples
 
+-------------------------------------
+#### Example portal service creation.
+-------------------------------------
+
+```
+communication_kind: external
+endpoint: https://api.portal.acme-apim.example.com
+name: acme-portal
+summary: An example portal service
+title: acme portal service
+web_endpoint_base: https://portal.acme-apim.example.com
 ```
 
 ## Options

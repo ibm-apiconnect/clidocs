@@ -14,6 +14,7 @@ apic-test is a CLI for testing your APIs
 apic test --mode discovery [flags]
 ```
 
+
 ## Options
 
 ```

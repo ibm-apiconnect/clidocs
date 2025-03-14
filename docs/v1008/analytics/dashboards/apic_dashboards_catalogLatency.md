@@ -18,9 +18,7 @@ apic dashboards:catalogLatency --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:catalogLatency --mode analytics [flags]
-
+apic dashboards:catalogLatency --mode analytics [flags]
 ```
 
 ## Options

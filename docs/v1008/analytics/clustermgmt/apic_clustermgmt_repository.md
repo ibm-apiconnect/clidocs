@@ -17,9 +17,7 @@ apic clustermgmt:repository --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:repository --mode analytics [flags]
-
+apic clustermgmt:repository --mode analytics [flags]
 ```
 
 ## Options

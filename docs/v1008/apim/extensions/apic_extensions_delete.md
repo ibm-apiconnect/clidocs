@@ -19,12 +19,10 @@ apic extensions:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic extensions:delete [flags] --id --scope space ID
-      apic extensions:delete [flags] --id --scope catalog ID
-      apic extensions:delete [flags] --scope space NAME:VERSION
-      apic extensions:delete [flags] --scope catalog NAME:VERSION
-
+apic extensions:delete [flags] --id --scope space ID
+apic extensions:delete [flags] --id --scope catalog ID
+apic extensions:delete [flags] --scope space NAME:VERSION
+apic extensions:delete [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

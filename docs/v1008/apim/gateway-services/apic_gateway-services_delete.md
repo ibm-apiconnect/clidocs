@@ -17,15 +17,14 @@ apic gateway-services:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-services:delete [flags] GATEWAY_SERVICE
-
+apic gateway-services:delete [flags] GATEWAY_SERVICE
 ```
 
 ## Options
 
 ```
       --availability-zone string   Availability Zone name or id (required)
+      --force                      Force the operation
       --format string              Output format. One of [json yaml octet-stream go-template=... go-template-file=...], defaults to yaml.
   -o, --org string                 Organization name or id (required)
       --output string              Write file(s) to directory, instead of STDOUT (default "-")

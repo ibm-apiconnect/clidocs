@@ -17,9 +17,7 @@ apic rules:list-all --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rules:list-all --mode governance [flags]
-
+apic rules:list-all --mode governance [flags]
 ```
 
 ## Options

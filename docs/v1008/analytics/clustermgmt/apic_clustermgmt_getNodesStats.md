@@ -17,9 +17,7 @@ apic clustermgmt:getNodesStats --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getNodesStats --mode analytics [flags]
-
+apic clustermgmt:getNodesStats --mode analytics [flags]
 ```
 
 ## Options

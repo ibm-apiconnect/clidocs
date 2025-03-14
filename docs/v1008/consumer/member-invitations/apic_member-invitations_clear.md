@@ -18,9 +18,7 @@ apic member-invitations:clear --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic member-invitations:clear --mode consumer [flags] --scope org
-
+apic member-invitations:clear --mode consumer [flags] --scope org
 ```
 
 ## Options

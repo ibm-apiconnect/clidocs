@@ -22,13 +22,11 @@ apic primary-events:get [flags]
 ## Possible Usages
 
 ```
-
-      apic primary-events:get [flags] --scope portal-service PRIMARY_EVENT
-      apic primary-events:get [flags] --scope gateway-service PRIMARY_EVENT
-      apic primary-events:get [flags] --scope configured-gateway-service PRIMARY_EVENT
-      apic primary-events:get [flags] --scope cloud PRIMARY_EVENT
-      apic primary-events:get [flags] --scope catalog PRIMARY_EVENT
-
+apic primary-events:get [flags] --scope portal-service PRIMARY_EVENT
+apic primary-events:get [flags] --scope gateway-service PRIMARY_EVENT
+apic primary-events:get [flags] --scope configured-gateway-service PRIMARY_EVENT
+apic primary-events:get [flags] --scope cloud PRIMARY_EVENT
+apic primary-events:get [flags] --scope catalog PRIMARY_EVENT
 ```
 
 ## Options

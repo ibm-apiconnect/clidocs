@@ -21,13 +21,11 @@ apic invitations:get [flags]
 ## Possible Usages
 
 ```
-
-      apic invitations:get [flags] --scope consumer-org --space-initiated INVITATION
-      apic invitations:get [flags] --scope space INVITATION
-      apic invitations:get [flags] --scope org INVITATION
-      apic invitations:get [flags] --scope consumer-org INVITATION
-      apic invitations:get [flags] --scope catalog INVITATION
-
+apic invitations:get [flags] --scope consumer-org --space-initiated INVITATION
+apic invitations:get [flags] --scope space INVITATION
+apic invitations:get [flags] --scope org INVITATION
+apic invitations:get [flags] --scope consumer-org INVITATION
+apic invitations:get [flags] --scope catalog INVITATION
 ```
 
 ## Options

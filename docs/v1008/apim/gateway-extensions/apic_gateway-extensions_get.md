@@ -18,9 +18,7 @@ apic gateway-extensions:get [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-extensions:get [flags] --scope org
-
+apic gateway-extensions:get [flags] --scope org
 ```
 
 ## Options

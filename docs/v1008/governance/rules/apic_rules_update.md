@@ -30,10 +30,8 @@ apic rules:update --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rules:update --mode governance [flags] --id ID RULE_FILE
-      apic rules:update --mode governance [flags] NAME:VERSION RULE_FILE
-
+apic rules:update --mode governance [flags] --id ID RULE_FILE
+apic rules:update --mode governance [flags] NAME:VERSION RULE_FILE
 ```
 
 ## Options

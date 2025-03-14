@@ -17,9 +17,7 @@ apic cloud-settings:oauth2-certs [flags]
 ## Possible Usages
 
 ```
-
-      apic cloud-settings:oauth2-certs [flags]
-
+apic cloud-settings:oauth2-certs [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic api:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic api:get --mode portaladmin [flags] API
-
+apic api:get --mode portaladmin [flags] API
 ```
 
 ## Options

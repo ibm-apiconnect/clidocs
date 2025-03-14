@@ -17,9 +17,7 @@ apic me:get [flags]
 ## Possible Usages
 
 ```
-
-      apic me:get [flags]
-
+apic me:get [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic drafts:list [flags]
 ## Possible Usages
 
 ```
-
-      apic drafts:list [flags]
-
+apic drafts:list [flags]
 ```
 
 ## Options

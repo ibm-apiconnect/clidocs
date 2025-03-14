@@ -17,9 +17,7 @@ apic custom-module:create-import --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-module:create-import --mode portaladmin [flags] CUSTOM_MODULE_FILE
-
+apic custom-module:create-import --mode portaladmin [flags] CUSTOM_MODULE_FILE
 ```
 
 ## Options

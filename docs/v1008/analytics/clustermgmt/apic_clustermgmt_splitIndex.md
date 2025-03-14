@@ -17,9 +17,7 @@ apic clustermgmt:splitIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:splitIndex --mode analytics [flags] SPLIT_BODY_FILE
-
+apic clustermgmt:splitIndex --mode analytics [flags] SPLIT_BODY_FILE
 ```
 
 ## Options

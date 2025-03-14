@@ -18,9 +18,7 @@ apic events:catalogCount --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:catalogCount --mode analytics [flags]
-
+apic events:catalogCount --mode analytics [flags]
 ```
 
 ## Options

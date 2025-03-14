@@ -17,9 +17,7 @@ apic backups:list --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic backups:list --mode portaladmin [flags]
-
+apic backups:list --mode portaladmin [flags]
 ```
 
 ## Options

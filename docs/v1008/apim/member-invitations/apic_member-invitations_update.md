@@ -21,13 +21,78 @@ apic member-invitations:update [flags]
 ## Possible Usages
 
 ```
+apic member-invitations:update [flags] --scope consumer-org --space-initiated MEMBER_INVITATION MEMBER_INVITATION_FILE
+apic member-invitations:update [flags] --scope space MEMBER_INVITATION MEMBER_INVITATION_FILE
+apic member-invitations:update [flags] --scope org MEMBER_INVITATION MEMBER_INVITATION_FILE
+apic member-invitations:update [flags] --scope consumer-org MEMBER_INVITATION MEMBER_INVITATION_FILE
+apic member-invitations:update [flags] --scope catalog MEMBER_INVITATION MEMBER_INVITATION_FILE
+```
 
-      apic member-invitations:update [flags] --scope consumer-org --space-initiated MEMBER_INVITATION MEMBER_INVITATION_FILE
-      apic member-invitations:update [flags] --scope space MEMBER_INVITATION MEMBER_INVITATION_FILE
-      apic member-invitations:update [flags] --scope org MEMBER_INVITATION MEMBER_INVITATION_FILE
-      apic member-invitations:update [flags] --scope consumer-org MEMBER_INVITATION MEMBER_INVITATION_FILE
-      apic member-invitations:update [flags] --scope catalog MEMBER_INVITATION MEMBER_INVITATION_FILE
+## Request examples
 
+----------------------------------------------------------
+#### Example of member invitation update at catalog scope.
+----------------------------------------------------------
+
+```
+email: acme1@example.com
+role_urls:
+- https://acme-apim.example.com/api/catalogs/org/catalog1/roles/role1
+- https://acme-apim.example.com/api/catalogs/org/catalog1/roles/role2
+summary: An example member invitation update
+title: Acme member invitation update
+```
+
+---------------------------------------------------------------
+#### Example of member invitation update at consumer-org scope.
+---------------------------------------------------------------
+
+```
+email: acme1@example.com
+role_urls:
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/consumer-org1/roles/role3
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/consumer-org1/roles/role4
+summary: An example member invitation update
+title: Acme member invitation update
+```
+
+--------------------------------------------------------------------------------
+#### Example of member invitation update at consumer-org(space initiated) scope.
+--------------------------------------------------------------------------------
+
+```
+email: acme1@example.com
+role_urls:
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org1/roles/role1
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org1/roles/role2
+summary: An example member invitation update
+title: Acme member invitation update
+```
+
+------------------------------------------------------
+#### Example of member invitation update at org scope.
+------------------------------------------------------
+
+```
+email: acme1@example.com
+role_urls:
+- https://acme-apim.example.com/api/orgs/org1/roles/role1
+- https://acme-apim.example.com/api/orgs/org1/roles/role2
+summary: An example member invitation update
+title: Acme member invitation update
+```
+
+--------------------------------------------------------
+#### Example of member invitation update at space scope.
+--------------------------------------------------------
+
+```
+email: acme1@example.com
+role_urls:
+- https://acme-apim.example.com/api/spaces/org1/catalog1/space1/roles/role2
+- https://acme-apim.example.com/api/spaces/org1/catalog1/space1/roles/role3
+summary: An example member invitation update
+title: Acme member invitation update
 ```
 
 ## Options

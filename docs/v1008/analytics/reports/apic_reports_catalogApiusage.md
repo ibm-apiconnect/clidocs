@@ -18,9 +18,7 @@ apic reports:catalogApiusage --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:catalogApiusage --mode analytics [flags]
-
+apic reports:catalogApiusage --mode analytics [flags]
 ```
 
 ## Options

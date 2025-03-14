@@ -18,9 +18,7 @@ apic service:spaceServicestatus --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic service:spaceServicestatus --mode analytics [flags]
-
+apic service:spaceServicestatus --mode analytics [flags]
 ```
 
 ## Options

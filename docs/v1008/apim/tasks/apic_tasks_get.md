@@ -19,10 +19,8 @@ apic tasks:get [flags]
 ## Possible Usages
 
 ```
-
-      apic tasks:get [flags] --scope space TASK
-      apic tasks:get [flags] --scope catalog TASK
-
+apic tasks:get [flags] --scope space TASK
+apic tasks:get [flags] --scope catalog TASK
 ```
 
 ## Options

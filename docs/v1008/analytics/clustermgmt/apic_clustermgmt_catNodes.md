@@ -17,9 +17,7 @@ apic clustermgmt:catNodes --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:catNodes --mode analytics [flags]
-
+apic clustermgmt:catNodes --mode analytics [flags]
 ```
 
 ## Options

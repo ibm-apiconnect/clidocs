@@ -17,9 +17,7 @@ apic subscriptions:clear --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriptions:clear --mode consumer [flags]
-
+apic subscriptions:clear --mode consumer [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic queries:spaceUnshare --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:spaceUnshare --mode analytics [flags] ID
-
+apic queries:spaceUnshare --mode analytics [flags] ID
 ```
 
 ## Options

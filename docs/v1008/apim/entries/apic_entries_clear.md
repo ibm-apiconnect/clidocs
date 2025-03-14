@@ -18,9 +18,7 @@ apic entries:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic entries:clear [flags] --scope truststore
-
+apic entries:clear [flags] --scope truststore
 ```
 
 ## Options

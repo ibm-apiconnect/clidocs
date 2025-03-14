@@ -18,9 +18,7 @@ apic queries:catalogTransferOwner --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:catalogTransferOwner --mode analytics [flags] ID NEW_OWNER_USER_URL
-
+apic queries:catalogTransferOwner --mode analytics [flags] ID NEW_OWNER_USER_URL
 ```
 
 ## Options

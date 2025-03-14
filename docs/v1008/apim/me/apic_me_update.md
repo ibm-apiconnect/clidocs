@@ -26,9 +26,19 @@ apic me:update [flags]
 ## Possible Usages
 
 ```
+apic me:update [flags] ME_FILE
+```
 
-      apic me:update [flags] ME_FILE
+## Request examples
 
+--------------------------
+#### Example of me update.
+--------------------------
+
+```
+email: acmesteve@example.com
+first_name: Acme
+last_name: Steve
 ```
 
 ## Options

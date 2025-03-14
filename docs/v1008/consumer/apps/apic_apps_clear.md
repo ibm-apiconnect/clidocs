@@ -17,9 +17,7 @@ apic apps:clear --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic apps:clear --mode consumer [flags]
-
+apic apps:clear --mode consumer [flags]
 ```
 
 ## Options

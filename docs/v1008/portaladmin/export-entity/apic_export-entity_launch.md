@@ -17,9 +17,7 @@ apic export-entity:launch --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic export-entity:launch --mode portaladmin [flags]
-
+apic export-entity:launch --mode portaladmin [flags]
 ```
 
 ## Options

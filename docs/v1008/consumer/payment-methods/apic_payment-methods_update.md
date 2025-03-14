@@ -27,9 +27,7 @@ apic payment-methods:update --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic payment-methods:update --mode consumer [flags] PAYMENT_METHOD PAYMENT_METHOD_FILE
-
+apic payment-methods:update --mode consumer [flags] PAYMENT_METHOD PAYMENT_METHOD_FILE
 ```
 
 ## Options

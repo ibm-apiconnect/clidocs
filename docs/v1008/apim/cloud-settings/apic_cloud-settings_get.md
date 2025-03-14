@@ -17,9 +17,7 @@ apic cloud-settings:get [flags]
 ## Possible Usages
 
 ```
-
-      apic cloud-settings:get [flags]
-
+apic cloud-settings:get [flags]
 ```
 
 ## Options

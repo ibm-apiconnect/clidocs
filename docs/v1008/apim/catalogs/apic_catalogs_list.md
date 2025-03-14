@@ -17,10 +17,8 @@ apic catalogs:list [flags]
 ## Possible Usages
 
 ```
-
-      apic catalogs:list [flags] --my
-      apic catalogs:list [flags]
-
+apic catalogs:list [flags] --my
+apic catalogs:list [flags]
 ```
 
 ## Options

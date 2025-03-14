@@ -17,13 +17,11 @@ apic permissions:get [flags]
 ## Possible Usages
 
 ```
-
-      apic permissions:get [flags] --subcollection provider PERMISSION
-      apic permissions:get [flags] --subcollection org PERMISSION
-      apic permissions:get [flags] --subcollection deployment PERMISSION
-      apic permissions:get [flags] --subcollection consumer PERMISSION
-      apic permissions:get [flags] --subcollection cloud PERMISSION
-
+apic permissions:get [flags] --subcollection provider PERMISSION
+apic permissions:get [flags] --subcollection org PERMISSION
+apic permissions:get [flags] --subcollection deployment PERMISSION
+apic permissions:get [flags] --subcollection consumer PERMISSION
+apic permissions:get [flags] --subcollection cloud PERMISSION
 ```
 
 ## Options

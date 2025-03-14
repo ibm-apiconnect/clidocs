@@ -17,9 +17,7 @@ apic draft-products:clone [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-products:clone [flags]
-
+apic draft-products:clone [flags]
 ```
 
 ## Options

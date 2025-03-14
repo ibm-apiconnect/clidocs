@@ -17,9 +17,7 @@ apic discovered-apis:clear-all --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic discovered-apis:clear-all --mode discovery [flags]
-
+apic discovered-apis:clear-all --mode discovery [flags]
 ```
 
 ## Options

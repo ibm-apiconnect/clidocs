@@ -17,9 +17,7 @@ apic forums:enable --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic forums:enable --mode portaladmin [flags]
-
+apic forums:enable --mode portaladmin [flags]
 ```
 
 ## Options

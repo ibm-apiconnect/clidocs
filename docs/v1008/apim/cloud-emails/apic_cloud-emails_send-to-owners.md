@@ -17,9 +17,21 @@ apic cloud-emails:send-to-owners [flags]
 ## Possible Usages
 
 ```
+apic cloud-emails:send-to-owners [flags] EMAIL_PROVIDER_ORG_OWNERS_FILE
+```
 
-      apic cloud-emails:send-to-owners [flags] EMAIL_PROVIDER_ORG_OWNERS_FILE
+## Request examples
 
+------------------------------------------
+#### Example of cloud emails send to owner
+------------------------------------------
+
+```
+body: Example email to provider org owner
+content_type: text
+org_urls:
+- https://api.acme-apim.example.com/api/orgs/acme-org
+subject: Email to provider org owner
 ```
 
 ## Options

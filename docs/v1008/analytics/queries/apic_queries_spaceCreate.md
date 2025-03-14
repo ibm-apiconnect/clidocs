@@ -18,9 +18,7 @@ apic queries:spaceCreate --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:spaceCreate --mode analytics [flags] QUERY_REQUEST_FILE
-
+apic queries:spaceCreate --mode analytics [flags] QUERY_REQUEST_FILE
 ```
 
 ## Options

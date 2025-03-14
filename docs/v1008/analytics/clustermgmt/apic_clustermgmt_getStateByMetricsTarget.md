@@ -17,9 +17,7 @@ apic clustermgmt:getStateByMetricsTarget --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getStateByMetricsTarget --mode analytics [flags]
-
+apic clustermgmt:getStateByMetricsTarget --mode analytics [flags]
 ```
 
 ## Options

@@ -14,6 +14,7 @@ Notification Styles operations
 apic notification-styles [flags]
 ```
 
+
 ## Options
 
 ```

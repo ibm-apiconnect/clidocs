@@ -17,9 +17,7 @@ apic clustermgmt:createIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:createIndex --mode analytics [flags] INDEX_BODY_FILE
-
+apic clustermgmt:createIndex --mode analytics [flags] INDEX_BODY_FILE
 ```
 
 ## Options

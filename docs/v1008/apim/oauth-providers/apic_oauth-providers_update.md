@@ -14,7 +14,6 @@ Update the Oauth Provider object by name or id
           - id
           - type
           - api_version
-          - scope
           - created_at
           - updated_at
           - url
@@ -27,9 +26,36 @@ apic oauth-providers:update [flags]
 ## Possible Usages
 
 ```
+apic oauth-providers:update [flags] OAUTH_PROVIDER OAUTH_PROVIDER_FILE
+```
 
-      apic oauth-providers:update [flags] OAUTH_PROVIDER OAUTH_PROVIDER_FILE
+## Request examples
 
+---------------------------------------------
+#### Example of native oauth provider update.
+---------------------------------------------
+
+```
+grants:
+- access_code
+- implicit
+- application
+native_provider:
+  api:
+    basePath: /sample1
+    info:
+      description: updated description
+  authorize_path: /oauth2/authorize1
+  clients:
+  - confidential
+  pkce:
+    allow_plain: true
+    enabled: false
+    required: true
+  token_path: /oauth2/token1
+scopes:
+  sample_scope_1: updated scope description
+title: Acme native oauth provider creation
 ```
 
 ## Options

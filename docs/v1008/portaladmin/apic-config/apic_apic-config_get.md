@@ -17,9 +17,7 @@ apic apic-config:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic apic-config:get --mode portaladmin [flags]
-
+apic apic-config:get --mode portaladmin [flags]
 ```
 
 ## Options

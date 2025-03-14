@@ -19,12 +19,10 @@ apic configured-tls-client-profiles:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-tls-client-profiles:delete [flags] --id --scope space ID
-      apic configured-tls-client-profiles:delete [flags] --id --scope catalog ID
-      apic configured-tls-client-profiles:delete [flags] --scope space NAME:VERSION
-      apic configured-tls-client-profiles:delete [flags] --scope catalog NAME:VERSION
-
+apic configured-tls-client-profiles:delete [flags] --id --scope space ID
+apic configured-tls-client-profiles:delete [flags] --id --scope catalog ID
+apic configured-tls-client-profiles:delete [flags] --scope space NAME:VERSION
+apic configured-tls-client-profiles:delete [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

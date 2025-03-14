@@ -18,9 +18,7 @@ apic reports:catalogBreakdownLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:catalogBreakdownLeaderboard --mode analytics [flags]
-
+apic reports:catalogBreakdownLeaderboard --mode analytics [flags]
 ```
 
 ## Options

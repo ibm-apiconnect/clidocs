@@ -17,9 +17,7 @@ apic registrations:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic registrations:delete [flags] REGISTRATION
-
+apic registrations:delete [flags] REGISTRATION
 ```
 
 ## Options

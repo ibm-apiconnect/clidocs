@@ -18,9 +18,7 @@ apic queries:cloudDelete --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:cloudDelete --mode analytics [flags] ID
-
+apic queries:cloudDelete --mode analytics [flags] ID
 ```
 
 ## Options

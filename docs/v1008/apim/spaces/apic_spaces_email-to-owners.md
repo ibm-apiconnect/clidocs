@@ -17,9 +17,22 @@ apic spaces:email-to-owners [flags]
 ## Possible Usages
 
 ```
+apic spaces:email-to-owners [flags] SPACE EMAIL_TO_OWNERS_FILE
+```
 
-      apic spaces:email-to-owners [flags] SPACE EMAIL_TO_OWNERS_FILE
+## Request examples
 
+--------------------------------
+#### Example of email to owners.
+--------------------------------
+
+```
+body: This is an example email to owners
+consumer_org_urls:
+- https://api.acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org1
+- 'https://api.acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org2  '
+content_type: text
+subject: An email to owners
 ```
 
 ## Options

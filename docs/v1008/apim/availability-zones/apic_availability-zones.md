@@ -14,6 +14,7 @@ Availability Zones operations
 apic availability-zones [flags]
 ```
 
+
 ## Options
 
 ```

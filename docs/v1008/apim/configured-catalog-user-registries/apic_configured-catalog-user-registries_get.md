@@ -17,9 +17,7 @@ apic configured-catalog-user-registries:get [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-catalog-user-registries:get [flags] CONFIGURED_CATALOG_USER_REGISTRY
-
+apic configured-catalog-user-registries:get [flags] CONFIGURED_CATALOG_USER_REGISTRY
 ```
 
 ## Options

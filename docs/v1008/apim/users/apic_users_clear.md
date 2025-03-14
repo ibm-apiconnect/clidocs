@@ -17,9 +17,7 @@ apic users:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic users:clear [flags]
-
+apic users:clear [flags]
 ```
 
 ## Options

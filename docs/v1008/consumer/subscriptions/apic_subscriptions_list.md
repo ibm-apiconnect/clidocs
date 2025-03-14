@@ -17,9 +17,7 @@ apic subscriptions:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriptions:list --mode consumer [flags]
-
+apic subscriptions:list --mode consumer [flags]
 ```
 
 ## Options

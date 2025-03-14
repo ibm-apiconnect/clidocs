@@ -17,9 +17,7 @@ apic jwk-sets:generate [flags]
 ## Possible Usages
 
 ```
-
-      apic jwk-sets:generate [flags]
-
+apic jwk-sets:generate [flags]
 ```
 
 ## Options

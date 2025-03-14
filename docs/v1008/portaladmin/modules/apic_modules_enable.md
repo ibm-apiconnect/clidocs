@@ -17,9 +17,7 @@ apic modules:enable --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic modules:enable --mode portaladmin [flags]
-
+apic modules:enable --mode portaladmin [flags]
 ```
 
 ## Options

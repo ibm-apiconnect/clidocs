@@ -19,10 +19,30 @@ apic global-policy-errors:update [flags]
 ## Possible Usages
 
 ```
+apic global-policy-errors:update [flags] --scope space GLOBAL_POLICY_ERROR_FILE
+apic global-policy-errors:update [flags] --scope catalog GLOBAL_POLICY_ERROR_FILE
+```
 
-      apic global-policy-errors:update [flags] --scope space GLOBAL_POLICY_ERROR_FILE
-      apic global-policy-errors:update [flags] --scope catalog GLOBAL_POLICY_ERROR_FILE
+## Request examples
 
+------------------------------------------------------------
+#### Example of global policy error update at catalog scope.
+------------------------------------------------------------
+
+```
+global_policy_url: https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/configured-gateway-services/acme-configured-gateway-service/global-policies/global-policy-id
+summary: An example global policy error update
+title: Acme Global policy error update
+```
+
+----------------------------------------------------------
+#### Example of global policy error update at space scope.
+----------------------------------------------------------
+
+```
+global_policy_url: https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/configured-gateway-services/acme-configured-gateway-service/global-policies/global-policy-id
+summary: An example global policy error update
+title: Acme Global policy error update
 ```
 
 ## Options

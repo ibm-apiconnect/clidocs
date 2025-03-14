@@ -17,9 +17,7 @@ apic gateway-services:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-services:clear [flags]
-
+apic gateway-services:clear [flags]
 ```
 
 ## Options
@@ -27,6 +25,7 @@ apic gateway-services:clear [flags]
 ```
       --availability-zone string   Availability Zone name or id (required)
       --confirm string             Confirmation for critical updates (required)
+      --force                      Force the operation
       --format string              Output format. One of [json yaml octet-stream go-template=... go-template-file=...], defaults to yaml.
   -o, --org string                 Organization name or id (required)
       --output string              Write file(s) to directory, instead of STDOUT (default "-")

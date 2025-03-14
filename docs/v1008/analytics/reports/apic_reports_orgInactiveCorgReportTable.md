@@ -18,9 +18,7 @@ apic reports:orgInactiveCorgReportTable --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:orgInactiveCorgReportTable --mode analytics [flags]
-
+apic reports:orgInactiveCorgReportTable --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic billings:get [flags]
 ## Possible Usages
 
 ```
-
-      apic billings:get [flags] BILLING
-
+apic billings:get [flags] BILLING
 ```
 
 ## Options

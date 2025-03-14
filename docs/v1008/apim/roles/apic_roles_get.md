@@ -21,13 +21,11 @@ apic roles:get [flags]
 ## Possible Usages
 
 ```
-
-      apic roles:get [flags] --scope consumer-org --space-initiated ROLE
-      apic roles:get [flags] --scope space ROLE
-      apic roles:get [flags] --scope org ROLE
-      apic roles:get [flags] --scope consumer-org ROLE
-      apic roles:get [flags] --scope catalog ROLE
-
+apic roles:get [flags] --scope consumer-org --space-initiated ROLE
+apic roles:get [flags] --scope space ROLE
+apic roles:get [flags] --scope org ROLE
+apic roles:get [flags] --scope consumer-org ROLE
+apic roles:get [flags] --scope catalog ROLE
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic filterparams:orgList --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic filterparams:orgList --mode analytics [flags]
-
+apic filterparams:orgList --mode analytics [flags]
 ```
 
 ## Options

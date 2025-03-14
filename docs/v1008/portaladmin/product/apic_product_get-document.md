@@ -17,9 +17,7 @@ apic product:get-document --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic product:get-document --mode portaladmin [flags] PRODUCT
-
+apic product:get-document --mode portaladmin [flags] PRODUCT
 ```
 
 ## Options

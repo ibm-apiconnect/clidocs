@@ -17,9 +17,7 @@ apic clustermgmt:getIngestionReloadsNodeStats --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIngestionReloadsNodeStats --mode analytics [flags]
-
+apic clustermgmt:getIngestionReloadsNodeStats --mode analytics [flags]
 ```
 
 ## Options

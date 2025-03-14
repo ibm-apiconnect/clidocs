@@ -17,9 +17,7 @@ apic clustermgmt:getAllocationExplain --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getAllocationExplain --mode analytics [flags]
-
+apic clustermgmt:getAllocationExplain --mode analytics [flags]
 ```
 
 ## Options

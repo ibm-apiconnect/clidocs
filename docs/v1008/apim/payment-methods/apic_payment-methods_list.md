@@ -17,10 +17,8 @@ apic payment-methods:list [flags]
 ## Possible Usages
 
 ```
-
-      apic payment-methods:list [flags] --space-initiated
-      apic payment-methods:list [flags]
-
+apic payment-methods:list [flags] --space-initiated
+apic payment-methods:list [flags]
 ```
 
 ## Options

@@ -29,9 +29,30 @@ apic space-settings:update [flags]
 ## Possible Usages
 
 ```
+apic space-settings:update [flags] SPACE_SETTING_FILE
+```
 
-      apic space-settings:update [flags] SPACE_SETTING_FILE
+## Request examples
 
+-----------------------------------------------------------------------
+#### Example of fields which can be updated on a space settings object.
+-----------------------------------------------------------------------
+
+```
+allowed_product_visibility:
+  subscribe:
+    enabled: false
+    type: authenticated
+  view:
+    enabled: false
+    type: public
+custom_notification_templates_enabled: true
+email_sender:
+  address: acme-mail@example.com
+  custom: true
+  name: ACME Mail
+invitation_ttl: 172800
+subscription_task_approval_retention: 60
 ```
 
 ## Options

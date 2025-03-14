@@ -18,9 +18,21 @@ apic role-defaults:update [flags]
 ## Possible Usages
 
 ```
+apic role-defaults:update [flags] --scope cloud --subcollection provider ROLE_DEFAULT ROLE_DEFAULT_FILE
+```
 
-      apic role-defaults:update [flags] --scope cloud --subcollection provider ROLE_DEFAULT ROLE_DEFAULT_FILE
+## Request examples
 
+-------------------------------------
+#### Example of role defaults update.
+-------------------------------------
+
+```
+permission_urls:
+- https://acme-apim.example.com/api/cloud/permissions/provider/product-drafts:edit
+- https://acme-apim.example.com/api/cloud/permissions/deployment/product:stage
+summary: An example role defaults update
+title: Acme role defaults update
 ```
 
 ## Options

@@ -32,9 +32,7 @@ apic billings:update [flags]
 ## Possible Usages
 
 ```
-
-      apic billings:update [flags] BILLING BILLING_FILE
-
+apic billings:update [flags] BILLING BILLING_FILE
 ```
 
 ## Options

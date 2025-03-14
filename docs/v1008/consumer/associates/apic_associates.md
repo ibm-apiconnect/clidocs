@@ -14,6 +14,7 @@ Associates operations
 apic associates --mode consumer [flags]
 ```
 
+
 ## Options
 
 ```

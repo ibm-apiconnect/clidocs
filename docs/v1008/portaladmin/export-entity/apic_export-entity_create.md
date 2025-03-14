@@ -17,9 +17,7 @@ apic export-entity:create --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic export-entity:create --mode portaladmin [flags]
-
+apic export-entity:create --mode portaladmin [flags]
 ```
 
 ## Options

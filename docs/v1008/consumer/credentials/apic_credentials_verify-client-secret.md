@@ -17,9 +17,7 @@ apic credentials:verify-client-secret --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:verify-client-secret --mode consumer [flags] CREDENTIAL CREDENTIAL_FILE
-
+apic credentials:verify-client-secret --mode consumer [flags] CREDENTIAL CREDENTIAL_FILE
 ```
 
 ## Options

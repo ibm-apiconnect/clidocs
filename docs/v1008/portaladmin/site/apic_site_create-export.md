@@ -17,9 +17,7 @@ apic site:create-export --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic site:create-export --mode portaladmin [flags]
-
+apic site:create-export --mode portaladmin [flags]
 ```
 
 ## Options

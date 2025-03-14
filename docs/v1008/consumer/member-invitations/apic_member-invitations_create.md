@@ -18,9 +18,7 @@ apic member-invitations:create --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic member-invitations:create --mode consumer [flags] --scope org MEMBER_INVITATION_FILE
-
+apic member-invitations:create --mode consumer [flags] --scope org MEMBER_INVITATION_FILE
 ```
 
 ## Options

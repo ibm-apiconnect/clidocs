@@ -17,9 +17,7 @@ apic clustermgmt:getNodesStatsByIdMetric --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getNodesStatsByIdMetric --mode analytics [flags] ID
-
+apic clustermgmt:getNodesStatsByIdMetric --mode analytics [flags] ID
 ```
 
 ## Options

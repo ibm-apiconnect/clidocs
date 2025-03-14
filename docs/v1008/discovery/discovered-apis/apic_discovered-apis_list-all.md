@@ -17,9 +17,7 @@ apic discovered-apis:list-all --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic discovered-apis:list-all --mode discovery [flags]
-
+apic discovered-apis:list-all --mode discovery [flags]
 ```
 
 ## Options

@@ -17,10 +17,8 @@ apic services:get [flags]
 ## Possible Usages
 
 ```
-
-      apic services:get [flags] --id --space-initiated ID
-      apic services:get [flags] --space-initiated NAME:VERSION
-
+apic services:get [flags] --id --space-initiated ID
+apic services:get [flags] --space-initiated NAME:VERSION
 ```
 
 ## Options

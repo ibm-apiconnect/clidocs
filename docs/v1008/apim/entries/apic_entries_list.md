@@ -18,9 +18,7 @@ apic entries:list [flags]
 ## Possible Usages
 
 ```
-
-      apic entries:list [flags] --scope truststore
-
+apic entries:list [flags] --scope truststore
 ```
 
 ## Options

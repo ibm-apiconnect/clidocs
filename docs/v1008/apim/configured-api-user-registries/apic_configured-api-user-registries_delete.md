@@ -19,10 +19,8 @@ apic configured-api-user-registries:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-api-user-registries:delete [flags] --scope space CONFIGURED_API_USER_REGISTRY
-      apic configured-api-user-registries:delete [flags] --scope catalog CONFIGURED_API_USER_REGISTRY
-
+apic configured-api-user-registries:delete [flags] --scope space CONFIGURED_API_USER_REGISTRY
+apic configured-api-user-registries:delete [flags] --scope catalog CONFIGURED_API_USER_REGISTRY
 ```
 
 ## Options

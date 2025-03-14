@@ -17,9 +17,7 @@ apic clustermgmt:getStatsMetric --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getStatsMetric --mode analytics [flags]
-
+apic clustermgmt:getStatsMetric --mode analytics [flags]
 ```
 
 ## Options

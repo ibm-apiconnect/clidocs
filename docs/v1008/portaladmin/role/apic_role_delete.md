@@ -17,9 +17,7 @@ apic role:delete --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic role:delete --mode portaladmin [flags] ROLE
-
+apic role:delete --mode portaladmin [flags] ROLE
 ```
 
 ## Options

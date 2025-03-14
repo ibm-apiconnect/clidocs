@@ -17,9 +17,7 @@ apic site-config:create-import --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic site-config:create-import --mode portaladmin [flags] SITE_CONFIG_FILE
-
+apic site-config:create-import --mode portaladmin [flags] SITE_CONFIG_FILE
 ```
 
 ## Options

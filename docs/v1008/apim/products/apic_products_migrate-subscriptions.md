@@ -19,12 +19,76 @@ apic products:migrate-subscriptions [flags]
 ## Possible Usages
 
 ```
+apic products:migrate-subscriptions [flags] --id --scope space ID MIGRATE_SUBSCRIPTION_SUBSET_FILE
+apic products:migrate-subscriptions [flags] --id --scope catalog ID MIGRATE_SUBSCRIPTION_SUBSET_FILE
+apic products:migrate-subscriptions [flags] --scope space NAME:VERSION MIGRATE_SUBSCRIPTION_SUBSET_FILE
+apic products:migrate-subscriptions [flags] --scope catalog NAME:VERSION MIGRATE_SUBSCRIPTION_SUBSET_FILE
+```
 
-      apic products:migrate-subscriptions [flags] --id --scope space ID MIGRATE_SUBSCRIPTION_SUBSET_FILE
-      apic products:migrate-subscriptions [flags] --id --scope catalog ID MIGRATE_SUBSCRIPTION_SUBSET_FILE
-      apic products:migrate-subscriptions [flags] --scope space NAME:VERSION MIGRATE_SUBSCRIPTION_SUBSET_FILE
-      apic products:migrate-subscriptions [flags] --scope catalog NAME:VERSION MIGRATE_SUBSCRIPTION_SUBSET_FILE
+## Request examples
 
+------------------------------------------------------------------
+#### Example of migrate subscription of products at catalog scope.
+------------------------------------------------------------------
+
+```
+plans:
+- source: default-plan
+  target: 100Per5Min
+- source: 200Per5minHardLimit
+  target: 100Per5Min
+product_url: https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/products/product-id
+subscription_urls:
+- https://acme-apim.example.com/api/apps/org1/catalog1/consumer-org1/app1/subscriptions/subscription1
+- https://acme-apim.example.com/api/apps/org2/catalog2/consumer-org2/app2/subscriptions/subscription2
+```
+
+------------------------------------------------------------------
+#### Example of migrate subscription of products at catalog scope.
+------------------------------------------------------------------
+
+```
+plans:
+- source: default-plan
+  target: 100Per5Min
+- source: 200Per5minHardLimit
+  target: 100Per5Min
+product_url: https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/products/product-id
+subscription_urls:
+- https://acme-apim.example.com/api/apps/org1/catalog1/consumer-org1/app1/subscriptions/subscription1
+- https://acme-apim.example.com/api/apps/org2/catalog2/consumer-org2/app2/subscriptions/subscription2
+```
+
+----------------------------------------------------------------
+#### Example of migrate subscription of products at space scope.
+----------------------------------------------------------------
+
+```
+plans:
+- source: default-plan
+  target: 100Per5Min
+- source: 200Per5minHardLimit
+  target: 100Per5Min
+product_url: https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/products/product-id
+subscription_urls:
+- https://acme-apim.example.com/api/apps/org1/catalog1/space1/consumer-org1/app1/subscriptions/subscription1
+- https://acme-apim.example.com/api/apps/org2/catalog2/space2/consumer-org2/app2/subscriptions/subscription2
+```
+
+----------------------------------------------------------------
+#### Example of migrate subscription of products at space scope.
+----------------------------------------------------------------
+
+```
+plans:
+- source: default-plan
+  target: 100Per5Min
+- source: 200Per5minHardLimit
+  target: 100Per5Min
+product_url: https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/products/product-id
+subscription_urls:
+- https://acme-apim.example.com/api/apps/org1/catalog1/space1/consumer-org1/app1/subscriptions/subscription1
+- https://acme-apim.example.com/api/apps/org2/catalog2/space2/consumer-org2/app2/subscriptions/subscription2
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic registrations:list [flags]
 ## Possible Usages
 
 ```
-
-      apic registrations:list [flags]
-
+apic registrations:list [flags]
 ```
 
 ## Options

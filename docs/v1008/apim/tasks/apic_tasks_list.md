@@ -19,12 +19,10 @@ apic tasks:list [flags]
 ## Possible Usages
 
 ```
-
-      apic tasks:list [flags] --scope space
-      apic tasks:list [flags] --scope catalog
-      apic tasks:list [flags] --originated
-      apic tasks:list [flags] --my
-
+apic tasks:list [flags] --scope space
+apic tasks:list [flags] --scope catalog
+apic tasks:list [flags] --originated
+apic tasks:list [flags] --my
 ```
 
 ## Options

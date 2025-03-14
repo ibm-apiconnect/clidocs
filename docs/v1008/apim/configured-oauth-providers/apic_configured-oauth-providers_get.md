@@ -19,10 +19,8 @@ apic configured-oauth-providers:get [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-oauth-providers:get [flags] --scope space CONFIGURED_OAUTH_PROVIDER
-      apic configured-oauth-providers:get [flags] --scope catalog CONFIGURED_OAUTH_PROVIDER
-
+apic configured-oauth-providers:get [flags] --scope space CONFIGURED_OAUTH_PROVIDER
+apic configured-oauth-providers:get [flags] --scope catalog CONFIGURED_OAUTH_PROVIDER
 ```
 
 ## Options

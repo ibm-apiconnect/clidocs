@@ -41,9 +41,30 @@ apic gateway-services:update [flags]
 ## Possible Usages
 
 ```
+apic gateway-services:update [flags] GATEWAY_SERVICE GATEWAY_SERVICE_FILE
+```
 
-      apic gateway-services:update [flags] GATEWAY_SERVICE GATEWAY_SERVICE_FILE
+## Request examples
 
+---------------------------------------------------------------------------------------------------
+#### Example of fields which can be updated on a gateway service with LDAP connection pool enabled.
+---------------------------------------------------------------------------------------------------
+
+```
+api_endpoint_base: https://gw.acme-apim.example.com
+communication_to_analytics_with_jwt: true
+endpoint: https://gw.acme-apim.example.com
+gateway_service_type: datapower-api-gateway
+ldap_cxn_pool:
+  document_cache_size: 0
+  enabled: true
+  idle_timeout: 120
+  max_pool_size: 35
+sni:
+- host: '*'
+  tls_server_profile_url: https://acme-apim.example.com/api/orgs/tls-server-profiles
+summary: An example gateway service
+title: ACME Updated Gateway Service
 ```
 
 ## Options

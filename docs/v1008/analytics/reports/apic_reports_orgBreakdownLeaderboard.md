@@ -18,9 +18,7 @@ apic reports:orgBreakdownLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:orgBreakdownLeaderboard --mode analytics [flags]
-
+apic reports:orgBreakdownLeaderboard --mode analytics [flags]
 ```
 
 ## Options

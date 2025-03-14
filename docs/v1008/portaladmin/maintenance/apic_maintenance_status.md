@@ -17,9 +17,7 @@ apic maintenance:status --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic maintenance:status --mode portaladmin [flags]
-
+apic maintenance:status --mode portaladmin [flags]
 ```
 
 ## Options

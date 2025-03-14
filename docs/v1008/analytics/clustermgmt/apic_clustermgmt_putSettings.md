@@ -17,9 +17,7 @@ apic clustermgmt:putSettings --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:putSettings --mode analytics [flags] SETTINGS_FILE
-
+apic clustermgmt:putSettings --mode analytics [flags] SETTINGS_FILE
 ```
 
 ## Options

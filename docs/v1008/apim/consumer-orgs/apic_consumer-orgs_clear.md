@@ -17,10 +17,8 @@ apic consumer-orgs:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic consumer-orgs:clear [flags] --space-initiated
-      apic consumer-orgs:clear [flags]
-
+apic consumer-orgs:clear [flags] --space-initiated
+apic consumer-orgs:clear [flags]
 ```
 
 ## Options

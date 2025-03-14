@@ -17,10 +17,8 @@ apic apps:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic apps:clear [flags] --space-initiated
-      apic apps:clear [flags]
-
+apic apps:clear [flags] --space-initiated
+apic apps:clear [flags]
 ```
 
 ## Options

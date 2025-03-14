@@ -18,9 +18,7 @@ apic queries:spaceDelete --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:spaceDelete --mode analytics [flags] ID
-
+apic queries:spaceDelete --mode analytics [flags] ID
 ```
 
 ## Options

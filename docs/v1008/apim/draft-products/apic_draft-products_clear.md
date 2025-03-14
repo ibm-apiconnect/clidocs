@@ -17,9 +17,7 @@ apic draft-products:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-products:clear [flags] DRAFT_PRODUCT_NAME
-
+apic draft-products:clear [flags] DRAFT_PRODUCT_NAME
 ```
 
 ## Options

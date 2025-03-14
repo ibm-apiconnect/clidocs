@@ -28,9 +28,18 @@ apic spaces:update [flags]
 ## Possible Usages
 
 ```
+apic spaces:update [flags] SPACE SPACE_FILE
+```
 
-      apic spaces:update [flags] SPACE SPACE_FILE
+## Request examples
 
+-----------------------------
+#### Example of space update.
+-----------------------------
+
+```
+summary: An example space updation
+title: Acme space
 ```
 
 ## Options

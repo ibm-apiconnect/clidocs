@@ -17,9 +17,7 @@ apic services:list [flags]
 ## Possible Usages
 
 ```
-
-      apic services:list [flags] --space-initiated SERVICE_NAME
-
+apic services:list [flags] --space-initiated SERVICE_NAME
 ```
 
 ## Options

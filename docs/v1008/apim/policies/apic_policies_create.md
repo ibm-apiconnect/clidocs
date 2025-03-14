@@ -19,10 +19,8 @@ apic policies:create [flags]
 ## Possible Usages
 
 ```
-
-      apic policies:create [flags] --scope space POLICIES_FILE
-      apic policies:create [flags] --scope catalog POLICIES_FILE
-
+apic policies:create [flags] --scope space POLICIES_FILE
+apic policies:create [flags] --scope catalog POLICIES_FILE
 ```
 
 ## Options

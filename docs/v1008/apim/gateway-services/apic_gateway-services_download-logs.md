@@ -17,9 +17,7 @@ apic gateway-services:download-logs [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-services:download-logs [flags] GATEWAY_SERVICE
-
+apic gateway-services:download-logs [flags] GATEWAY_SERVICE
 ```
 
 ## Options

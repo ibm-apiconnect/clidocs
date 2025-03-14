@@ -19,9 +19,7 @@ apic compliance:validate --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic compliance:validate --mode governance [flags] COMPLIANCE_REQUEST_FILE
-
+apic compliance:validate --mode governance [flags] COMPLIANCE_REQUEST_FILE
 ```
 
 ## Options

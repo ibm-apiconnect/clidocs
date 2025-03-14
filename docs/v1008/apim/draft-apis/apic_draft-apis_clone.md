@@ -17,9 +17,7 @@ apic draft-apis:clone [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-apis:clone [flags]
-
+apic draft-apis:clone [flags]
 ```
 
 ## Options

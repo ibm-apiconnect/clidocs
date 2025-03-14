@@ -59,6 +59,7 @@ Configuration variables:
 apic config:get NAME --mode portaladmin [flags]
 ```
 
+
 ## Examples
 
 ```

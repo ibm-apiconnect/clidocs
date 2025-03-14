@@ -30,9 +30,18 @@ apic catalogs:update [flags]
 ## Possible Usages
 
 ```
+apic catalogs:update [flags] CATALOG CATALOG_FILE
+```
 
-      apic catalogs:update [flags] CATALOG CATALOG_FILE
+## Request examples
 
+-------------------------------
+#### Example of catalog create.
+-------------------------------
+
+```
+summary: An example catalog update
+title: ACME Catalog Updated
 ```
 
 ## Options

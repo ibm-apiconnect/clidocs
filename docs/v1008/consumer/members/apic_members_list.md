@@ -18,9 +18,7 @@ apic members:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic members:list --mode consumer [flags] --scope org
-
+apic members:list --mode consumer [flags] --scope org
 ```
 
 ## Options

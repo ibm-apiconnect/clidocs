@@ -17,9 +17,7 @@ apic export-entity:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic export-entity:get --mode portaladmin [flags]
-
+apic export-entity:get --mode portaladmin [flags]
 ```
 
 ## Options

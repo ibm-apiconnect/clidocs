@@ -17,9 +17,7 @@ apic content:delete-export --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic content:delete-export --mode portaladmin [flags]
-
+apic content:delete-export --mode portaladmin [flags]
 ```
 
 ## Options

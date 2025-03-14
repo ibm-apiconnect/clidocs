@@ -14,6 +14,7 @@ Configured Catalog User Registries operations
 apic configured-catalog-user-registries [flags]
 ```
 
+
 ## Options
 
 ```

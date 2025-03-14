@@ -17,10 +17,8 @@ apic draft-products:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-products:delete [flags] --id ID
-      apic draft-products:delete [flags] NAME:VERSION
-
+apic draft-products:delete [flags] --id ID
+apic draft-products:delete [flags] NAME:VERSION
 ```
 
 ## Options

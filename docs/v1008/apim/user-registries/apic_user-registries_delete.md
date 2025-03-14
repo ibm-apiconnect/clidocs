@@ -17,9 +17,7 @@ apic user-registries:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic user-registries:delete [flags] USER_REGISTRY
-
+apic user-registries:delete [flags] USER_REGISTRY
 ```
 
 ## Options

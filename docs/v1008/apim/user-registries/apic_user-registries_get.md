@@ -17,9 +17,7 @@ apic user-registries:get [flags]
 ## Possible Usages
 
 ```
-
-      apic user-registries:get [flags] USER_REGISTRY
-
+apic user-registries:get [flags] USER_REGISTRY
 ```
 
 ## Options

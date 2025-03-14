@@ -18,9 +18,7 @@ apic reports:cloudBreakdownLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudBreakdownLeaderboard --mode analytics [flags]
-
+apic reports:cloudBreakdownLeaderboard --mode analytics [flags]
 ```
 
 ## Options

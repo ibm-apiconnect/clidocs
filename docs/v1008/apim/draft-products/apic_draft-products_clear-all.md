@@ -17,9 +17,7 @@ apic draft-products:clear-all [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-products:clear-all [flags]
-
+apic draft-products:clear-all [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic clustermgmt:getRecovery --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getRecovery --mode analytics [flags]
-
+apic clustermgmt:getRecovery --mode analytics [flags]
 ```
 
 ## Options

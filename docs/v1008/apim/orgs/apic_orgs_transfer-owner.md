@@ -17,9 +17,25 @@ apic orgs:transfer-owner [flags]
 ## Possible Usages
 
 ```
+apic orgs:transfer-owner [flags] ORG TRANSFER_OWNER_FILE
+```
 
-      apic orgs:transfer-owner [flags] ORG TRANSFER_OWNER_FILE
+## Request examples
 
+---------------------------------------------------
+#### Example of owner transfer using associate url.
+---------------------------------------------------
+
+```
+new_owner_associate_url: 'https://api.acme-apim.example.com/api/orgs/acme-org/associates/acme-associate  '
+```
+
+------------------------------------------------
+#### Example of owner transfer using member url.
+------------------------------------------------
+
+```
+new_owner_member_url: https://api.acme-apim.example.com/api/orgs/acme-org/members/acme-member
 ```
 
 ## Options

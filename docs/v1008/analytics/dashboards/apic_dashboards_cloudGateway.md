@@ -18,9 +18,7 @@ apic dashboards:cloudGateway --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:cloudGateway --mode analytics [flags]
-
+apic dashboards:cloudGateway --mode analytics [flags]
 ```
 
 ## Options

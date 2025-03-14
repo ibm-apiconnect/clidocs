@@ -17,9 +17,7 @@ apic drupal-config:list --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic drupal-config:list --mode portaladmin [flags]
-
+apic drupal-config:list --mode portaladmin [flags]
 ```
 
 ## Options

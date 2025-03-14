@@ -19,12 +19,10 @@ apic products:document [flags]
 ## Possible Usages
 
 ```
-
-      apic products:document [flags] --id --scope space ID
-      apic products:document [flags] --id --scope catalog ID
-      apic products:document [flags] --scope space NAME:VERSION
-      apic products:document [flags] --scope catalog NAME:VERSION
-
+apic products:document [flags] --id --scope space ID
+apic products:document [flags] --id --scope catalog ID
+apic products:document [flags] --scope space NAME:VERSION
+apic products:document [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic queries:cloudCreate --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:cloudCreate --mode analytics [flags] QUERY_REQUEST_FILE
-
+apic queries:cloudCreate --mode analytics [flags] QUERY_REQUEST_FILE
 ```
 
 ## Options

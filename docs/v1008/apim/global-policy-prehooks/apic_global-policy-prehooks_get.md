@@ -19,10 +19,8 @@ apic global-policy-prehooks:get [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policy-prehooks:get [flags] --scope space
-      apic global-policy-prehooks:get [flags] --scope catalog
-
+apic global-policy-prehooks:get [flags] --scope space
+apic global-policy-prehooks:get [flags] --scope catalog
 ```
 
 ## Options

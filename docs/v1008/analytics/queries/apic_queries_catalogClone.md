@@ -18,9 +18,7 @@ apic queries:catalogClone --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:catalogClone --mode analytics [flags] ID
-
+apic queries:catalogClone --mode analytics [flags] ID
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic members:delete --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic members:delete --mode consumer [flags] --scope org MEMBER
-
+apic members:delete --mode consumer [flags] --scope org MEMBER
 ```
 
 ## Options

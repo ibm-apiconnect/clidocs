@@ -17,9 +17,7 @@ apic registrations:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic registrations:clear [flags]
-
+apic registrations:clear [flags]
 ```
 
 ## Options

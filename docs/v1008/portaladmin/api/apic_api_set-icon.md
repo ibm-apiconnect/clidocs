@@ -17,9 +17,7 @@ apic api:set-icon --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic api:set-icon --mode portaladmin [flags] API API_FILE
-
+apic api:set-icon --mode portaladmin [flags] API API_FILE
 ```
 
 ## Options

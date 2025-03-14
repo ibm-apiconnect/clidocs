@@ -19,10 +19,8 @@ apic products:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic products:clear [flags] --scope space PRODUCT_NAME
-      apic products:clear [flags] --scope catalog PRODUCT_NAME
-
+apic products:clear [flags] --scope space PRODUCT_NAME
+apic products:clear [flags] --scope catalog PRODUCT_NAME
 ```
 
 ## Options

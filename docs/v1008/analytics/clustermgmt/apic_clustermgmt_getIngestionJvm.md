@@ -17,9 +17,7 @@ apic clustermgmt:getIngestionJvm --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIngestionJvm --mode analytics [flags]
-
+apic clustermgmt:getIngestionJvm --mode analytics [flags]
 ```
 
 ## Options

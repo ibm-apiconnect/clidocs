@@ -30,10 +30,21 @@ apic credentials:create [flags]
 ## Possible Usages
 
 ```
+apic credentials:create [flags] --space-initiated CREDENTIAL_FILE
+apic credentials:create [flags] CREDENTIAL_FILE
+```
 
-      apic credentials:create [flags] --space-initiated CREDENTIAL_FILE
-      apic credentials:create [flags] CREDENTIAL_FILE
+## Request examples
 
+---------------------------------------------------
+#### Example of credential creation at space scope.
+---------------------------------------------------
+
+```
+client_id: acme
+client_secret: acme123
+name: acme-credential
+title: Acme credential creation
 ```
 
 ## Options

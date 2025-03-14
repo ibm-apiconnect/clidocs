@@ -17,9 +17,18 @@ apic me:change-password [flags]
 ## Possible Usages
 
 ```
+apic me:change-password [flags] CHANGE_PASSWORD_FILE
+```
 
-      apic me:change-password [flags] CHANGE_PASSWORD_FILE
+## Request examples
 
+-------------------------------
+#### Example of password update
+-------------------------------
+
+```
+current_password: password123
+password: password456
 ```
 
 ## Options

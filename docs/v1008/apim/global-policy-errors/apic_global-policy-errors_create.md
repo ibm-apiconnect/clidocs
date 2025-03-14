@@ -19,10 +19,34 @@ apic global-policy-errors:create [flags]
 ## Possible Usages
 
 ```
+apic global-policy-errors:create [flags] --scope space GLOBAL_POLICY_ERROR_FILE
+apic global-policy-errors:create [flags] --scope catalog GLOBAL_POLICY_ERROR_FILE
+```
 
-      apic global-policy-errors:create [flags] --scope space GLOBAL_POLICY_ERROR_FILE
-      apic global-policy-errors:create [flags] --scope catalog GLOBAL_POLICY_ERROR_FILE
+## Request examples
 
+--------------------------------------------------------------
+#### Example of global policy error creation at catalog scope.
+--------------------------------------------------------------
+
+```
+global_policy_url: https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/configured-gateway-services/acme-configured-gateway-service/global-policies/global-policy-id
+name: acme
+scope: catalog
+summary: An example global policy error creation
+title: Acme Global policy error creation
+```
+
+------------------------------------------------------------
+#### Example of global policy error creation at space scope.
+------------------------------------------------------------
+
+```
+global_policy_url: https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/configured-gateway-services/acme-configured-gateway-service/global-policies/global-policy-id
+name: acme
+scope: space
+summary: An example global policy error creation
+title: Acme Global policy error creation
 ```
 
 ## Options

@@ -17,10 +17,26 @@ apic consumer-orgs:transfer-owner [flags]
 ## Possible Usages
 
 ```
+apic consumer-orgs:transfer-owner [flags] --space-initiated CONSUMER_ORG TRANSFER_OWNER_FILE
+apic consumer-orgs:transfer-owner [flags] CONSUMER_ORG TRANSFER_OWNER_FILE
+```
 
-      apic consumer-orgs:transfer-owner [flags] --space-initiated CONSUMER_ORG TRANSFER_OWNER_FILE
-      apic consumer-orgs:transfer-owner [flags] CONSUMER_ORG TRANSFER_OWNER_FILE
+## Request examples
 
+------------------------------------------------------------------
+#### Example of owner transfer using associate url at space scope.
+------------------------------------------------------------------
+
+```
+new_owner_associate_url: 'https://api.acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org/associates/acme-associate  '
+```
+
+---------------------------------------------------------------
+#### Example of owner transfer using member url at space scope.
+---------------------------------------------------------------
+
+```
+new_owner_member_url: https://api.acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org/members/acme-member
 ```
 
 ## Options

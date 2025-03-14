@@ -21,12 +21,150 @@ apic notification-styles:update [flags]
 ## Possible Usages
 
 ```
+apic notification-styles:update [flags] --scope org NOTIFICATION_STYLE_FILE
+apic notification-styles:update [flags] --scope consumer NOTIFICATION_STYLE_FILE
+apic notification-styles:update [flags] --scope cloud NOTIFICATION_STYLE_FILE
+apic notification-styles:update [flags] --scope catalog NOTIFICATION_STYLE_FILE
+```
 
-      apic notification-styles:update [flags] --scope org NOTIFICATION_STYLE_FILE
-      apic notification-styles:update [flags] --scope consumer NOTIFICATION_STYLE_FILE
-      apic notification-styles:update [flags] --scope cloud NOTIFICATION_STYLE_FILE
-      apic notification-styles:update [flags] --scope catalog NOTIFICATION_STYLE_FILE
+## Request examples
 
+-----------------------------------------------------------
+#### Example of notification style update at catalog scope.
+-----------------------------------------------------------
+
+```
+allowed_html_tags:
+  a:
+  - class
+  - href
+  - hreflang
+  - style
+  br:
+  - class
+  - style
+  h1:
+  - class
+  - id
+  - style
+  p:
+  - class
+  - style
+summary: An example notification style
+title: Acme notification style
+```
+
+-------------------------------------------------------
+#### Example of notification style update at org scope.
+-------------------------------------------------------
+
+```
+allowed_html_tags:
+  a:
+  - class
+  - href
+  - hreflang
+  - style
+  br:
+  - class
+  - style
+  h1:
+  - class
+  - id
+  - style
+  img:
+  - class
+  - src
+  - alt
+  - width
+  - height
+  - style
+  p:
+  - class
+  - style
+summary: An example notification style
+title: Acme notification style
+```
+
+------------------------------------------------------------
+#### Example of notification style update at consumer scope.
+------------------------------------------------------------
+
+```
+allowed_html_tags:
+  a:
+  - class
+  - href
+  - hreflang
+  - style
+  br:
+  - class
+  - style
+  h1:
+  - class
+  - id
+  - style
+  p:
+  - class
+  - style
+summary: An example notification style
+title: Acme notification style
+```
+
+-------------------------------------------------------
+#### Example of notification style update at org scope.
+-------------------------------------------------------
+
+```
+allowed_html_tags:
+  a:
+  - class
+  - href
+  - hreflang
+  - style
+  blockquote:
+  - class
+  - cite
+  - style
+  br:
+  - class
+  - style
+  cite:
+  - class
+  - style
+  code:
+  - class
+  - style
+  h1:
+  - class
+  - id
+  - style
+  img:
+  - class
+  - src
+  - alt
+  - data-entity-type
+  - data-entity-uuid
+  - data-align
+  - data-caption
+  - width
+  - height
+  - style
+  p:
+  - class
+  - style
+  span:
+  - class
+  - style
+  strong:
+  - class
+  - style
+  table:
+  - class
+  - id
+  - style
+summary: An example notification style
+title: Acme notification style
 ```
 
 ## Options

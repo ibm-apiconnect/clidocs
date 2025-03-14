@@ -17,12 +17,10 @@ apic apps:list [flags]
 ## Possible Usages
 
 ```
-
-      apic apps:list [flags] --space-initiated
-      apic apps:list [flags] --scope space
-      apic apps:list [flags] --scope catalog
-      apic apps:list [flags]
-
+apic apps:list [flags] --space-initiated
+apic apps:list [flags] --scope space
+apic apps:list [flags] --scope catalog
+apic apps:list [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic compliance:rescan --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic compliance:rescan --mode governance [flags] --scope org
-
+apic compliance:rescan --mode governance [flags] --scope org
 ```
 
 ## Options

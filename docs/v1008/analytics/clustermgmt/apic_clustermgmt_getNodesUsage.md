@@ -17,9 +17,7 @@ apic clustermgmt:getNodesUsage --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getNodesUsage --mode analytics [flags]
-
+apic clustermgmt:getNodesUsage --mode analytics [flags]
 ```
 
 ## Options

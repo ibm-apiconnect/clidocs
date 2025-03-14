@@ -19,10 +19,8 @@ apic apis:clone [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:clone [flags] --scope space
-      apic apis:clone [flags] --scope catalog
-
+apic apis:clone [flags] --scope space
+apic apis:clone [flags] --scope catalog
 ```
 
 ## Options

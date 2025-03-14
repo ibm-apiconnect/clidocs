@@ -17,9 +17,7 @@ apic custom-translation:get-import-status --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-translation:get-import-status --mode portaladmin [flags]
-
+apic custom-translation:get-import-status --mode portaladmin [flags]
 ```
 
 ## Options

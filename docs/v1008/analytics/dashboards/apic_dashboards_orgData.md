@@ -18,9 +18,7 @@ apic dashboards:orgData --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:orgData --mode analytics [flags]
-
+apic dashboards:orgData --mode analytics [flags]
 ```
 
 ## Options

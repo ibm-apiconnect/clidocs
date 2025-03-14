@@ -17,9 +17,7 @@ apic services:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic services:clear [flags] --space-initiated SERVICE_NAME
-
+apic services:clear [flags] --space-initiated SERVICE_NAME
 ```
 
 ## Options

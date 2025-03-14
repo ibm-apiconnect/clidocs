@@ -17,9 +17,7 @@ apic configured-billings:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-billings:clear [flags]
-
+apic configured-billings:clear [flags]
 ```
 
 ## Options

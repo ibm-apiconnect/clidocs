@@ -27,10 +27,27 @@ apic payment-methods:create [flags]
 ## Possible Usages
 
 ```
+apic payment-methods:create [flags] --space-initiated PAYMENT_METHOD_FILE
+apic payment-methods:create [flags] PAYMENT_METHOD_FILE
+```
 
-      apic payment-methods:create [flags] --space-initiated PAYMENT_METHOD_FILE
-      apic payment-methods:create [flags] PAYMENT_METHOD_FILE
+## Request examples
 
+----------------------------------------
+#### Example of payment method creation.
+----------------------------------------
+
+```
+billing_url: https://api.acme-apim.example.com/api/catalogs/org/acme-catalog/configured-billings/configured-billing
+configuration:
+  account_company: XYZ
+  account_currency: USD
+  account_email: acme@example.com
+  account_name: Acme Steve
+  account_phone: (919) 555 6789
+name: acme-payment
+summary: An example payment method creation
+title: Acme payment method creation
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic org-settings:get [flags]
 ## Possible Usages
 
 ```
-
-      apic org-settings:get [flags]
-
+apic org-settings:get [flags]
 ```
 
 ## Options

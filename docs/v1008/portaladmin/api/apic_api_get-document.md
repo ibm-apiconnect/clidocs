@@ -17,9 +17,7 @@ apic api:get-document --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic api:get-document --mode portaladmin [flags] API
-
+apic api:get-document --mode portaladmin [flags] API
 ```
 
 ## Options

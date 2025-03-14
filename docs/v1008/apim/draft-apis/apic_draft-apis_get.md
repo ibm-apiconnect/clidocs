@@ -17,10 +17,8 @@ apic draft-apis:get [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-apis:get [flags] --id ID
-      apic draft-apis:get [flags] NAME:VERSION
-
+apic draft-apis:get [flags] --id ID
+apic draft-apis:get [flags] NAME:VERSION
 ```
 
 ## Options

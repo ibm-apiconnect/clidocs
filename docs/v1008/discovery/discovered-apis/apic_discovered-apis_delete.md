@@ -17,10 +17,8 @@ apic discovered-apis:delete --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic discovered-apis:delete --mode discovery [flags] --id ID
-      apic discovered-apis:delete --mode discovery [flags] NAME:VERSION
-
+apic discovered-apis:delete --mode discovery [flags] --id ID
+apic discovered-apis:delete --mode discovery [flags] NAME:VERSION
 ```
 
 ## Options

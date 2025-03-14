@@ -17,9 +17,7 @@ apic services:clear-all [flags]
 ## Possible Usages
 
 ```
-
-      apic services:clear-all [flags] --space-initiated
-
+apic services:clear-all [flags] --space-initiated
 ```
 
 ## Options

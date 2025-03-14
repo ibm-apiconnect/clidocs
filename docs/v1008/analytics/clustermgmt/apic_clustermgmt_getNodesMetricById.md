@@ -17,9 +17,7 @@ apic clustermgmt:getNodesMetricById --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getNodesMetricById --mode analytics [flags] ID
-
+apic clustermgmt:getNodesMetricById --mode analytics [flags] ID
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic analytics-services:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic analytics-services:delete [flags] ANALYTICS_SERVICE
-
+apic analytics-services:delete [flags] ANALYTICS_SERVICE
 ```
 
 ## Options

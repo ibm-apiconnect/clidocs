@@ -20,11 +20,9 @@ apic policies:list [flags]
 ## Possible Usages
 
 ```
-
-      apic policies:list [flags] --scope space POLICY_NAME
-      apic policies:list [flags] --scope org POLICY_NAME
-      apic policies:list [flags] --scope catalog POLICY_NAME
-
+apic policies:list [flags] --scope space POLICY_NAME
+apic policies:list [flags] --scope org POLICY_NAME
+apic policies:list [flags] --scope catalog POLICY_NAME
 ```
 
 ## Options

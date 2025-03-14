@@ -14,6 +14,7 @@ Factory Reset operations
 apic factory-reset --mode portaladmin [flags]
 ```
 
+
 ## Options
 
 ```

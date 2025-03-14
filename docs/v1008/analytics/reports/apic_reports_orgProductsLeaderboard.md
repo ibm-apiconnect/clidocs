@@ -18,9 +18,7 @@ apic reports:orgProductsLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:orgProductsLeaderboard --mode analytics [flags]
-
+apic reports:orgProductsLeaderboard --mode analytics [flags]
 ```
 
 ## Options

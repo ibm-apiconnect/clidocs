@@ -21,13 +21,11 @@ apic members:get [flags]
 ## Possible Usages
 
 ```
-
-      apic members:get [flags] --scope consumer-org --space-initiated MEMBER
-      apic members:get [flags] --scope space MEMBER
-      apic members:get [flags] --scope org MEMBER
-      apic members:get [flags] --scope consumer-org MEMBER
-      apic members:get [flags] --scope catalog MEMBER
-
+apic members:get [flags] --scope consumer-org --space-initiated MEMBER
+apic members:get [flags] --scope space MEMBER
+apic members:get [flags] --scope org MEMBER
+apic members:get [flags] --scope consumer-org MEMBER
+apic members:get [flags] --scope catalog MEMBER
 ```
 
 ## Options

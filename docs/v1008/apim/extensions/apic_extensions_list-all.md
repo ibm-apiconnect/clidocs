@@ -20,11 +20,9 @@ apic extensions:list-all [flags]
 ## Possible Usages
 
 ```
-
-      apic extensions:list-all [flags] --scope space
-      apic extensions:list-all [flags] --scope org
-      apic extensions:list-all [flags] --scope catalog
-
+apic extensions:list-all [flags] --scope space
+apic extensions:list-all [flags] --scope org
+apic extensions:list-all [flags] --scope catalog
 ```
 
 ## Options

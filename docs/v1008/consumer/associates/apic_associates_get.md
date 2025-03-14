@@ -18,9 +18,7 @@ apic associates:get --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic associates:get --mode consumer [flags] --scope org ASSOCIATE
-
+apic associates:get --mode consumer [flags] --scope org ASSOCIATE
 ```
 
 ## Options

@@ -26,9 +26,51 @@ apic registrations:create [flags]
 ## Possible Usages
 
 ```
+apic registrations:create [flags] REGISTRATION_FILE
+```
 
-      apic registrations:create [flags] REGISTRATION_FILE
+## Request examples
 
+--------------------------------------
+#### Example of Registration creation.
+--------------------------------------
+
+```
+client_id: 5407142345766o1u
+client_secret: password123
+client_type: toolkit
+name: acme-registration
+scopes:
+- cloud:view
+- cloud:manage
+- provider-org:view
+- provider-org:manage
+- org:view
+- org:manage
+- product-drafts:view
+- product-drafts:edit
+- api-drafts:view
+- api-drafts:edit
+- child:view
+- child:create
+- child:manage
+- product:view
+- product:stage
+- product:manage
+- approval:view
+- approval:manage
+- api-analytics:view
+- api-analytics:manage
+- consumer-org:view
+- consumer-org:manage
+- app:view:all
+- app:manage:all
+- my:view
+- my:manage
+- webhook:view
+state: enabled
+summary: An example registration creation
+title: Acme registration
 ```
 
 ## Options

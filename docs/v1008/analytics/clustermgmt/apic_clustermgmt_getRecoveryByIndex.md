@@ -17,9 +17,7 @@ apic clustermgmt:getRecoveryByIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getRecoveryByIndex --mode analytics [flags]
-
+apic clustermgmt:getRecoveryByIndex --mode analytics [flags]
 ```
 
 ## Options

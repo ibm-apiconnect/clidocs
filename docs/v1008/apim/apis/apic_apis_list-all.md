@@ -19,10 +19,8 @@ apic apis:list-all [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:list-all [flags] --scope space
-      apic apis:list-all [flags] --scope catalog
-
+apic apis:list-all [flags] --scope space
+apic apis:list-all [flags] --scope catalog
 ```
 
 ## Options

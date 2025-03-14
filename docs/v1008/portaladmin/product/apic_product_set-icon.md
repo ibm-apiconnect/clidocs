@@ -17,9 +17,7 @@ apic product:set-icon --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic product:set-icon --mode portaladmin [flags] PRODUCT PRODUCT_FILE
-
+apic product:set-icon --mode portaladmin [flags] PRODUCT PRODUCT_FILE
 ```
 
 ## Options

@@ -21,13 +21,93 @@ apic member-invitations:create [flags]
 ## Possible Usages
 
 ```
+apic member-invitations:create [flags] --scope consumer-org --space-initiated MEMBER_INVITATION_FILE
+apic member-invitations:create [flags] --scope space MEMBER_INVITATION_FILE
+apic member-invitations:create [flags] --scope org MEMBER_INVITATION_FILE
+apic member-invitations:create [flags] --scope consumer-org MEMBER_INVITATION_FILE
+apic member-invitations:create [flags] --scope catalog MEMBER_INVITATION_FILE
+```
 
-      apic member-invitations:create [flags] --scope consumer-org --space-initiated MEMBER_INVITATION_FILE
-      apic member-invitations:create [flags] --scope space MEMBER_INVITATION_FILE
-      apic member-invitations:create [flags] --scope org MEMBER_INVITATION_FILE
-      apic member-invitations:create [flags] --scope consumer-org MEMBER_INVITATION_FILE
-      apic member-invitations:create [flags] --scope catalog MEMBER_INVITATION_FILE
+## Request examples
 
+------------------------------------------------------------
+#### Example of member invitation creation at catalog scope.
+------------------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+role_urls:
+- https://acme-apim.example.com/api/catalogs/org/catalog1/roles/role1
+- https://acme-apim.example.com/api/catalogs/org/catalog1/roles/role2
+- https://acme-apim.example.com/api/catalogs/org/catalog1/roles/role3
+summary: An example member invitation
+title: Acme member invitation
+```
+
+-----------------------------------------------------------------
+#### Example of member invitation creation at consumer-org scope.
+-----------------------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+role_urls:
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/consumer-org1/roles/role1
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/consumer-org1/roles/role2
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/consumer-org1/roles/role3
+summary: An example member invitation
+title: Acme member invitation
+```
+
+----------------------------------------------------------------------------------
+#### Example of member invitation creation at consumer-org(space initiated) scope.
+----------------------------------------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+role_urls:
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org1/roles/role1
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org1/roles/role2
+- https://acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org1/roles/role3
+summary: An example member invitation
+title: Acme member invitation
+```
+
+--------------------------------------------------------
+#### Example of member invitation creation at org scope.
+--------------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+role_urls:
+- https://acme-apim.example.com/api/orgs/org1/roles/role1
+- https://acme-apim.example.com/api/orgs/org1/roles/role2
+- https://acme-apim.example.com/api/orgs/org1/roles/role3
+summary: An example member invitation
+title: Acme member invitation
+```
+
+----------------------------------------------------------
+#### Example of member invitation creation at space scope.
+----------------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+role_urls:
+- https://acme-apim.example.com/api/spaces/org1/catalog1/space1/roles/role1
+- https://acme-apim.example.com/api/spaces/org1/catalog1/space1/roles/role2
+- https://acme-apim.example.com/api/spaces/org1/catalog1/space1/roles/role3
+summary: An example member invitation
+title: Acme member invitation
 ```
 
 ## Options

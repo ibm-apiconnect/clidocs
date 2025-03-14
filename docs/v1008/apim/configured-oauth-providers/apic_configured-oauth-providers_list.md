@@ -19,10 +19,8 @@ apic configured-oauth-providers:list [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-oauth-providers:list [flags] --scope space
-      apic configured-oauth-providers:list [flags] --scope catalog
-
+apic configured-oauth-providers:list [flags] --scope space
+apic configured-oauth-providers:list [flags] --scope catalog
 ```
 
 ## Options

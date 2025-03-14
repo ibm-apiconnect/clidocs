@@ -18,9 +18,7 @@ apic queries:cloudListShared --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:cloudListShared --mode analytics [flags]
-
+apic queries:cloudListShared --mode analytics [flags]
 ```
 
 ## Options

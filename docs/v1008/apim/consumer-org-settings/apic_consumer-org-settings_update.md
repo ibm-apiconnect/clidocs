@@ -26,10 +26,18 @@ apic consumer-org-settings:update [flags]
 ## Possible Usages
 
 ```
+apic consumer-org-settings:update [flags] --space-initiated CONSUMER_ORG_SETTING_FILE
+apic consumer-org-settings:update [flags] CONSUMER_ORG_SETTING_FILE
+```
 
-      apic consumer-org-settings:update [flags] --space-initiated CONSUMER_ORG_SETTING_FILE
-      apic consumer-org-settings:update [flags] CONSUMER_ORG_SETTING_FILE
+## Request examples
 
+--------------------------------------------------------
+#### Example consumer-org setting update at space scope.
+--------------------------------------------------------
+
+```
+invitation_ttl: 172800
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic user-registries:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic user-registries:list --mode consumer [flags]
-
+apic user-registries:list --mode consumer [flags]
 ```
 
 ## Options

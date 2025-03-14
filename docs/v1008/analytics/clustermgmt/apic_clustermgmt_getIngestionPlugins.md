@@ -17,9 +17,7 @@ apic clustermgmt:getIngestionPlugins --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIngestionPlugins --mode analytics [flags]
-
+apic clustermgmt:getIngestionPlugins --mode analytics [flags]
 ```
 
 ## Options

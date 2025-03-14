@@ -17,9 +17,7 @@ apic jwk-sets:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic jwk-sets:delete [flags] JWK_SET
-
+apic jwk-sets:delete [flags] JWK_SET
 ```
 
 ## Options

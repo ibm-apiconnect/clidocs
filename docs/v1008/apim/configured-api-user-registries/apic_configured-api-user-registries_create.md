@@ -19,10 +19,26 @@ apic configured-api-user-registries:create [flags]
 ## Possible Usages
 
 ```
+apic configured-api-user-registries:create [flags] --scope space CONFIGURED_API_USER_REGISTRY_FILE
+apic configured-api-user-registries:create [flags] --scope catalog CONFIGURED_API_USER_REGISTRY_FILE
+```
 
-      apic configured-api-user-registries:create [flags] --scope space CONFIGURED_API_USER_REGISTRY_FILE
-      apic configured-api-user-registries:create [flags] --scope catalog CONFIGURED_API_USER_REGISTRY_FILE
+## Request examples
 
+-----------------------------------------------------------------------
+#### Example of configured api user registry creation at catalog scope.
+-----------------------------------------------------------------------
+
+```
+user_registry_url: https://api.acme-apim.example.com/api/user-registries/org1/user-registry-1
+```
+
+---------------------------------------------------------------------
+#### Example of configured api user registry creation at space scope.
+---------------------------------------------------------------------
+
+```
+user_registry_url: https://api.acme-apim.example.com/api/user-registries/org1/user-registry-1
 ```
 
 ## Options

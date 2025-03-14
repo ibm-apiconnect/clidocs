@@ -17,9 +17,7 @@ apic rulesets:delete --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rulesets:delete --mode governance [flags] RULESET
-
+apic rulesets:delete --mode governance [flags] RULESET
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic themes:set-default --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic themes:set-default --mode portaladmin [flags] THEME
-
+apic themes:set-default --mode portaladmin [flags] THEME
 ```
 
 ## Options

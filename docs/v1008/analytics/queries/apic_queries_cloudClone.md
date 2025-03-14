@@ -18,9 +18,7 @@ apic queries:cloudClone --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:cloudClone --mode analytics [flags] ID
-
+apic queries:cloudClone --mode analytics [flags] ID
 ```
 
 ## Options

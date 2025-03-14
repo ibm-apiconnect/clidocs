@@ -17,9 +17,7 @@ apic clustermgmt:getNodesUsageByIdMetric --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getNodesUsageByIdMetric --mode analytics [flags] ID
-
+apic clustermgmt:getNodesUsageByIdMetric --mode analytics [flags] ID
 ```
 
 ## Options

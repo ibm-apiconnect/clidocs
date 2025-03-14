@@ -27,10 +27,46 @@ apic draft-products:update [flags]
 ## Possible Usages
 
 ```
+apic draft-products:update [flags] --id ID DRAFT_PRODUCT_FILE
+apic draft-products:update [flags] NAME:VERSION DRAFT_PRODUCT_FILE
+```
 
-      apic draft-products:update [flags] --id ID DRAFT_PRODUCT_FILE
-      apic draft-products:update [flags] NAME:VERSION DRAFT_PRODUCT_FILE
+## Request examples
 
+---------------------------------------------------------
+#### Example of draft product update by name and version.
+---------------------------------------------------------
+
+```
+apis:
+  acme-api1.0.0:
+    name: acme-api:1.0.0
+gateways:
+- datapower-api-gateway
+info:
+  name: acme-draft-product
+  summary: An example draft product update
+  title: acme draft product update
+  version: 1.0.0
+plans:
+  acme-plan:
+    description: acme Plan
+    rate-limits:
+      default:
+        value: 150/1hour
+    title: acme Plan
+product: 1.0.0
+visibility:
+  subscribe:
+    enabled: true
+    orgs:
+    - acme-org
+    type: custom
+  view:
+    enabled: true
+    orgs:
+    - acme-org
+    type: custom
 ```
 
 ## Options

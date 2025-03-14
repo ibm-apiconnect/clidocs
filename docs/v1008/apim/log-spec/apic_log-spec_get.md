@@ -17,9 +17,7 @@ apic log-spec:get [flags]
 ## Possible Usages
 
 ```
-
-      apic log-spec:get [flags]
-
+apic log-spec:get [flags]
 ```
 
 ## Options

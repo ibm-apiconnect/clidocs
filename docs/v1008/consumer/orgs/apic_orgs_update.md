@@ -26,9 +26,7 @@ apic orgs:update --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:update --mode consumer [flags] ORG ORG_FILE
-
+apic orgs:update --mode consumer [flags] ORG ORG_FILE
 ```
 
 ## Options

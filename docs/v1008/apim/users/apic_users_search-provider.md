@@ -18,9 +18,7 @@ apic users:search-provider [flags]
 ## Possible Usages
 
 ```
-
-      apic users:search-provider [flags] --scope org USER_SEARCH_FILE
-
+apic users:search-provider [flags] --scope org USER_SEARCH_FILE
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic custom-translation:get-export --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-translation:get-export --mode portaladmin [flags]
-
+apic custom-translation:get-export --mode portaladmin [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic events:orgGet --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:orgGet --mode analytics [flags] ID
-
+apic events:orgGet --mode analytics [flags] ID
 ```
 
 ## Options

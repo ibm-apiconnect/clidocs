@@ -17,9 +17,7 @@ apic user-registries:list [flags]
 ## Possible Usages
 
 ```
-
-      apic user-registries:list [flags]
-
+apic user-registries:list [flags]
 ```
 
 ## Options

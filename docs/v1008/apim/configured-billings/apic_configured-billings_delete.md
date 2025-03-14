@@ -17,9 +17,7 @@ apic configured-billings:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-billings:delete [flags] CONFIGURED_BILLING
-
+apic configured-billings:delete [flags] CONFIGURED_BILLING
 ```
 
 ## Options

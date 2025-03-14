@@ -21,13 +21,11 @@ apic members:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic members:clear [flags] --scope consumer-org --space-initiated
-      apic members:clear [flags] --scope space
-      apic members:clear [flags] --scope org
-      apic members:clear [flags] --scope consumer-org
-      apic members:clear [flags] --scope catalog
-
+apic members:clear [flags] --scope consumer-org --space-initiated
+apic members:clear [flags] --scope space
+apic members:clear [flags] --scope org
+apic members:clear [flags] --scope consumer-org
+apic members:clear [flags] --scope catalog
 ```
 
 ## Options

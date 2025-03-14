@@ -18,9 +18,7 @@ apic reports:cloudApplicationsLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudApplicationsLeaderboard --mode analytics [flags]
-
+apic reports:cloudApplicationsLeaderboard --mode analytics [flags]
 ```
 
 ## Options

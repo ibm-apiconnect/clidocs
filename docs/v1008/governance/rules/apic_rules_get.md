@@ -17,10 +17,8 @@ apic rules:get --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rules:get --mode governance [flags] --id ID
-      apic rules:get --mode governance [flags] NAME:VERSION
-
+apic rules:get --mode governance [flags] --id ID
+apic rules:get --mode governance [flags] NAME:VERSION
 ```
 
 ## Options

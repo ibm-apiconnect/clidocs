@@ -14,6 +14,7 @@ Registrations operations
 apic registrations [flags]
 ```
 
+
 ## Options
 
 ```

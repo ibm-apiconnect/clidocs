@@ -26,9 +26,23 @@ apic mail-servers:update [flags]
 ## Possible Usages
 
 ```
+apic mail-servers:update [flags] MAIL_SERVER MAIL_SERVER_FILE
+```
 
-      apic mail-servers:update [flags] MAIL_SERVER MAIL_SERVER_FILE
+## Request examples
 
+-----------------------------------
+#### Example of mail server update.
+-----------------------------------
+
+```
+credentials:
+  password: Passw0rd
+  username: acmeuser
+host: acme.sample.com
+port: 25
+secure: false
+title: acme mailserver update
 ```
 
 ## Options

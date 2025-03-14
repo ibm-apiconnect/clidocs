@@ -18,9 +18,7 @@ apic queries:catalogDelete --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:catalogDelete --mode analytics [flags] ID
-
+apic queries:catalogDelete --mode analytics [flags] ID
 ```
 
 ## Options

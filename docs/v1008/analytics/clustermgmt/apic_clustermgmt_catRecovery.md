@@ -17,9 +17,7 @@ apic clustermgmt:catRecovery --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:catRecovery --mode analytics [flags]
-
+apic clustermgmt:catRecovery --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic api:add-tag --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic api:add-tag --mode portaladmin [flags] API
-
+apic api:add-tag --mode portaladmin [flags] API
 ```
 
 ## Options

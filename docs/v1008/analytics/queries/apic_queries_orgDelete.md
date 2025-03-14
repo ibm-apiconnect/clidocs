@@ -18,9 +18,7 @@ apic queries:orgDelete --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:orgDelete --mode analytics [flags] ID
-
+apic queries:orgDelete --mode analytics [flags] ID
 ```
 
 ## Options

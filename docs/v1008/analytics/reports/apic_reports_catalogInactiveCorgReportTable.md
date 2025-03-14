@@ -18,9 +18,7 @@ apic reports:catalogInactiveCorgReportTable --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:catalogInactiveCorgReportTable --mode analytics [flags]
-
+apic reports:catalogInactiveCorgReportTable --mode analytics [flags]
 ```
 
 ## Options

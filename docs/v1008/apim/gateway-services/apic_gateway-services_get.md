@@ -17,10 +17,8 @@ apic gateway-services:get [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-services:get [flags] --scope org GATEWAY_SERVICE
-      apic gateway-services:get [flags] GATEWAY_SERVICE
-
+apic gateway-services:get [flags] --scope org GATEWAY_SERVICE
+apic gateway-services:get [flags] GATEWAY_SERVICE
 ```
 
 ## Options

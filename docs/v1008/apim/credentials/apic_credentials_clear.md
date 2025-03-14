@@ -17,9 +17,7 @@ apic credentials:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:clear [flags] --space-initiated
-
+apic credentials:clear [flags] --space-initiated
 ```
 
 ## Options

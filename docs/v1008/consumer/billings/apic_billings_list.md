@@ -17,9 +17,7 @@ apic billings:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic billings:list --mode consumer [flags]
-
+apic billings:list --mode consumer [flags]
 ```
 
 ## Options

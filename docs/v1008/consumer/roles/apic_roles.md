@@ -14,6 +14,7 @@ Roles operations
 apic roles --mode consumer [flags]
 ```
 
+
 ## Options
 
 ```

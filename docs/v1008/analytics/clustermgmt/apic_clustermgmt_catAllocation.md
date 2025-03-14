@@ -17,9 +17,7 @@ apic clustermgmt:catAllocation --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:catAllocation --mode analytics [flags]
-
+apic clustermgmt:catAllocation --mode analytics [flags]
 ```
 
 ## Options

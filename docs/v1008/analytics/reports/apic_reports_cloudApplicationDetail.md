@@ -18,9 +18,7 @@ apic reports:cloudApplicationDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudApplicationDetail --mode analytics [flags] APP_NAME
-
+apic reports:cloudApplicationDetail --mode analytics [flags] APP_NAME
 ```
 
 ## Options

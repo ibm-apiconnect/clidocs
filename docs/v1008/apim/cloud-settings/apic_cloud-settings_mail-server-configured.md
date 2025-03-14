@@ -17,9 +17,7 @@ apic cloud-settings:mail-server-configured [flags]
 ## Possible Usages
 
 ```
-
-      apic cloud-settings:mail-server-configured [flags]
-
+apic cloud-settings:mail-server-configured [flags]
 ```
 
 ## Options

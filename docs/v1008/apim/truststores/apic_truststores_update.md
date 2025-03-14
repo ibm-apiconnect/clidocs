@@ -26,9 +26,18 @@ apic truststores:update [flags]
 ## Possible Usages
 
 ```
+apic truststores:update [flags] TRUSTSTORE TRUSTSTORE_FILE
+```
 
-      apic truststores:update [flags] TRUSTSTORE TRUSTSTORE_FILE
+## Request examples
 
+-------------------------------
+#### Example truststore update.
+-------------------------------
+
+```
+summary: An example truststore update
+title: ACME Truststore
 ```
 
 ## Options

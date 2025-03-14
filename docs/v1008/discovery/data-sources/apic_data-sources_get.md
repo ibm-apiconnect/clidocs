@@ -17,9 +17,7 @@ apic data-sources:get --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic data-sources:get --mode discovery [flags] DATA_SOURCE
-
+apic data-sources:get --mode discovery [flags] DATA_SOURCE
 ```
 
 ## Options

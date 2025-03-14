@@ -19,11 +19,9 @@ apic groups:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic groups:clear [flags] --space-initiated
-      apic groups:clear [flags] --scope cloud
-      apic groups:clear [flags] --scope catalog
-
+apic groups:clear [flags] --space-initiated
+apic groups:clear [flags] --scope cloud
+apic groups:clear [flags] --scope catalog
 ```
 
 ## Options

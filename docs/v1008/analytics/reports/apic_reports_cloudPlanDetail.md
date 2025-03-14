@@ -18,9 +18,7 @@ apic reports:cloudPlanDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudPlanDetail --mode analytics [flags]
-
+apic reports:cloudPlanDetail --mode analytics [flags]
 ```
 
 ## Options

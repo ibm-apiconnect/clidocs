@@ -18,9 +18,7 @@ apic properties:get [flags]
 ## Possible Usages
 
 ```
-
-      apic properties:get [flags] --scope catalog PROPERTY_NAME
-
+apic properties:get [flags] --scope catalog PROPERTY_NAME
 ```
 
 ## Options

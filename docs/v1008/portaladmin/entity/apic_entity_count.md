@@ -17,9 +17,7 @@ apic entity:count --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic entity:count --mode portaladmin [flags]
-
+apic entity:count --mode portaladmin [flags]
 ```
 
 ## Options

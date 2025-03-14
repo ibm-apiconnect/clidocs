@@ -17,9 +17,7 @@ apic clustermgmt:getUsageMetric --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getUsageMetric --mode analytics [flags]
-
+apic clustermgmt:getUsageMetric --mode analytics [flags]
 ```
 
 ## Options

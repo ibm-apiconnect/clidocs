@@ -18,9 +18,7 @@ apic reports:spaceApiusageApisLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceApiusageApisLeaderboard --mode analytics [flags]
-
+apic reports:spaceApiusageApisLeaderboard --mode analytics [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic queries:orgListShared --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:orgListShared --mode analytics [flags]
-
+apic queries:orgListShared --mode analytics [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic reports:cloudApiDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudApiDetail --mode analytics [flags]
-
+apic reports:cloudApiDetail --mode analytics [flags]
 ```
 
 ## Options

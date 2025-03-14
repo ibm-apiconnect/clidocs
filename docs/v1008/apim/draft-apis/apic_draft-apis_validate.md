@@ -17,10 +17,8 @@ apic draft-apis:validate [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-apis:validate [flags] --id ID
-      apic draft-apis:validate [flags] NAME:VERSION
-
+apic draft-apis:validate [flags] --id ID
+apic draft-apis:validate [flags] NAME:VERSION
 ```
 
 ## Examples

@@ -17,9 +17,7 @@ apic clustermgmt:getHealth --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getHealth --mode analytics [flags]
-
+apic clustermgmt:getHealth --mode analytics [flags]
 ```
 
 ## Options

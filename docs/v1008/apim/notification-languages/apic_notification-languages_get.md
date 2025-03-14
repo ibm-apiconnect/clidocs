@@ -2,6 +2,9 @@
 tags:
 - "group: notification-languages"
 - "scope: catalog"
+- "scope: cloud"
+- "scope: org"
+- "scope: space"
 ---
 # apic notification-languages:get
 
@@ -18,24 +21,22 @@ apic notification-languages:get [flags]
 ## Possible Usages
 
 ```
-
-      apic notification-languages:get [flags] --scope space --subcollection space NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope space --subcollection consumer NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope org --subcollection space NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope org --subcollection provider NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope org --subcollection consumer NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope org --subcollection catalog NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope org --subcollection admin NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope cloud --subcollection space NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope cloud --subcollection provider NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope cloud --subcollection consumer NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope cloud --subcollection cloud NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope cloud --subcollection catalog NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope cloud --subcollection admin NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope catalog --subcollection space NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope catalog --subcollection consumer NOTIFICATION_LANGUAGE
-      apic notification-languages:get [flags] --scope catalog --subcollection catalog NOTIFICATION_LANGUAGE
-
+apic notification-languages:get [flags] --scope space --subcollection space NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope space --subcollection consumer NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope org --subcollection space NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope org --subcollection provider NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope org --subcollection consumer NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope org --subcollection catalog NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope org --subcollection admin NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope cloud --subcollection space NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope cloud --subcollection provider NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope cloud --subcollection consumer NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope cloud --subcollection cloud NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope cloud --subcollection catalog NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope cloud --subcollection admin NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope catalog --subcollection space NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope catalog --subcollection consumer NOTIFICATION_LANGUAGE
+apic notification-languages:get [flags] --scope catalog --subcollection catalog NOTIFICATION_LANGUAGE
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic truststores:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic truststores:delete [flags] TRUSTSTORE
-
+apic truststores:delete [flags] TRUSTSTORE
 ```
 
 ## Options

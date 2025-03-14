@@ -17,9 +17,7 @@ apic users:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic users:delete [flags] USER
-
+apic users:delete [flags] USER
 ```
 
 ## Options

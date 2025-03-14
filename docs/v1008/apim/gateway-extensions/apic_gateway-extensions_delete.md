@@ -18,9 +18,7 @@ apic gateway-extensions:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-extensions:delete [flags] --scope org
-
+apic gateway-extensions:delete [flags] --scope org
 ```
 
 ## Options

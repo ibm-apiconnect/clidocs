@@ -18,9 +18,7 @@ apic dashboards:cloudAi --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:cloudAi --mode analytics [flags]
-
+apic dashboards:cloudAi --mode analytics [flags]
 ```
 
 ## Options

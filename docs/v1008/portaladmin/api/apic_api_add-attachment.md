@@ -17,9 +17,7 @@ apic api:add-attachment --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic api:add-attachment --mode portaladmin [flags] API API_FILE
-
+apic api:add-attachment --mode portaladmin [flags] API API_FILE
 ```
 
 ## Options

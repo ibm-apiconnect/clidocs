@@ -17,10 +17,19 @@ apic credentials:verify-client-secret [flags]
 ## Possible Usages
 
 ```
+apic credentials:verify-client-secret [flags] --space-initiated CREDENTIAL CREDENTIAL_FILE
+apic credentials:verify-client-secret [flags] CREDENTIAL CREDENTIAL_FILE
+```
 
-      apic credentials:verify-client-secret [flags] --space-initiated CREDENTIAL CREDENTIAL_FILE
-      apic credentials:verify-client-secret [flags] CREDENTIAL CREDENTIAL_FILE
+## Request examples
 
+-------------------------------------------------------
+#### Example of verifying client secret at space scope.
+-------------------------------------------------------
+
+```
+client_id: a5b88b99c71e14b5edd8916d2158bcef
+client_secret: bfc79dd07d173d1484b9aca5ed76d993
 ```
 
 ## Options

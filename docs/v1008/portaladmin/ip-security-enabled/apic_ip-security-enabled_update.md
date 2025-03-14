@@ -17,9 +17,7 @@ apic ip-security-enabled:update --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic ip-security-enabled:update --mode portaladmin [flags]
-
+apic ip-security-enabled:update --mode portaladmin [flags]
 ```
 
 ## Options

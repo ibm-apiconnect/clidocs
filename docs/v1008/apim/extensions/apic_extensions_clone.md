@@ -20,11 +20,9 @@ apic extensions:clone [flags]
 ## Possible Usages
 
 ```
-
-      apic extensions:clone [flags] --scope space
-      apic extensions:clone [flags] --scope org
-      apic extensions:clone [flags] --scope catalog
-
+apic extensions:clone [flags] --scope space
+apic extensions:clone [flags] --scope org
+apic extensions:clone [flags] --scope catalog
 ```
 
 ## Options

@@ -17,10 +17,8 @@ apic credentials:get [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:get [flags] --space-initiated CREDENTIAL
-      apic credentials:get [flags] CREDENTIAL
-
+apic credentials:get [flags] --space-initiated CREDENTIAL
+apic credentials:get [flags] CREDENTIAL
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic events:spaceTimeline --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:spaceTimeline --mode analytics [flags]
-
+apic events:spaceTimeline --mode analytics [flags]
 ```
 
 ## Options

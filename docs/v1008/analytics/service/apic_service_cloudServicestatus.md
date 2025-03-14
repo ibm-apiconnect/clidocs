@@ -18,9 +18,7 @@ apic service:cloudServicestatus --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic service:cloudServicestatus --mode analytics [flags]
-
+apic service:cloudServicestatus --mode analytics [flags]
 ```
 
 ## Options

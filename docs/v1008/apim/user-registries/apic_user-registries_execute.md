@@ -17,10 +17,8 @@ apic user-registries:execute [flags]
 ## Possible Usages
 
 ```
-
-      apic user-registries:execute [flags] --test-config-only USER_REGISTRY_EXECUTE_FILE
-      apic user-registries:execute [flags] USER_REGISTRY
-
+apic user-registries:execute [flags] --test-config-only USER_REGISTRY_EXECUTE_FILE
+apic user-registries:execute [flags] USER_REGISTRY
 ```
 
 ## Options

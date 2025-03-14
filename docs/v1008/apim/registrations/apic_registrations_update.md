@@ -26,9 +26,33 @@ apic registrations:update [flags]
 ## Possible Usages
 
 ```
+apic registrations:update [flags] REGISTRATION REGISTRATION_FILE
+```
 
-      apic registrations:update [flags] REGISTRATION REGISTRATION_FILE
+## Request examples
 
+------------------------------------
+#### Example of Registration update.
+------------------------------------
+
+```
+client_secret: password456
+scopes:
+- cloud:view
+- cloud:manage
+- provider-org:view
+- provider-org:manage
+- org:view
+- org:manage
+- product-drafts:view
+- product-drafts:edit
+- api-drafts:view
+- api-drafts:edit
+- child:view
+- child:create
+- child:manage
+summary: An example registration update
+title: Acme registration
 ```
 
 ## Options

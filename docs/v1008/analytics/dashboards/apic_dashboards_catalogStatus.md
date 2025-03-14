@@ -18,9 +18,7 @@ apic dashboards:catalogStatus --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:catalogStatus --mode analytics [flags]
-
+apic dashboards:catalogStatus --mode analytics [flags]
 ```
 
 ## Options

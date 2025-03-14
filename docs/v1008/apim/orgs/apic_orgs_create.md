@@ -29,9 +29,7 @@ apic orgs:create [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:create [flags] ORG_FILE
-
+apic orgs:create [flags] ORG_FILE
 ```
 
 ## Options

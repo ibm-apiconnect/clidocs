@@ -17,9 +17,7 @@ apic users:list [flags]
 ## Possible Usages
 
 ```
-
-      apic users:list [flags]
-
+apic users:list [flags]
 ```
 
 ## Options

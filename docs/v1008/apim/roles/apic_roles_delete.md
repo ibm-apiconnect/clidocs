@@ -18,9 +18,7 @@ apic roles:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic roles:delete [flags] --scope org ROLE
-
+apic roles:delete [flags] --scope org ROLE
 ```
 
 ## Options

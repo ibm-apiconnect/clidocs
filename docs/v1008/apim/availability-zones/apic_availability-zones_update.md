@@ -27,9 +27,18 @@ apic availability-zones:update [flags]
 ## Possible Usages
 
 ```
+apic availability-zones:update [flags] AVAILABILITY_ZONE AVAILABILITY_ZONE_FILE
+```
 
-      apic availability-zones:update [flags] AVAILABILITY_ZONE AVAILABILITY_ZONE_FILE
+## Request examples
 
+--------------------------------------
+#### Example availability zone update.
+--------------------------------------
+
+```
+summary: An example availability zone
+title: acme zone update
 ```
 
 ## Options

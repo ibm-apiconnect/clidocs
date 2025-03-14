@@ -17,9 +17,7 @@ apic catalogs:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic catalogs:delete [flags] CATALOG
-
+apic catalogs:delete [flags] CATALOG
 ```
 
 ## Options

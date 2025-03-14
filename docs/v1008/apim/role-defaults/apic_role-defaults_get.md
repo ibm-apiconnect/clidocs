@@ -2,6 +2,8 @@
 tags:
 - "group: role-defaults"
 - "scope: catalog"
+- "scope: cloud"
+- "scope: space"
 ---
 # apic role-defaults:get
 
@@ -18,12 +20,10 @@ apic role-defaults:get [flags]
 ## Possible Usages
 
 ```
-
-      apic role-defaults:get [flags] --scope space --subcollection consumer ROLE_DEFAULT
-      apic role-defaults:get [flags] --scope cloud --subcollection provider ROLE_DEFAULT
-      apic role-defaults:get [flags] --scope cloud --subcollection consumer ROLE_DEFAULT
-      apic role-defaults:get [flags] --scope catalog --subcollection consumer ROLE_DEFAULT
-
+apic role-defaults:get [flags] --scope space --subcollection consumer ROLE_DEFAULT
+apic role-defaults:get [flags] --scope cloud --subcollection provider ROLE_DEFAULT
+apic role-defaults:get [flags] --scope cloud --subcollection consumer ROLE_DEFAULT
+apic role-defaults:get [flags] --scope catalog --subcollection consumer ROLE_DEFAULT
 ```
 
 ## Options

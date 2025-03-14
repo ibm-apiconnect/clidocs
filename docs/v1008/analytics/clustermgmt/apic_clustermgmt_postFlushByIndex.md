@@ -17,9 +17,7 @@ apic clustermgmt:postFlushByIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:postFlushByIndex --mode analytics [flags]
-
+apic clustermgmt:postFlushByIndex --mode analytics [flags]
 ```
 
 ## Options

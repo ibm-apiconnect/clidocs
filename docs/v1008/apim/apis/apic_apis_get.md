@@ -19,12 +19,10 @@ apic apis:get [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:get [flags] --id --scope space ID
-      apic apis:get [flags] --id --scope catalog ID
-      apic apis:get [flags] --scope space NAME:VERSION
-      apic apis:get [flags] --scope catalog NAME:VERSION
-
+apic apis:get [flags] --id --scope space ID
+apic apis:get [flags] --id --scope catalog ID
+apic apis:get [flags] --scope space NAME:VERSION
+apic apis:get [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

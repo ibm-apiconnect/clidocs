@@ -17,9 +17,7 @@ apic service-ip-allowlist:list --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic service-ip-allowlist:list --mode portaladmin [flags]
-
+apic service-ip-allowlist:list --mode portaladmin [flags]
 ```
 
 ## Options

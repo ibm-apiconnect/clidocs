@@ -14,6 +14,7 @@ User Registry Settings operations
 apic user-registry-settings [flags]
 ```
 
+
 ## Options
 
 ```

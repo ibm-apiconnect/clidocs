@@ -14,6 +14,7 @@ User Registries operations
 apic user-registries --mode consumer [flags]
 ```
 
+
 ## Options
 
 ```

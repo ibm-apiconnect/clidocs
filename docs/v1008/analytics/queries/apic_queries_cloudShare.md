@@ -18,9 +18,7 @@ apic queries:cloudShare --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:cloudShare --mode analytics [flags] ID
-
+apic queries:cloudShare --mode analytics [flags] ID
 ```
 
 ## Options

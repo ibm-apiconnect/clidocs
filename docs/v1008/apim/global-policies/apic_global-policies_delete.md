@@ -19,12 +19,10 @@ apic global-policies:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policies:delete [flags] --id --scope space ID
-      apic global-policies:delete [flags] --id --scope catalog ID
-      apic global-policies:delete [flags] --scope space NAME:VERSION
-      apic global-policies:delete [flags] --scope catalog NAME:VERSION
-
+apic global-policies:delete [flags] --id --scope space ID
+apic global-policies:delete [flags] --id --scope catalog ID
+apic global-policies:delete [flags] --scope space NAME:VERSION
+apic global-policies:delete [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

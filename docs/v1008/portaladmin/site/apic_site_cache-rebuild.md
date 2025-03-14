@@ -17,9 +17,7 @@ apic site:cache-rebuild --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic site:cache-rebuild --mode portaladmin [flags]
-
+apic site:cache-rebuild --mode portaladmin [flags]
 ```
 
 ## Options

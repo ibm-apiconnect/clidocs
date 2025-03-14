@@ -59,6 +59,7 @@ Configuration variables:
 apic config:delete NAME... --mode portaladmin [flags]
 ```
 
+
 ## Examples
 
 ```

@@ -19,10 +19,8 @@ apic task-histories:get [flags]
 ## Possible Usages
 
 ```
-
-      apic task-histories:get [flags] --scope space TASK_HISTORY
-      apic task-histories:get [flags] --scope catalog TASK_HISTORY
-
+apic task-histories:get [flags] --scope space TASK_HISTORY
+apic task-histories:get [flags] --scope catalog TASK_HISTORY
 ```
 
 ## Options

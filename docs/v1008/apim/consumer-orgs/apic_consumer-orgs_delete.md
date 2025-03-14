@@ -17,10 +17,8 @@ apic consumer-orgs:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic consumer-orgs:delete [flags] --space-initiated CONSUMER_ORG
-      apic consumer-orgs:delete [flags] CONSUMER_ORG
-
+apic consumer-orgs:delete [flags] --space-initiated CONSUMER_ORG
+apic consumer-orgs:delete [flags] CONSUMER_ORG
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic role-defaults:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic role-defaults:clear [flags] --scope cloud --subcollection provider
-
+apic role-defaults:clear [flags] --scope cloud --subcollection provider
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic queries:spaceList --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:spaceList --mode analytics [flags]
-
+apic queries:spaceList --mode analytics [flags]
 ```
 
 ## Options

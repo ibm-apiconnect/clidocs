@@ -19,10 +19,8 @@ apic configured-api-user-registries:get [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-api-user-registries:get [flags] --scope space CONFIGURED_API_USER_REGISTRY
-      apic configured-api-user-registries:get [flags] --scope catalog CONFIGURED_API_USER_REGISTRY
-
+apic configured-api-user-registries:get [flags] --scope space CONFIGURED_API_USER_REGISTRY
+apic configured-api-user-registries:get [flags] --scope catalog CONFIGURED_API_USER_REGISTRY
 ```
 
 ## Options

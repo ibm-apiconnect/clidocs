@@ -19,12 +19,10 @@ apic apis:update [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:update [flags] --id --scope space ID API_FILE
-      apic apis:update [flags] --id --scope catalog ID API_FILE
-      apic apis:update [flags] --scope space NAME:VERSION API_FILE
-      apic apis:update [flags] --scope catalog NAME:VERSION API_FILE
-
+apic apis:update [flags] --id --scope space ID API_FILE
+apic apis:update [flags] --id --scope catalog ID API_FILE
+apic apis:update [flags] --scope space NAME:VERSION API_FILE
+apic apis:update [flags] --scope catalog NAME:VERSION API_FILE
 ```
 
 ## Options

@@ -26,9 +26,7 @@ apic me:update --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic me:update --mode consumer [flags] ME_FILE
-
+apic me:update --mode consumer [flags] ME_FILE
 ```
 
 ## Options

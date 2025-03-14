@@ -18,9 +18,7 @@ apic reports:spaceApiDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceApiDetail --mode analytics [flags]
-
+apic reports:spaceApiDetail --mode analytics [flags]
 ```
 
 ## Options

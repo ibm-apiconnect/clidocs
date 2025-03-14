@@ -17,9 +17,7 @@ apic custom-webserver-page:delete --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-webserver-page:delete --mode portaladmin [flags]
-
+apic custom-webserver-page:delete --mode portaladmin [flags]
 ```
 
 ## Options

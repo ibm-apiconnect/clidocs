@@ -18,9 +18,7 @@ apic events:spaceList --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:spaceList --mode analytics [flags]
-
+apic events:spaceList --mode analytics [flags]
 ```
 
 ## Options
@@ -89,6 +87,7 @@ apic events:spaceList --mode analytics [flags]
       --resource_id string                       Filter results by resource ID.
       --response_body string                     Filter results by response body.
   -s, --server string                            management server endpoint (required)
+      --sort string                              Specifies the field name to use to sort the results. By default, the sorting is in ascending order. To sort in descending order, prefix the field name with a -
       --space string                             Space name or ID. (required)
       --start string                             If set, only return events with a datetime equal to or newer than this. The value must follow the date-time notation as defined by RFC 3339, section 5.6, for example, 2017-07-21T17:32:28Z. See https://datatracker.ietf.org/doc/html/rfc3339#section-5.6.
 

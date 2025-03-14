@@ -17,9 +17,7 @@ apic oauth-providers:list [flags]
 ## Possible Usages
 
 ```
-
-      apic oauth-providers:list [flags]
-
+apic oauth-providers:list [flags]
 ```
 
 ## Options

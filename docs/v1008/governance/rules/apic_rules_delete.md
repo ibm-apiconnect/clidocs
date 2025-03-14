@@ -17,10 +17,8 @@ apic rules:delete --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rules:delete --mode governance [flags] --id ID
-      apic rules:delete --mode governance [flags] NAME:VERSION
-
+apic rules:delete --mode governance [flags] --id ID
+apic rules:delete --mode governance [flags] NAME:VERSION
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic service-ip-allowlist:delete --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic service-ip-allowlist:delete --mode portaladmin [flags]
-
+apic service-ip-allowlist:delete --mode portaladmin [flags]
 ```
 
 ## Options

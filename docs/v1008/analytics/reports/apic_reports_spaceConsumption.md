@@ -18,9 +18,7 @@ apic reports:spaceConsumption --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceConsumption --mode analytics [flags]
-
+apic reports:spaceConsumption --mode analytics [flags]
 ```
 
 ## Options

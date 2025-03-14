@@ -17,9 +17,7 @@ apic spaces:get [flags]
 ## Possible Usages
 
 ```
-
-      apic spaces:get [flags] SPACE
-
+apic spaces:get [flags] SPACE
 ```
 
 ## Options

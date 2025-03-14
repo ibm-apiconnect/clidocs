@@ -18,9 +18,7 @@ apic events:catalogTimeline --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:catalogTimeline --mode analytics [flags]
-
+apic events:catalogTimeline --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic clustermgmt:snapshotStatusByRepository --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:snapshotStatusByRepository --mode analytics [flags]
-
+apic clustermgmt:snapshotStatusByRepository --mode analytics [flags]
 ```
 
 ## Options

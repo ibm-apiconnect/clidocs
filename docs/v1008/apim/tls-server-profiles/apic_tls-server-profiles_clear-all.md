@@ -17,9 +17,7 @@ apic tls-server-profiles:clear-all [flags]
 ## Possible Usages
 
 ```
-
-      apic tls-server-profiles:clear-all [flags]
-
+apic tls-server-profiles:clear-all [flags]
 ```
 
 ## Options

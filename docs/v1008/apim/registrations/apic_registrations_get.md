@@ -17,9 +17,7 @@ apic registrations:get [flags]
 ## Possible Usages
 
 ```
-
-      apic registrations:get [flags] REGISTRATION
-
+apic registrations:get [flags] REGISTRATION
 ```
 
 ## Options

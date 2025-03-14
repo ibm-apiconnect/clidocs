@@ -17,9 +17,7 @@ apic role:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic role:get --mode portaladmin [flags] ROLE
-
+apic role:get --mode portaladmin [flags] ROLE
 ```
 
 ## Options

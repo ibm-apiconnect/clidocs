@@ -19,11 +19,9 @@ apic groups:list [flags]
 ## Possible Usages
 
 ```
-
-      apic groups:list [flags] --space-initiated
-      apic groups:list [flags] --scope cloud
-      apic groups:list [flags] --scope catalog
-
+apic groups:list [flags] --space-initiated
+apic groups:list [flags] --scope cloud
+apic groups:list [flags] --scope catalog
 ```
 
 ## Options

@@ -17,9 +17,25 @@ apic spaces:transfer-owner [flags]
 ## Possible Usages
 
 ```
+apic spaces:transfer-owner [flags] SPACE TRANSFER_OWNER_FILE
+```
 
-      apic spaces:transfer-owner [flags] SPACE TRANSFER_OWNER_FILE
+## Request examples
 
+---------------------------------------------------
+#### Example of owner transfer using associate url.
+---------------------------------------------------
+
+```
+new_owner_associate_url: 'https://api.acme-apim.example.com/api/orgs/acme-org/associates/associate-id  '
+```
+
+------------------------------------------------
+#### Example of owner transfer using member url.
+------------------------------------------------
+
+```
+new_owner_member_url: https://api.acme-apim.example.com/api/spaces/org1/catalog1/space1/members/member1
 ```
 
 ## Options

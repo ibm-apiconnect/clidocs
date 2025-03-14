@@ -14,6 +14,7 @@ Delete all configuration variables
 apic config:clear --mode consumer [flags]
 ```
 
+
 ## Examples
 
 ```

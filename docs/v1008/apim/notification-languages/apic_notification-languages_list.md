@@ -2,6 +2,9 @@
 tags:
 - "group: notification-languages"
 - "scope: catalog"
+- "scope: cloud"
+- "scope: org"
+- "scope: space"
 ---
 # apic notification-languages:list
 
@@ -18,24 +21,22 @@ apic notification-languages:list [flags]
 ## Possible Usages
 
 ```
-
-      apic notification-languages:list [flags] --scope space --subcollection space
-      apic notification-languages:list [flags] --scope space --subcollection consumer
-      apic notification-languages:list [flags] --scope org --subcollection space
-      apic notification-languages:list [flags] --scope org --subcollection provider
-      apic notification-languages:list [flags] --scope org --subcollection consumer
-      apic notification-languages:list [flags] --scope org --subcollection catalog
-      apic notification-languages:list [flags] --scope org --subcollection admin
-      apic notification-languages:list [flags] --scope cloud --subcollection space
-      apic notification-languages:list [flags] --scope cloud --subcollection provider
-      apic notification-languages:list [flags] --scope cloud --subcollection consumer
-      apic notification-languages:list [flags] --scope cloud --subcollection cloud
-      apic notification-languages:list [flags] --scope cloud --subcollection catalog
-      apic notification-languages:list [flags] --scope cloud --subcollection admin
-      apic notification-languages:list [flags] --scope catalog --subcollection space
-      apic notification-languages:list [flags] --scope catalog --subcollection consumer
-      apic notification-languages:list [flags] --scope catalog --subcollection catalog
-
+apic notification-languages:list [flags] --scope space --subcollection space
+apic notification-languages:list [flags] --scope space --subcollection consumer
+apic notification-languages:list [flags] --scope org --subcollection space
+apic notification-languages:list [flags] --scope org --subcollection provider
+apic notification-languages:list [flags] --scope org --subcollection consumer
+apic notification-languages:list [flags] --scope org --subcollection catalog
+apic notification-languages:list [flags] --scope org --subcollection admin
+apic notification-languages:list [flags] --scope cloud --subcollection space
+apic notification-languages:list [flags] --scope cloud --subcollection provider
+apic notification-languages:list [flags] --scope cloud --subcollection consumer
+apic notification-languages:list [flags] --scope cloud --subcollection cloud
+apic notification-languages:list [flags] --scope cloud --subcollection catalog
+apic notification-languages:list [flags] --scope cloud --subcollection admin
+apic notification-languages:list [flags] --scope catalog --subcollection space
+apic notification-languages:list [flags] --scope catalog --subcollection consumer
+apic notification-languages:list [flags] --scope catalog --subcollection catalog
 ```
 
 ## Options

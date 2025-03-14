@@ -17,10 +17,37 @@ apic mail-servers:test-connection [flags]
 ## Possible Usages
 
 ```
+apic mail-servers:test-connection [flags] --test-config-only MAIL_SERVER_PROVIDED_TEST_CONNECTION_FILE
+apic mail-servers:test-connection [flags] MAIL_SERVER MAIL_SERVER_SAVED_TEST_CONNECTION_FILE
+```
 
-      apic mail-servers:test-connection [flags] --test-config-only MAIL_SERVER_PROVIDED_TEST_CONNECTION_FILE
-      apic mail-servers:test-connection [flags] MAIL_SERVER MAIL_SERVER_SAVED_TEST_CONNECTION_FILE
+## Request examples
 
+---------------------------------------------------------------
+#### Example of mail server test connection (test config only).
+---------------------------------------------------------------
+
+```
+mail_server:
+  credentials:
+    password: Passw0rd
+    username: Acme
+  host: acme.example.com
+  name: acme-mail-server
+  port: 25
+  secure: true
+  title: Acme mail server test connection
+recipients:
+- acme@example.com
+```
+
+--------------------------------------------
+#### Example of mail server test connection.
+--------------------------------------------
+
+```
+recipients:
+- acme@example.com
 ```
 
 ## Options

@@ -20,14 +20,12 @@ apic policies:get [flags]
 ## Possible Usages
 
 ```
-
-      apic policies:get [flags] --id --scope space ID
-      apic policies:get [flags] --id --scope org ID
-      apic policies:get [flags] --id --scope catalog ID
-      apic policies:get [flags] --scope space NAME:VERSION
-      apic policies:get [flags] --scope org NAME:VERSION
-      apic policies:get [flags] --scope catalog NAME:VERSION
-
+apic policies:get [flags] --id --scope space ID
+apic policies:get [flags] --id --scope org ID
+apic policies:get [flags] --id --scope catalog ID
+apic policies:get [flags] --scope space NAME:VERSION
+apic policies:get [flags] --scope org NAME:VERSION
+apic policies:get [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

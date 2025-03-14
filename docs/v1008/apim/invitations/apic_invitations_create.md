@@ -21,13 +21,73 @@ apic invitations:create [flags]
 ## Possible Usages
 
 ```
+apic invitations:create [flags] --scope consumer-org --space-initiated INVITATION_FILE
+apic invitations:create [flags] --scope space INVITATION_FILE
+apic invitations:create [flags] --scope org INVITATION_FILE
+apic invitations:create [flags] --scope consumer-org INVITATION_FILE
+apic invitations:create [flags] --scope catalog INVITATION_FILE
+```
 
-      apic invitations:create [flags] --scope consumer-org --space-initiated INVITATION_FILE
-      apic invitations:create [flags] --scope space INVITATION_FILE
-      apic invitations:create [flags] --scope org INVITATION_FILE
-      apic invitations:create [flags] --scope consumer-org INVITATION_FILE
-      apic invitations:create [flags] --scope catalog INVITATION_FILE
+## Request examples
 
+-----------------------------------------------------
+#### Example of invitation creation at catalog scope.
+-----------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+summary: An example invitation creation at catalog scope
+title: Acme invitation
+```
+
+----------------------------------------------------------
+#### Example of invitation creation at consumer-org scope.
+----------------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+summary: An example invitation creation at consumer-org scope
+title: Acme invitation
+```
+
+---------------------------------------------------------------------------
+#### Example of invitation creation at consumer-org(space-initiated) scope.
+---------------------------------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+summary: An example invitation creation at consumer-org(space-initiated) scope
+title: Acme invitation
+```
+
+-------------------------------------------------
+#### Example of invitation creation at org scope.
+-------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+summary: An example invitation creation at org scope
+title: Acme invitation
+```
+
+---------------------------------------------------
+#### Example of invitation creation at space scope.
+---------------------------------------------------
+
+```
+email: acme@example.com
+name: acme-invitation
+notify: true
+summary: An example invitation creation at space scope
+title: Acme invitation
 ```
 
 ## Options

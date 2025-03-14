@@ -17,9 +17,7 @@ apic orgs:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:clear [flags]
-
+apic orgs:clear [flags]
 ```
 
 ## Options

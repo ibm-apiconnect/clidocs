@@ -17,9 +17,7 @@ apic users:request-password-reset --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic users:request-password-reset --mode consumer [flags] REQUEST_PASSWORD_RESET_FILE
-
+apic users:request-password-reset --mode consumer [flags] REQUEST_PASSWORD_RESET_FILE
 ```
 
 ## Options

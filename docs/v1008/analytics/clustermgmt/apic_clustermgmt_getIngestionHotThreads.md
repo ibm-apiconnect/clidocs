@@ -17,9 +17,7 @@ apic clustermgmt:getIngestionHotThreads --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIngestionHotThreads --mode analytics [flags]
-
+apic clustermgmt:getIngestionHotThreads --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic groups:get --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic groups:get --mode consumer [flags] GROUP
-
+apic groups:get --mode consumer [flags] GROUP
 ```
 
 ## Options

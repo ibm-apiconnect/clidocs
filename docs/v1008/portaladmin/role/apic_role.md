@@ -14,6 +14,7 @@ Role operations
 apic role --mode portaladmin [flags]
 ```
 
+
 ## Options
 
 ```

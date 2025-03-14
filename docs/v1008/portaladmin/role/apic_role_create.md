@@ -17,9 +17,7 @@ apic role:create --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic role:create --mode portaladmin [flags]
-
+apic role:create --mode portaladmin [flags]
 ```
 
 ## Options

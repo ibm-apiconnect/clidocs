@@ -17,12 +17,10 @@ apic products:get --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic products:get --mode consumer [flags] --id --scope org ID
-      apic products:get --mode consumer [flags] --scope org NAME:VERSION
-      apic products:get --mode consumer [flags] --id ID
-      apic products:get --mode consumer [flags] NAME:VERSION
-
+apic products:get --mode consumer [flags] --id --scope org ID
+apic products:get --mode consumer [flags] --scope org NAME:VERSION
+apic products:get --mode consumer [flags] --id ID
+apic products:get --mode consumer [flags] NAME:VERSION
 ```
 
 ## Options

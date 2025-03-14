@@ -21,13 +21,11 @@ apic members:list [flags]
 ## Possible Usages
 
 ```
-
-      apic members:list [flags] --scope consumer-org --space-initiated
-      apic members:list [flags] --scope space
-      apic members:list [flags] --scope org
-      apic members:list [flags] --scope consumer-org
-      apic members:list [flags] --scope catalog
-
+apic members:list [flags] --scope consumer-org --space-initiated
+apic members:list [flags] --scope space
+apic members:list [flags] --scope org
+apic members:list [flags] --scope consumer-org
+apic members:list [flags] --scope catalog
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic configsync:uploadData --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic configsync:uploadData --mode analytics [flags] CONFIG_SYNC_REQUEST_FILE
-
+apic configsync:uploadData --mode analytics [flags] CONFIG_SYNC_REQUEST_FILE
 ```
 
 ## Options

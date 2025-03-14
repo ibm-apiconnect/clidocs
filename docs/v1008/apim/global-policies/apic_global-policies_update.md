@@ -19,12 +19,10 @@ apic global-policies:update [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policies:update [flags] --id --scope space ID GLOBAL_POLICY_FILE
-      apic global-policies:update [flags] --id --scope catalog ID GLOBAL_POLICY_FILE
-      apic global-policies:update [flags] --scope space NAME:VERSION GLOBAL_POLICY_FILE
-      apic global-policies:update [flags] --scope catalog NAME:VERSION GLOBAL_POLICY_FILE
-
+apic global-policies:update [flags] --id --scope space ID GLOBAL_POLICY_FILE
+apic global-policies:update [flags] --id --scope catalog ID GLOBAL_POLICY_FILE
+apic global-policies:update [flags] --scope space NAME:VERSION GLOBAL_POLICY_FILE
+apic global-policies:update [flags] --scope catalog NAME:VERSION GLOBAL_POLICY_FILE
 ```
 
 ## Options

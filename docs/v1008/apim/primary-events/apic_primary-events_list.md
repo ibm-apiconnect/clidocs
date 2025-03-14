@@ -22,13 +22,11 @@ apic primary-events:list [flags]
 ## Possible Usages
 
 ```
-
-      apic primary-events:list [flags] --scope portal-service
-      apic primary-events:list [flags] --scope gateway-service
-      apic primary-events:list [flags] --scope configured-gateway-service
-      apic primary-events:list [flags] --scope cloud
-      apic primary-events:list [flags] --scope catalog
-
+apic primary-events:list [flags] --scope portal-service
+apic primary-events:list [flags] --scope gateway-service
+apic primary-events:list [flags] --scope configured-gateway-service
+apic primary-events:list [flags] --scope cloud
+apic primary-events:list [flags] --scope catalog
 ```
 
 ## Options

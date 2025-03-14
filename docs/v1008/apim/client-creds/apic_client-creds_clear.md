@@ -14,6 +14,7 @@ clear the set client credentials.
 apic client-creds:clear [flags]
 ```
 
+
 ## Examples
 
 ```

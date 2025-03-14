@@ -27,10 +27,27 @@ apic payment-methods:update [flags]
 ## Possible Usages
 
 ```
+apic payment-methods:update [flags] --space-initiated PAYMENT_METHOD PAYMENT_METHOD_FILE
+apic payment-methods:update [flags] PAYMENT_METHOD PAYMENT_METHOD_FILE
+```
 
-      apic payment-methods:update [flags] --space-initiated PAYMENT_METHOD PAYMENT_METHOD_FILE
-      apic payment-methods:update [flags] PAYMENT_METHOD PAYMENT_METHOD_FILE
+## Request examples
 
+--------------------------------------
+#### Example of payment method update.
+--------------------------------------
+
+```
+billing_url: https://api.acme-apim.example.com/api/catalogs/org/acme-catalog/configured-billings/configured-billing
+configuration:
+  account_company: XYZ
+  account_currency: USD
+  account_email: acme@example.com
+  account_name: Acme Steve
+  account_phone: (919) 555 6789
+name: acme-payment
+summary: An example payment method update
+title: Acme payment method update
 ```
 
 ## Options

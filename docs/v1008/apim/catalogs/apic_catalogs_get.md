@@ -17,9 +17,7 @@ apic catalogs:get [flags]
 ## Possible Usages
 
 ```
-
-      apic catalogs:get [flags] CATALOG
-
+apic catalogs:get [flags] CATALOG
 ```
 
 ## Options

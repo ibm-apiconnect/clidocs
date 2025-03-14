@@ -18,9 +18,7 @@ apic events:spaceCount --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:spaceCount --mode analytics [flags]
-
+apic events:spaceCount --mode analytics [flags]
 ```
 
 ## Options

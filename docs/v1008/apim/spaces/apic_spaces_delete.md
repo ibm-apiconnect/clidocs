@@ -17,9 +17,7 @@ apic spaces:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic spaces:delete [flags] SPACE
-
+apic spaces:delete [flags] SPACE
 ```
 
 ## Options

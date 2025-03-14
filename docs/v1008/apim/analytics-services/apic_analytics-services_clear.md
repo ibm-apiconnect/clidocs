@@ -17,9 +17,7 @@ apic analytics-services:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic analytics-services:clear [flags]
-
+apic analytics-services:clear [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic service:orgServicestatus --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic service:orgServicestatus --mode analytics [flags]
-
+apic service:orgServicestatus --mode analytics [flags]
 ```
 
 ## Options

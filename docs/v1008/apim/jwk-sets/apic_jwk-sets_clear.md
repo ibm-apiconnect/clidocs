@@ -17,9 +17,7 @@ apic jwk-sets:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic jwk-sets:clear [flags]
-
+apic jwk-sets:clear [flags]
 ```
 
 ## Options

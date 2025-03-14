@@ -17,9 +17,7 @@ apic product:add-tag --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic product:add-tag --mode portaladmin [flags] PRODUCT
-
+apic product:add-tag --mode portaladmin [flags] PRODUCT
 ```
 
 ## Options

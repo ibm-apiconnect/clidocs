@@ -17,10 +17,8 @@ apic draft-apis:wsdl [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-apis:wsdl [flags] --id ID
-      apic draft-apis:wsdl [flags] NAME:VERSION
-
+apic draft-apis:wsdl [flags] --id ID
+apic draft-apis:wsdl [flags] NAME:VERSION
 ```
 
 ## Options

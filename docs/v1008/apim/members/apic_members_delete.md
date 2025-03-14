@@ -21,13 +21,11 @@ apic members:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic members:delete [flags] --scope consumer-org --space-initiated MEMBER
-      apic members:delete [flags] --scope space MEMBER
-      apic members:delete [flags] --scope org MEMBER
-      apic members:delete [flags] --scope consumer-org MEMBER
-      apic members:delete [flags] --scope catalog MEMBER
-
+apic members:delete [flags] --scope consumer-org --space-initiated MEMBER
+apic members:delete [flags] --scope space MEMBER
+apic members:delete [flags] --scope org MEMBER
+apic members:delete [flags] --scope consumer-org MEMBER
+apic members:delete [flags] --scope catalog MEMBER
 ```
 
 ## Options

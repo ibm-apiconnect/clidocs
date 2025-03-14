@@ -19,10 +19,26 @@ apic tasks:update [flags]
 ## Possible Usages
 
 ```
+apic tasks:update [flags] --scope space TASK TASK_FILE
+apic tasks:update [flags] --scope catalog TASK TASK_FILE
+```
 
-      apic tasks:update [flags] --scope space TASK TASK_FILE
-      apic tasks:update [flags] --scope catalog TASK TASK_FILE
+## Request examples
 
+----------------------------------------------------------------
+#### Example of app update at catalog scope with state approved.
+----------------------------------------------------------------
+
+```
+state: approved
+```
+
+--------------------------------------------------------------
+#### Example of app update at space scope with state approved.
+--------------------------------------------------------------
+
+```
+state: approved
 ```
 
 ## Options

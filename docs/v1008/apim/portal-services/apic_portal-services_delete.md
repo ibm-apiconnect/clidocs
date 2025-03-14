@@ -17,9 +17,7 @@ apic portal-services:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic portal-services:delete [flags] PORTAL_SERVICE
-
+apic portal-services:delete [flags] PORTAL_SERVICE
 ```
 
 ## Options

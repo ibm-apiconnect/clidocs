@@ -18,9 +18,7 @@ apic reports:spaceProductDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceProductDetail --mode analytics [flags]
-
+apic reports:spaceProductDetail --mode analytics [flags]
 ```
 
 ## Options

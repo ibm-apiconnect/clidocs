@@ -14,6 +14,7 @@ Notification Templates operations
 apic notification-templates [flags]
 ```
 
+
 ## Options
 
 ```

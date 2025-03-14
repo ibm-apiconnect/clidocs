@@ -2,6 +2,9 @@
 tags:
 - "group: notification-templates"
 - "scope: catalog"
+- "scope: cloud"
+- "scope: org"
+- "scope: space"
 ---
 # apic notification-templates:list
 
@@ -18,24 +21,22 @@ apic notification-templates:list [flags]
 ## Possible Usages
 
 ```
-
-      apic notification-templates:list [flags] --scope space --subcollection space
-      apic notification-templates:list [flags] --scope space --subcollection consumer
-      apic notification-templates:list [flags] --scope org --subcollection space
-      apic notification-templates:list [flags] --scope org --subcollection provider
-      apic notification-templates:list [flags] --scope org --subcollection consumer
-      apic notification-templates:list [flags] --scope org --subcollection catalog
-      apic notification-templates:list [flags] --scope org --subcollection admin
-      apic notification-templates:list [flags] --scope cloud --subcollection space
-      apic notification-templates:list [flags] --scope cloud --subcollection provider
-      apic notification-templates:list [flags] --scope cloud --subcollection consumer
-      apic notification-templates:list [flags] --scope cloud --subcollection cloud
-      apic notification-templates:list [flags] --scope cloud --subcollection catalog
-      apic notification-templates:list [flags] --scope cloud --subcollection admin
-      apic notification-templates:list [flags] --scope catalog --subcollection space
-      apic notification-templates:list [flags] --scope catalog --subcollection consumer
-      apic notification-templates:list [flags] --scope catalog --subcollection catalog
-
+apic notification-templates:list [flags] --scope space --subcollection space
+apic notification-templates:list [flags] --scope space --subcollection consumer
+apic notification-templates:list [flags] --scope org --subcollection space
+apic notification-templates:list [flags] --scope org --subcollection provider
+apic notification-templates:list [flags] --scope org --subcollection consumer
+apic notification-templates:list [flags] --scope org --subcollection catalog
+apic notification-templates:list [flags] --scope org --subcollection admin
+apic notification-templates:list [flags] --scope cloud --subcollection space
+apic notification-templates:list [flags] --scope cloud --subcollection provider
+apic notification-templates:list [flags] --scope cloud --subcollection consumer
+apic notification-templates:list [flags] --scope cloud --subcollection cloud
+apic notification-templates:list [flags] --scope cloud --subcollection catalog
+apic notification-templates:list [flags] --scope cloud --subcollection admin
+apic notification-templates:list [flags] --scope catalog --subcollection space
+apic notification-templates:list [flags] --scope catalog --subcollection consumer
+apic notification-templates:list [flags] --scope catalog --subcollection catalog
 ```
 
 ## Options

@@ -19,10 +19,26 @@ apic configured-oauth-providers:create [flags]
 ## Possible Usages
 
 ```
+apic configured-oauth-providers:create [flags] --scope space CONFIGURED_OAUTH_PROVIDER_FILE
+apic configured-oauth-providers:create [flags] --scope catalog CONFIGURED_OAUTH_PROVIDER_FILE
+```
 
-      apic configured-oauth-providers:create [flags] --scope space CONFIGURED_OAUTH_PROVIDER_FILE
-      apic configured-oauth-providers:create [flags] --scope catalog CONFIGURED_OAUTH_PROVIDER_FILE
+## Request examples
 
+--------------------------------------------------------------------
+#### Example of configured oauth provider creation at catalog scope.
+--------------------------------------------------------------------
+
+```
+oauth_provider_url: https://acme-apim.example.com/api/orgs/org1/oauth-providers/acme-oauth-provider
+```
+
+------------------------------------------------------------------
+#### Example of configured oauth provider creation at space scope.
+------------------------------------------------------------------
+
+```
+oauth_provider_url: https://acme-apim.example.com/api/orgs/org1/oauth-providers/acme-oauth-provider
 ```
 
 ## Options

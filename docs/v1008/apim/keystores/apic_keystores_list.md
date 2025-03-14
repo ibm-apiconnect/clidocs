@@ -17,9 +17,7 @@ apic keystores:list [flags]
 ## Possible Usages
 
 ```
-
-      apic keystores:list [flags]
-
+apic keystores:list [flags]
 ```
 
 ## Options

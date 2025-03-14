@@ -17,9 +17,7 @@ apic me:delete --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic me:delete --mode consumer [flags]
-
+apic me:delete --mode consumer [flags]
 ```
 
 ## Options

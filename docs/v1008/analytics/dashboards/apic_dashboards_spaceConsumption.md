@@ -18,9 +18,7 @@ apic dashboards:spaceConsumption --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:spaceConsumption --mode analytics [flags]
-
+apic dashboards:spaceConsumption --mode analytics [flags]
 ```
 
 ## Options

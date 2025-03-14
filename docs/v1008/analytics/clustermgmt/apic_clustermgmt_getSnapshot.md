@@ -17,9 +17,7 @@ apic clustermgmt:getSnapshot --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getSnapshot --mode analytics [flags]
-
+apic clustermgmt:getSnapshot --mode analytics [flags]
 ```
 
 ## Options

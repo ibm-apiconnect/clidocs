@@ -17,9 +17,7 @@ apic payment-methods:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic payment-methods:list --mode consumer [flags]
-
+apic payment-methods:list --mode consumer [flags]
 ```
 
 ## Options

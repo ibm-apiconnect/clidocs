@@ -17,9 +17,7 @@ apic site-config:get-import-status --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic site-config:get-import-status --mode portaladmin [flags]
-
+apic site-config:get-import-status --mode portaladmin [flags]
 ```
 
 ## Options

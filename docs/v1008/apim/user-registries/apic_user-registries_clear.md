@@ -17,9 +17,7 @@ apic user-registries:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic user-registries:clear [flags]
-
+apic user-registries:clear [flags]
 ```
 
 ## Options

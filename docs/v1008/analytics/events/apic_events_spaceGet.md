@@ -18,9 +18,7 @@ apic events:spaceGet --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:spaceGet --mode analytics [flags] ID
-
+apic events:spaceGet --mode analytics [flags] ID
 ```
 
 ## Options

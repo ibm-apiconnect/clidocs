@@ -17,9 +17,7 @@ apic billings:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic billings:clear [flags]
-
+apic billings:clear [flags]
 ```
 
 ## Options

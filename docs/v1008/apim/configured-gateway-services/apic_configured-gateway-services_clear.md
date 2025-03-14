@@ -19,10 +19,8 @@ apic configured-gateway-services:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-gateway-services:clear [flags] --scope space
-      apic configured-gateway-services:clear [flags] --scope catalog
-
+apic configured-gateway-services:clear [flags] --scope space
+apic configured-gateway-services:clear [flags] --scope catalog
 ```
 
 ## Options

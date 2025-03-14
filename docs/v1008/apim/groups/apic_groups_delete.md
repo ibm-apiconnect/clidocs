@@ -19,11 +19,9 @@ apic groups:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic groups:delete [flags] --space-initiated GROUP
-      apic groups:delete [flags] --scope cloud GROUP
-      apic groups:delete [flags] --scope catalog GROUP
-
+apic groups:delete [flags] --space-initiated GROUP
+apic groups:delete [flags] --scope cloud GROUP
+apic groups:delete [flags] --scope catalog GROUP
 ```
 
 ## Options

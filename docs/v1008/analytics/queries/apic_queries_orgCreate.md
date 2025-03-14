@@ -18,9 +18,7 @@ apic queries:orgCreate --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:orgCreate --mode analytics [flags] QUERY_REQUEST_FILE
-
+apic queries:orgCreate --mode analytics [flags] QUERY_REQUEST_FILE
 ```
 
 ## Options

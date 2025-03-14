@@ -17,9 +17,7 @@ apic api-keys:list [flags]
 ## Possible Usages
 
 ```
-
-      apic api-keys:list [flags]
-
+apic api-keys:list [flags]
 ```
 
 ## Options

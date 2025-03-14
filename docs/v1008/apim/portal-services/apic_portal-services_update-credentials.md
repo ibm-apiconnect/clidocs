@@ -17,9 +17,7 @@ apic portal-services:update-credentials [flags]
 ## Possible Usages
 
 ```
-
-      apic portal-services:update-credentials [flags] PORTAL_SERVICE
-
+apic portal-services:update-credentials [flags] PORTAL_SERVICE
 ```
 
 ## Options

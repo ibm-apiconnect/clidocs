@@ -18,9 +18,7 @@ apic entries:get [flags]
 ## Possible Usages
 
 ```
-
-      apic entries:get [flags] --scope truststore ENTRY
-
+apic entries:get [flags] --scope truststore ENTRY
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic oauth-providers:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic oauth-providers:delete [flags] OAUTH_PROVIDER
-
+apic oauth-providers:delete [flags] OAUTH_PROVIDER
 ```
 
 ## Options

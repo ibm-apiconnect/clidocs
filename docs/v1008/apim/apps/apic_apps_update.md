@@ -29,10 +29,21 @@ apic apps:update [flags]
 ## Possible Usages
 
 ```
+apic apps:update [flags] --space-initiated APP APP_FILE
+apic apps:update [flags] APP APP_FILE
+```
 
-      apic apps:update [flags] --space-initiated APP APP_FILE
-      apic apps:update [flags] APP APP_FILE
+## Request examples
 
+----------------------------------------------
+#### Example of app update with state enabled.
+----------------------------------------------
+
+```
+name: updated-acme-app
+state: enabled
+summary: An example app update
+title: Updated ACME App
 ```
 
 ## Options

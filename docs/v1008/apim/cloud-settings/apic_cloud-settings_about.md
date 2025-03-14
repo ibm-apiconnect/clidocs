@@ -17,9 +17,7 @@ apic cloud-settings:about [flags]
 ## Possible Usages
 
 ```
-
-      apic cloud-settings:about [flags]
-
+apic cloud-settings:about [flags]
 ```
 
 ## Options

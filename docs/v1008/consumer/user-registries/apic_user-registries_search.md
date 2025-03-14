@@ -17,9 +17,7 @@ apic user-registries:search --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic user-registries:search --mode consumer [flags] USER_REGISTRY USER_SEARCH_FILE
-
+apic user-registries:search --mode consumer [flags] USER_REGISTRY USER_SEARCH_FILE
 ```
 
 ## Options

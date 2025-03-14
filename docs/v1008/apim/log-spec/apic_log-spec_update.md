@@ -26,9 +26,19 @@ apic log-spec:update [flags]
 ## Possible Usages
 
 ```
+apic log-spec:update [flags] LOG_SPEC_FILE
+```
 
-      apic log-spec:update [flags] LOG_SPEC_FILE
+## Request examples
 
+--------------------------------
+#### Example of log spec update.
+--------------------------------
+
+```
+large_objects: true
+summary: An example log spec update
+title: Acme log spec update
 ```
 
 ## Options

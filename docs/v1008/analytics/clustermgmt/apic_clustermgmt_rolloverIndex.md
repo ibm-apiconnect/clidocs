@@ -17,9 +17,7 @@ apic clustermgmt:rolloverIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:rolloverIndex --mode analytics [flags]
-
+apic clustermgmt:rolloverIndex --mode analytics [flags]
 ```
 
 ## Options

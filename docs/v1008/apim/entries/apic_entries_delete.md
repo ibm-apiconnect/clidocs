@@ -18,9 +18,7 @@ apic entries:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic entries:delete [flags] --scope truststore ENTRY
-
+apic entries:delete [flags] --scope truststore ENTRY
 ```
 
 ## Options

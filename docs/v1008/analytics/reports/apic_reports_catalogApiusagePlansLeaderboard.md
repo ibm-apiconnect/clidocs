@@ -18,9 +18,7 @@ apic reports:catalogApiusagePlansLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:catalogApiusagePlansLeaderboard --mode analytics [flags]
-
+apic reports:catalogApiusagePlansLeaderboard --mode analytics [flags]
 ```
 
 ## Options

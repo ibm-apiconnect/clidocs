@@ -18,9 +18,7 @@ apic properties:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic properties:delete [flags] --scope catalog PROPERTY_NAME
-
+apic properties:delete [flags] --scope catalog PROPERTY_NAME
 ```
 
 ## Options

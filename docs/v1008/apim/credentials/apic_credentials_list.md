@@ -17,12 +17,10 @@ apic credentials:list [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:list [flags] --space-initiated
-      apic credentials:list [flags] --scope space
-      apic credentials:list [flags] --scope catalog
-      apic credentials:list [flags]
-
+apic credentials:list [flags] --space-initiated
+apic credentials:list [flags] --scope space
+apic credentials:list [flags] --scope catalog
+apic credentials:list [flags]
 ```
 
 ## Options

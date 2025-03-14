@@ -17,10 +17,8 @@ apic discovered-apis:get --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic discovered-apis:get --mode discovery [flags] --id ID
-      apic discovered-apis:get --mode discovery [flags] NAME:VERSION
-
+apic discovered-apis:get --mode discovery [flags] --id ID
+apic discovered-apis:get --mode discovery [flags] NAME:VERSION
 ```
 
 ## Options

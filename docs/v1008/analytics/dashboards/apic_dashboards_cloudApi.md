@@ -18,9 +18,7 @@ apic dashboards:cloudApi --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:cloudApi --mode analytics [flags]
-
+apic dashboards:cloudApi --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic truststores:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic truststores:clear [flags]
-
+apic truststores:clear [flags]
 ```
 
 ## Options

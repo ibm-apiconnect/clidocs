@@ -17,12 +17,10 @@ apic analytics-services:list [flags]
 ## Possible Usages
 
 ```
-
-      apic analytics-services:list [flags] --scope space
-      apic analytics-services:list [flags] --scope org
-      apic analytics-services:list [flags] --scope catalog
-      apic analytics-services:list [flags]
-
+apic analytics-services:list [flags] --scope space
+apic analytics-services:list [flags] --scope org
+apic analytics-services:list [flags] --scope catalog
+apic analytics-services:list [flags]
 ```
 
 ## Options

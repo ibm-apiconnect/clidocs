@@ -18,9 +18,7 @@ apic queries:catalogUpdate --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:catalogUpdate --mode analytics [flags] ID QUERY_UPDATE_REQUEST_FILE
-
+apic queries:catalogUpdate --mode analytics [flags] ID QUERY_UPDATE_REQUEST_FILE
 ```
 
 ## Options

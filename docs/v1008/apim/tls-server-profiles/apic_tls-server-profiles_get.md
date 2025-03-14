@@ -17,10 +17,8 @@ apic tls-server-profiles:get [flags]
 ## Possible Usages
 
 ```
-
-      apic tls-server-profiles:get [flags] --id ID
-      apic tls-server-profiles:get [flags] NAME:VERSION
-
+apic tls-server-profiles:get [flags] --id ID
+apic tls-server-profiles:get [flags] NAME:VERSION
 ```
 
 ## Options

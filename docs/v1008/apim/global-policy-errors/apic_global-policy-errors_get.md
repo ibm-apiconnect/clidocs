@@ -19,10 +19,8 @@ apic global-policy-errors:get [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policy-errors:get [flags] --scope space
-      apic global-policy-errors:get [flags] --scope catalog
-
+apic global-policy-errors:get [flags] --scope space
+apic global-policy-errors:get [flags] --scope catalog
 ```
 
 ## Options

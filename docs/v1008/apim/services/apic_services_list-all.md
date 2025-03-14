@@ -17,9 +17,7 @@ apic services:list-all [flags]
 ## Possible Usages
 
 ```
-
-      apic services:list-all [flags] --space-initiated
-
+apic services:list-all [flags] --space-initiated
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic gateway-extensions:create [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-extensions:create [flags] --scope org GATEWAY_EXTENSIONS_FILE
-
+apic gateway-extensions:create [flags] --scope org GATEWAY_EXTENSIONS_FILE
 ```
 
 ## Options

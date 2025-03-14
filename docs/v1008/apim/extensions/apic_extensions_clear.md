@@ -19,10 +19,8 @@ apic extensions:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic extensions:clear [flags] --scope space EXTENSION_NAME
-      apic extensions:clear [flags] --scope catalog EXTENSION_NAME
-
+apic extensions:clear [flags] --scope space EXTENSION_NAME
+apic extensions:clear [flags] --scope catalog EXTENSION_NAME
 ```
 
 ## Options

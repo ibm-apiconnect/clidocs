@@ -19,11 +19,9 @@ apic associates:list [flags]
 ## Possible Usages
 
 ```
-
-      apic associates:list [flags] --scope consumer-org --space-initiated
-      apic associates:list [flags] --scope org
-      apic associates:list [flags] --scope consumer-org
-
+apic associates:list [flags] --scope consumer-org --space-initiated
+apic associates:list [flags] --scope org
+apic associates:list [flags] --scope consumer-org
 ```
 
 ## Options

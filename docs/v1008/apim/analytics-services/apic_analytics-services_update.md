@@ -37,9 +37,18 @@ apic analytics-services:update [flags]
 ## Possible Usages
 
 ```
+apic analytics-services:update [flags] ANALYTICS_SERVICE ANALYTICS_SERVICE_FILE
+```
 
-      apic analytics-services:update [flags] ANALYTICS_SERVICE ANALYTICS_SERVICE_FILE
+## Request examples
 
+--------------------------------------------------------------------
+#### Example of fields which can be updated on an analytics service.
+--------------------------------------------------------------------
+
+```
+summary: An example analytics service
+title: ACME Updated Analytics Service
 ```
 
 ## Options

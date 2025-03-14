@@ -17,9 +17,7 @@ apic draft-apis:list-all [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-apis:list-all [flags]
-
+apic draft-apis:list-all [flags]
 ```
 
 ## Options

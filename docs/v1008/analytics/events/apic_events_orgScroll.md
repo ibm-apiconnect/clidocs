@@ -18,9 +18,7 @@ apic events:orgScroll --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:orgScroll --mode analytics [flags] SCROLL_REQUEST_FILE
-
+apic events:orgScroll --mode analytics [flags] SCROLL_REQUEST_FILE
 ```
 
 ## Options

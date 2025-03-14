@@ -17,9 +17,7 @@ apic jobs:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic jobs:delete [flags] JOB
-
+apic jobs:delete [flags] JOB
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic clustermgmt:getIngestionOs --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIngestionOs --mode analytics [flags]
-
+apic clustermgmt:getIngestionOs --mode analytics [flags]
 ```
 
 ## Options

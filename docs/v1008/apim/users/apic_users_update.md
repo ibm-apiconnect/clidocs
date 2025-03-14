@@ -36,9 +36,22 @@ apic users:update [flags]
 ## Possible Usages
 
 ```
+apic users:update [flags] USER USER_FILE
+```
 
-      apic users:update [flags] USER USER_FILE
+## Request examples
 
+----------------------------
+#### Example of user Update.
+----------------------------
+
+```
+email: acme-updated@example.com
+first_name: ACMEUpdated
+last_name: LastnameUpdated
+password: acme-updated@123
+summary: An example user update
+title: ACME User Updated
 ```
 
 ## Options

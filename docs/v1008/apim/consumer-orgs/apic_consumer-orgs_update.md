@@ -28,10 +28,19 @@ apic consumer-orgs:update [flags]
 ## Possible Usages
 
 ```
+apic consumer-orgs:update [flags] --space-initiated CONSUMER_ORG CONSUMER_ORG_FILE
+apic consumer-orgs:update [flags] CONSUMER_ORG CONSUMER_ORG_FILE
+```
 
-      apic consumer-orgs:update [flags] --space-initiated CONSUMER_ORG CONSUMER_ORG_FILE
-      apic consumer-orgs:update [flags] CONSUMER_ORG CONSUMER_ORG_FILE
+## Request examples
 
+------------------------------------------------
+#### Example consumer org update at space scope.
+------------------------------------------------
+
+```
+summary: An example consumer org update
+title: ACME Consumer Org Updated
 ```
 
 ## Options

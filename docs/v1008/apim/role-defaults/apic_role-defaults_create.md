@@ -18,9 +18,24 @@ apic role-defaults:create [flags]
 ## Possible Usages
 
 ```
+apic role-defaults:create [flags] --scope cloud --subcollection provider ROLE_DEFAULT_FILE
+```
 
-      apic role-defaults:create [flags] --scope cloud --subcollection provider ROLE_DEFAULT_FILE
+## Request examples
 
+---------------------------------------
+#### Example of role defaults creation.
+---------------------------------------
+
+```
+name: acme-role-defaults
+permission_urls:
+- https://acme-apim.example.com/api/cloud/permissions/org/topology:view
+- https://acme-apim.example.com/api/cloud/permissions/provider/product-drafts:view
+- https://acme-apim.example.com/api/cloud/permissions/deployment/product:view
+role_default_type: provider
+summary: An example role defaults
+title: Acme role defaults
 ```
 
 ## Options

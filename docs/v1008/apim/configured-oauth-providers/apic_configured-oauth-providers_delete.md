@@ -19,10 +19,8 @@ apic configured-oauth-providers:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-oauth-providers:delete [flags] --scope space CONFIGURED_OAUTH_PROVIDER
-      apic configured-oauth-providers:delete [flags] --scope catalog CONFIGURED_OAUTH_PROVIDER
-
+apic configured-oauth-providers:delete [flags] --scope space CONFIGURED_OAUTH_PROVIDER
+apic configured-oauth-providers:delete [flags] --scope catalog CONFIGURED_OAUTH_PROVIDER
 ```
 
 ## Options

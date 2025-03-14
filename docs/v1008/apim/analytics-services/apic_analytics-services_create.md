@@ -33,9 +33,20 @@ apic analytics-services:create [flags]
 ## Possible Usages
 
 ```
+apic analytics-services:create [flags] ANALYTICS_SERVICE_FILE
+```
 
-      apic analytics-services:create [flags] ANALYTICS_SERVICE_FILE
+## Request examples
 
+-------------------------------
+#### Example analytics service.
+-------------------------------
+
+```
+communication_from_apim_kind: external
+endpoint: https://a7s.acme-apim.example.com
+name: acme-analytics-service
+title: ACME Analytics Service
 ```
 
 ## Options

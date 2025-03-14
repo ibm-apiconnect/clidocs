@@ -17,10 +17,8 @@ apic tls-server-profiles:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic tls-server-profiles:delete [flags] --id ID
-      apic tls-server-profiles:delete [flags] NAME:VERSION
-
+apic tls-server-profiles:delete [flags] --id ID
+apic tls-server-profiles:delete [flags] NAME:VERSION
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic orgs:delete --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:delete --mode consumer [flags] ORG
-
+apic orgs:delete --mode consumer [flags] ORG
 ```
 
 ## Options

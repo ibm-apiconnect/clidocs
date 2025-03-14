@@ -14,6 +14,7 @@ Catalog Settings operations
 apic catalog-settings [flags]
 ```
 
+
 ## Options
 
 ```

@@ -17,9 +17,7 @@ apic clustermgmt:getSettings --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getSettings --mode analytics [flags]
-
+apic clustermgmt:getSettings --mode analytics [flags]
 ```
 
 ## Options

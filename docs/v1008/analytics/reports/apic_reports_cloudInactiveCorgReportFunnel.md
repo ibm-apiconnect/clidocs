@@ -18,9 +18,7 @@ apic reports:cloudInactiveCorgReportFunnel --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudInactiveCorgReportFunnel --mode analytics [flags]
-
+apic reports:cloudInactiveCorgReportFunnel --mode analytics [flags]
 ```
 
 ## Options

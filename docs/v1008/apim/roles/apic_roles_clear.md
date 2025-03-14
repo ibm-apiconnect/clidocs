@@ -18,9 +18,7 @@ apic roles:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic roles:clear [flags] --scope org
-
+apic roles:clear [flags] --scope org
 ```
 
 ## Options

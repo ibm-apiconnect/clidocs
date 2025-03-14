@@ -17,9 +17,7 @@ apic clustermgmt:deleteIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:deleteIndex --mode analytics [flags]
-
+apic clustermgmt:deleteIndex --mode analytics [flags]
 ```
 
 ## Options

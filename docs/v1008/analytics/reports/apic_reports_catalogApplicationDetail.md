@@ -18,9 +18,7 @@ apic reports:catalogApplicationDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:catalogApplicationDetail --mode analytics [flags] APP_NAME
-
+apic reports:catalogApplicationDetail --mode analytics [flags] APP_NAME
 ```
 
 ## Options

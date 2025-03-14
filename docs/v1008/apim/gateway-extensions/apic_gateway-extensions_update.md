@@ -18,9 +18,7 @@ apic gateway-extensions:update [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-extensions:update [flags] --scope org GATEWAY_EXTENSION_FILE
-
+apic gateway-extensions:update [flags] --scope org GATEWAY_EXTENSION_FILE
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic data-sources:list --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic data-sources:list --mode discovery [flags]
-
+apic data-sources:list --mode discovery [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic queries:orgClone --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:orgClone --mode analytics [flags] ID
-
+apic queries:orgClone --mode analytics [flags] ID
 ```
 
 ## Options

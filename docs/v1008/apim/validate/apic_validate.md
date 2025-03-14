@@ -14,6 +14,7 @@ Validate an API or product definition
 apic validate [FILE] [flags]
 ```
 
+
 ## Examples
 
 ```

@@ -17,9 +17,7 @@ apic jobs:retry [flags]
 ## Possible Usages
 
 ```
-
-      apic jobs:retry [flags] JOB
-
+apic jobs:retry [flags] JOB
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic api-keys:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic api-keys:delete [flags] API_KEY
-
+apic api-keys:delete [flags] API_KEY
 ```
 
 ## Options

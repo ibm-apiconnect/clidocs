@@ -18,9 +18,7 @@ apic activations:get [flags]
 ## Possible Usages
 
 ```
-
-      apic activations:get [flags] --scope org ACTIVATION
-
+apic activations:get [flags] --scope org ACTIVATION
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic custom-translation:create-import --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-translation:create-import --mode portaladmin [flags] CUSTOM_TRANSLATION_FILE
-
+apic custom-translation:create-import --mode portaladmin [flags] CUSTOM_TRANSLATION_FILE
 ```
 
 ## Options

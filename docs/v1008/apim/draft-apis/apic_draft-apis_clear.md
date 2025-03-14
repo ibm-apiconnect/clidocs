@@ -17,9 +17,7 @@ apic draft-apis:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-apis:clear [flags] DRAFT_API_NAME
-
+apic draft-apis:clear [flags] DRAFT_API_NAME
 ```
 
 ## Options

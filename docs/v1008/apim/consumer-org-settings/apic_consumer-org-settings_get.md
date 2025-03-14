@@ -17,10 +17,8 @@ apic consumer-org-settings:get [flags]
 ## Possible Usages
 
 ```
-
-      apic consumer-org-settings:get [flags] --space-initiated
-      apic consumer-org-settings:get [flags]
-
+apic consumer-org-settings:get [flags] --space-initiated
+apic consumer-org-settings:get [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic themes:list --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic themes:list --mode portaladmin [flags]
-
+apic themes:list --mode portaladmin [flags]
 ```
 
 ## Options

@@ -19,10 +19,8 @@ apic configured-api-user-registries:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-api-user-registries:clear [flags] --scope space
-      apic configured-api-user-registries:clear [flags] --scope catalog
-
+apic configured-api-user-registries:clear [flags] --scope space
+apic configured-api-user-registries:clear [flags] --scope catalog
 ```
 
 ## Options

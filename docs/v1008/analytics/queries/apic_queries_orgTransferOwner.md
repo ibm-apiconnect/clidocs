@@ -18,9 +18,7 @@ apic queries:orgTransferOwner --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:orgTransferOwner --mode analytics [flags] ID NEW_OWNER_USER_URL
-
+apic queries:orgTransferOwner --mode analytics [flags] ID NEW_OWNER_USER_URL
 ```
 
 ## Options

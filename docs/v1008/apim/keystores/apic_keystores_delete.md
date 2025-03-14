@@ -17,9 +17,7 @@ apic keystores:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic keystores:delete [flags] KEYSTORE
-
+apic keystores:delete [flags] KEYSTORE
 ```
 
 ## Options

@@ -14,6 +14,7 @@ Custom Theme operations
 apic custom-theme --mode portaladmin [flags]
 ```
 
+
 ## Options
 
 ```

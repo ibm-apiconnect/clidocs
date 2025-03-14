@@ -19,12 +19,96 @@ apic extensions:update [flags]
 ## Possible Usages
 
 ```
+apic extensions:update [flags] --id --scope space ID EXTENSION_FILE
+apic extensions:update [flags] --id --scope catalog ID EXTENSION_FILE
+apic extensions:update [flags] --scope space NAME:VERSION EXTENSION_FILE
+apic extensions:update [flags] --scope catalog NAME:VERSION EXTENSION_FILE
+```
 
-      apic extensions:update [flags] --id --scope space ID EXTENSION_FILE
-      apic extensions:update [flags] --id --scope catalog ID EXTENSION_FILE
-      apic extensions:update [flags] --scope space NAME:VERSION EXTENSION_FILE
-      apic extensions:update [flags] --scope catalog NAME:VERSION EXTENSION_FILE
+## Request examples
 
+----------------------------------------------------------------------
+#### Example of extension update by name and version at catalog scope.
+----------------------------------------------------------------------
+
+```
+extension: 1.0.0
+info:
+  contact:
+    email: acme@example.com
+    name: Aaron Cohen
+    url: http://acme.example.com
+  description: An example extension update.
+  license:
+    name: Tom Clayton
+    url: http://acmelicense.example.com
+  name: acme-extension
+  termsOfService: https://www.acme.com/legal
+  title: Acme extension update
+  version: 1.0.0
+```
+
+--------------------------------------------------------
+#### Example of extension update by id at catalog scope.
+--------------------------------------------------------
+
+```
+extension: 1.0.0
+info:
+  contact:
+    email: acme@example.com
+    name: Aaron Cohen
+    url: http://acme.example.com
+  description: An example extension update.
+  license:
+    name: Tom Clayton
+    url: http://acmelicense.example.com
+  name: acme-extension
+  termsOfService: https://www.acme.com/legal
+  title: Acme extension update
+  version: 1.0.0
+```
+
+--------------------------------------------------------------------
+#### Example of extension update by name and version at space scope.
+--------------------------------------------------------------------
+
+```
+extension: 1.0.0
+info:
+  contact:
+    email: acme@example.com
+    name: Aaron Cohen
+    url: http://acme.example.com
+  description: An example extension update.
+  license:
+    name: Tom Clayton
+    url: http://acmelicense.example.com
+  name: acme-extension
+  termsOfService: https://www.acme.com/legal
+  title: Acme extension update
+  version: 1.0.0
+```
+
+------------------------------------------------------
+#### Example of extension update by id at space scope.
+------------------------------------------------------
+
+```
+extension: 1.0.0
+info:
+  contact:
+    email: acme@example.com
+    name: Aaron Cohen
+    url: http://acme.example.com
+  description: An example extension update.
+  license:
+    name: Tom Clayton
+    url: http://acmelicense.example.com
+  name: acme-extension
+  termsOfService: https://www.acme.com/legal
+  title: Acme extension update
+  version: 1.0.0
 ```
 
 ## Options

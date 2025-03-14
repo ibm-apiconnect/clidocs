@@ -17,9 +17,7 @@ apic users:activate --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic users:activate --mode consumer [flags]
-
+apic users:activate --mode consumer [flags]
 ```
 
 ## Options

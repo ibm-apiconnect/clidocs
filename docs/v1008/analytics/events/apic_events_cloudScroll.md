@@ -18,9 +18,7 @@ apic events:cloudScroll --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:cloudScroll --mode analytics [flags] SCROLL_REQUEST_FILE
-
+apic events:cloudScroll --mode analytics [flags] SCROLL_REQUEST_FILE
 ```
 
 ## Options

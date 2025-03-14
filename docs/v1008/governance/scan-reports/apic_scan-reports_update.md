@@ -20,11 +20,9 @@ apic scan-reports:update --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic scan-reports:update --mode governance [flags] --scope space SCAN_REPORT SCAN_REPORT_FILE
-      apic scan-reports:update --mode governance [flags] --scope org SCAN_REPORT SCAN_REPORT_FILE
-      apic scan-reports:update --mode governance [flags] --scope catalog SCAN_REPORT SCAN_REPORT_FILE
-
+apic scan-reports:update --mode governance [flags] --scope space SCAN_REPORT SCAN_REPORT_FILE
+apic scan-reports:update --mode governance [flags] --scope org SCAN_REPORT SCAN_REPORT_FILE
+apic scan-reports:update --mode governance [flags] --scope catalog SCAN_REPORT SCAN_REPORT_FILE
 ```
 
 ## Options

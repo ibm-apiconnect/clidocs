@@ -18,9 +18,7 @@ apic queries:catalogShare --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:catalogShare --mode analytics [flags] ID
-
+apic queries:catalogShare --mode analytics [flags] ID
 ```
 
 ## Options

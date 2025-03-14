@@ -17,9 +17,7 @@ apic cloud-settings:toolkit-credentials-list [flags]
 ## Possible Usages
 
 ```
-
-      apic cloud-settings:toolkit-credentials-list [flags]
-
+apic cloud-settings:toolkit-credentials-list [flags]
 ```
 
 ## Options

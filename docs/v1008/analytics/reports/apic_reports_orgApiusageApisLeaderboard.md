@@ -18,9 +18,7 @@ apic reports:orgApiusageApisLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:orgApiusageApisLeaderboard --mode analytics [flags]
-
+apic reports:orgApiusageApisLeaderboard --mode analytics [flags]
 ```
 
 ## Options

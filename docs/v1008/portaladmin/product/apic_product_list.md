@@ -17,9 +17,7 @@ apic product:list --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic product:list --mode portaladmin [flags]
-
+apic product:list --mode portaladmin [flags]
 ```
 
 ## Options

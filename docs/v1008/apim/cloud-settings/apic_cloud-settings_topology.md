@@ -17,9 +17,7 @@ apic cloud-settings:topology [flags]
 ## Possible Usages
 
 ```
-
-      apic cloud-settings:topology [flags]
-
+apic cloud-settings:topology [flags]
 ```
 
 ## Options

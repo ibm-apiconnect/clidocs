@@ -14,6 +14,7 @@ Application operations
 apic application --mode portaladmin [flags]
 ```
 
+
 ## Options
 
 ```

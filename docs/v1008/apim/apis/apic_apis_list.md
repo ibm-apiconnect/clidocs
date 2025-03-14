@@ -19,10 +19,8 @@ apic apis:list [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:list [flags] --scope space API_NAME
-      apic apis:list [flags] --scope catalog API_NAME
-
+apic apis:list [flags] --scope space API_NAME
+apic apis:list [flags] --scope catalog API_NAME
 ```
 
 ## Options

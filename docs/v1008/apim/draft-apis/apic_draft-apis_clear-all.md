@@ -17,9 +17,7 @@ apic draft-apis:clear-all [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-apis:clear-all [flags]
-
+apic draft-apis:clear-all [flags]
 ```
 
 ## Options

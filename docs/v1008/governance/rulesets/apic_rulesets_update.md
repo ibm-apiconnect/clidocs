@@ -29,9 +29,7 @@ apic rulesets:update --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rulesets:update --mode governance [flags] RULESET RULESET_FILE
-
+apic rulesets:update --mode governance [flags] RULESET RULESET_FILE
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic clustermgmt:getIngestionOsNodeStats --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIngestionOsNodeStats --mode analytics [flags]
-
+apic clustermgmt:getIngestionOsNodeStats --mode analytics [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic queries:catalogUnshare --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:catalogUnshare --mode analytics [flags] ID
-
+apic queries:catalogUnshare --mode analytics [flags] ID
 ```
 
 ## Options

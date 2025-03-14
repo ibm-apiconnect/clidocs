@@ -18,9 +18,7 @@ apic reports:spaceInactiveCorgReportFunnel --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceInactiveCorgReportFunnel --mode analytics [flags]
-
+apic reports:spaceInactiveCorgReportFunnel --mode analytics [flags]
 ```
 
 ## Options

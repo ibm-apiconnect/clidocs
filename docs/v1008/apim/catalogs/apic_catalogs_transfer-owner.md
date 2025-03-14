@@ -17,9 +17,25 @@ apic catalogs:transfer-owner [flags]
 ## Possible Usages
 
 ```
+apic catalogs:transfer-owner [flags] CATALOG TRANSFER_OWNER_FILE
+```
 
-      apic catalogs:transfer-owner [flags] CATALOG TRANSFER_OWNER_FILE
+## Request examples
 
+---------------------------------------------------
+#### Example of owner transfer using associate url.
+---------------------------------------------------
+
+```
+new_owner_associate_url: 'https://api.acme-apim.example.com/api/orgs/acme-org/associates/acme-associate  '
+```
+
+------------------------------------------------
+#### Example of owner transfer using member url.
+------------------------------------------------
+
+```
+new_owner_member_url: https://api.acme-apim.example.com/api/catalogs/acme-org/acme-catalog/members/acme-member
 ```
 
 ## Options

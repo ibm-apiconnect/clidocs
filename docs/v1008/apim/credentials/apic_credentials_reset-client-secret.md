@@ -17,10 +17,8 @@ apic credentials:reset-client-secret [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:reset-client-secret [flags] --space-initiated CREDENTIAL
-      apic credentials:reset-client-secret [flags] CREDENTIAL
-
+apic credentials:reset-client-secret [flags] --space-initiated CREDENTIAL
+apic credentials:reset-client-secret [flags] CREDENTIAL
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic events:orgCount --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:orgCount --mode analytics [flags]
-
+apic events:orgCount --mode analytics [flags]
 ```
 
 ## Options

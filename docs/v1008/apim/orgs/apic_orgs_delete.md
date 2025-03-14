@@ -17,9 +17,7 @@ apic orgs:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:delete [flags] ORG
-
+apic orgs:delete [flags] ORG
 ```
 
 ## Options

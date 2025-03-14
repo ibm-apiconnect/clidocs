@@ -19,10 +19,8 @@ apic global-policy-prehooks:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policy-prehooks:delete [flags] --scope space
-      apic global-policy-prehooks:delete [flags] --scope catalog
-
+apic global-policy-prehooks:delete [flags] --scope space
+apic global-policy-prehooks:delete [flags] --scope catalog
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic catalogs:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic catalogs:clear [flags]
-
+apic catalogs:clear [flags]
 ```
 
 ## Options

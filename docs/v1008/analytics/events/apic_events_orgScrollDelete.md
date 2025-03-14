@@ -18,9 +18,7 @@ apic events:orgScrollDelete --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic events:orgScrollDelete --mode analytics [flags] SCROLL_ID
-
+apic events:orgScrollDelete --mode analytics [flags] SCROLL_ID
 ```
 
 ## Options

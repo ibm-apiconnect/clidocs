@@ -19,10 +19,8 @@ apic analytics:create [flags]
 ## Possible Usages
 
 ```
-
-      apic analytics:create [flags] --scope space ANALYTICS_FILE
-      apic analytics:create [flags] --scope catalog ANALYTICS_FILE
-
+apic analytics:create [flags] --scope space ANALYTICS_FILE
+apic analytics:create [flags] --scope catalog ANALYTICS_FILE
 ```
 
 ## Options

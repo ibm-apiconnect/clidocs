@@ -18,9 +18,7 @@ apic activations:list [flags]
 ## Possible Usages
 
 ```
-
-      apic activations:list [flags] --scope org
-
+apic activations:list [flags] --scope org
 ```
 
 ## Options

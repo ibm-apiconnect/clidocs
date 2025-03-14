@@ -18,9 +18,7 @@ apic dashboards:cloudLatency --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:cloudLatency --mode analytics [flags]
-
+apic dashboards:cloudLatency --mode analytics [flags]
 ```
 
 ## Options

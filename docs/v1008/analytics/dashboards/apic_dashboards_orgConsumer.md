@@ -18,9 +18,7 @@ apic dashboards:orgConsumer --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:orgConsumer --mode analytics [flags]
-
+apic dashboards:orgConsumer --mode analytics [flags]
 ```
 
 ## Options

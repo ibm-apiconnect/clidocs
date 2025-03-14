@@ -17,9 +17,7 @@ apic clustermgmt:getAliasByIndexAlias --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getAliasByIndexAlias --mode analytics [flags]
-
+apic clustermgmt:getAliasByIndexAlias --mode analytics [flags]
 ```
 
 ## Options

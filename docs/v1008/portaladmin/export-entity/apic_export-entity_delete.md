@@ -17,9 +17,7 @@ apic export-entity:delete --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic export-entity:delete --mode portaladmin [flags]
-
+apic export-entity:delete --mode portaladmin [flags]
 ```
 
 ## Options

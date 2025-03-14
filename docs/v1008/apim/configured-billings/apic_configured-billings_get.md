@@ -17,9 +17,7 @@ apic configured-billings:get [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-billings:get [flags] CONFIGURED_BILLING
-
+apic configured-billings:get [flags] CONFIGURED_BILLING
 ```
 
 ## Options

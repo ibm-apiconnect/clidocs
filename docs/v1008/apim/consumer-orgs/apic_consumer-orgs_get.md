@@ -17,10 +17,8 @@ apic consumer-orgs:get [flags]
 ## Possible Usages
 
 ```
-
-      apic consumer-orgs:get [flags] --space-initiated CONSUMER_ORG
-      apic consumer-orgs:get [flags] CONSUMER_ORG
-
+apic consumer-orgs:get [flags] --space-initiated CONSUMER_ORG
+apic consumer-orgs:get [flags] CONSUMER_ORG
 ```
 
 ## Options

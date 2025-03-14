@@ -17,9 +17,7 @@ apic permissions:list-all --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic permissions:list-all --mode consumer [flags]
-
+apic permissions:list-all --mode consumer [flags]
 ```
 
 ## Options

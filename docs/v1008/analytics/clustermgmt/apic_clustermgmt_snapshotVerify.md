@@ -17,9 +17,7 @@ apic clustermgmt:snapshotVerify --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:snapshotVerify --mode analytics [flags]
-
+apic clustermgmt:snapshotVerify --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic site:login-link --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic site:login-link --mode portaladmin [flags]
-
+apic site:login-link --mode portaladmin [flags]
 ```
 
 ## Options

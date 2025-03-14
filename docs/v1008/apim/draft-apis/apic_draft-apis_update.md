@@ -27,10 +27,57 @@ apic draft-apis:update [flags]
 ## Possible Usages
 
 ```
+apic draft-apis:update [flags] --id ID DRAFT_API_FILE
+apic draft-apis:update [flags] NAME:VERSION DRAFT_API_FILE
+```
 
-      apic draft-apis:update [flags] --id ID DRAFT_API_FILE
-      apic draft-apis:update [flags] NAME:VERSION DRAFT_API_FILE
+## Request examples
 
+------------------------------------------------------
+#### Example of draft-apis update by name and version.
+------------------------------------------------------
+
+```
+info:
+  description: An API for managing product details.
+  title: Product Management API
+  version: 1.0.0
+  x-ibm-name: product-management-api
+paths:
+  /products:
+    post:
+      operationId: product.create
+      parameters:
+      - description: Product details.
+        in: body
+        name: productData
+        required: true
+        schema:
+          properties:
+            description:
+              type: string
+            name:
+              type: string
+            product_id:
+              type: string
+          required:
+          - product_id
+          - name
+          type: object
+      responses:
+        "201":
+          description: Product created successfully.
+          schema:
+            properties:
+              message:
+                type: string
+              product_id:
+                type: string
+            type: object
+      summary: Create a new product.
+      tags:
+      - product
+swagger: "2.0"
 ```
 
 ## Options

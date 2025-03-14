@@ -17,9 +17,7 @@ apic portal-services:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic portal-services:clear [flags]
-
+apic portal-services:clear [flags]
 ```
 
 ## Options

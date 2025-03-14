@@ -18,9 +18,7 @@ apic queries:orgUpdate --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:orgUpdate --mode analytics [flags] ID QUERY_UPDATE_REQUEST_FILE
-
+apic queries:orgUpdate --mode analytics [flags] ID QUERY_UPDATE_REQUEST_FILE
 ```
 
 ## Options

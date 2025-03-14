@@ -18,9 +18,7 @@ apic queries:cloudUnshare --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:cloudUnshare --mode analytics [flags] ID
-
+apic queries:cloudUnshare --mode analytics [flags] ID
 ```
 
 ## Options

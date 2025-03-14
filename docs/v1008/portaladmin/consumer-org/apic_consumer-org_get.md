@@ -17,9 +17,7 @@ apic consumer-org:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic consumer-org:get --mode portaladmin [flags] CONSUMER_ORG
-
+apic consumer-org:get --mode portaladmin [flags] CONSUMER_ORG
 ```
 
 ## Options

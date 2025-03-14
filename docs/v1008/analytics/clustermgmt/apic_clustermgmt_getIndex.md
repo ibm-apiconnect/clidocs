@@ -17,9 +17,7 @@ apic clustermgmt:getIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIndex --mode analytics [flags]
-
+apic clustermgmt:getIndex --mode analytics [flags]
 ```
 
 ## Options

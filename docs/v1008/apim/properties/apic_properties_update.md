@@ -18,9 +18,17 @@ apic properties:update [flags]
 ## Possible Usages
 
 ```
+apic properties:update [flags] --scope catalog PROPERTY_NAME PROPERTY_FILE
+```
 
-      apic properties:update [flags] --scope catalog PROPERTY_NAME PROPERTY_FILE
+## Request examples
 
+--------------------------------
+#### Example of property update.
+--------------------------------
+
+```
+acme: acmevalue
 ```
 
 ## Options

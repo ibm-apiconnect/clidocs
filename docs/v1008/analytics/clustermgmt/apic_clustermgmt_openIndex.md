@@ -17,9 +17,7 @@ apic clustermgmt:openIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:openIndex --mode analytics [flags]
-
+apic clustermgmt:openIndex --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic credentials:delete --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:delete --mode consumer [flags] CREDENTIAL
-
+apic credentials:delete --mode consumer [flags] CREDENTIAL
 ```
 
 ## Options

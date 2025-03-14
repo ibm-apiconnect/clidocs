@@ -17,9 +17,7 @@ apic oauth-providers:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic oauth-providers:clear [flags]
-
+apic oauth-providers:clear [flags]
 ```
 
 ## Options

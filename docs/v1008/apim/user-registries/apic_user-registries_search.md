@@ -17,9 +17,18 @@ apic user-registries:search [flags]
 ## Possible Usages
 
 ```
+apic user-registries:search [flags] USER_REGISTRY USER_SEARCH_FILE
+```
 
-      apic user-registries:search [flags] USER_REGISTRY USER_SEARCH_FILE
+## Request examples
 
+----------------------------------------------
+#### Example search for users in user registry
+----------------------------------------------
+
+```
+remote: true
+username: acme
 ```
 
 ## Options

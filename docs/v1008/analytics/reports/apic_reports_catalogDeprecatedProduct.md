@@ -18,9 +18,7 @@ apic reports:catalogDeprecatedProduct --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:catalogDeprecatedProduct --mode analytics [flags]
-
+apic reports:catalogDeprecatedProduct --mode analytics [flags]
 ```
 
 ## Options

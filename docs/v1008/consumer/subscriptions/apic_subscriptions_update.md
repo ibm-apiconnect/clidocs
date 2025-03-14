@@ -28,9 +28,7 @@ apic subscriptions:update --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriptions:update --mode consumer [flags] SUBSCRIPTION SUBSCRIPTION_FILE
-
+apic subscriptions:update --mode consumer [flags] SUBSCRIPTION SUBSCRIPTION_FILE
 ```
 
 ## Options

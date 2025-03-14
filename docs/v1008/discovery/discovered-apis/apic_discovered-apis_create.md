@@ -26,9 +26,7 @@ apic discovered-apis:create --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic discovered-apis:create --mode discovery [flags] DISCOVERED_API_FILE
-
+apic discovered-apis:create --mode discovery [flags] DISCOVERED_API_FILE
 ```
 
 ## Options

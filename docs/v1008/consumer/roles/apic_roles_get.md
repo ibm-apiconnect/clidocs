@@ -18,9 +18,7 @@ apic roles:get --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic roles:get --mode consumer [flags] --scope org ROLE
-
+apic roles:get --mode consumer [flags] --scope org ROLE
 ```
 
 ## Options

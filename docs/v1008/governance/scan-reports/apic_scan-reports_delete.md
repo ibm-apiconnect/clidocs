@@ -20,11 +20,9 @@ apic scan-reports:delete --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic scan-reports:delete --mode governance [flags] --scope space SCAN_REPORT
-      apic scan-reports:delete --mode governance [flags] --scope org SCAN_REPORT
-      apic scan-reports:delete --mode governance [flags] --scope catalog SCAN_REPORT
-
+apic scan-reports:delete --mode governance [flags] --scope space SCAN_REPORT
+apic scan-reports:delete --mode governance [flags] --scope org SCAN_REPORT
+apic scan-reports:delete --mode governance [flags] --scope catalog SCAN_REPORT
 ```
 
 ## Options

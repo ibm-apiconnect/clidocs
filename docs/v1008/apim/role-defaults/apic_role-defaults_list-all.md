@@ -20,11 +20,9 @@ apic role-defaults:list-all [flags]
 ## Possible Usages
 
 ```
-
-      apic role-defaults:list-all [flags] --scope space
-      apic role-defaults:list-all [flags] --scope cloud
-      apic role-defaults:list-all [flags] --scope catalog
-
+apic role-defaults:list-all [flags] --scope space
+apic role-defaults:list-all [flags] --scope cloud
+apic role-defaults:list-all [flags] --scope catalog
 ```
 
 ## Options

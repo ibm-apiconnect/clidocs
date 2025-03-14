@@ -18,9 +18,7 @@ apic dashboards:spaceLatency --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:spaceLatency --mode analytics [flags]
-
+apic dashboards:spaceLatency --mode analytics [flags]
 ```
 
 ## Options

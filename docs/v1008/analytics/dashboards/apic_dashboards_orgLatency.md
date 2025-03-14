@@ -18,9 +18,7 @@ apic dashboards:orgLatency --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:orgLatency --mode analytics [flags]
-
+apic dashboards:orgLatency --mode analytics [flags]
 ```
 
 ## Options

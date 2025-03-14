@@ -14,6 +14,7 @@ Entries operations
 apic entries [flags]
 ```
 
+
 ## Options
 
 ```

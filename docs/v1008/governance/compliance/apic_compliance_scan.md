@@ -18,14 +18,13 @@ apic compliance:scan --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic compliance:scan --mode governance [flags] --scope org COMPLIANCE_REQUEST_FILE
-
+apic compliance:scan --mode governance [flags] --scope org COMPLIANCE_REQUEST_FILE
 ```
 
 ## Options
 
 ```
+      --all_rulesets       Optional selection of all rulesets to be used for validation
       --format string      Output format. One of [json yaml octet-stream go-template=... go-template-file=...], defaults to yaml.
   -h, --help               Help for compliance:scan
   -o, --org string         Organization name or id (required)

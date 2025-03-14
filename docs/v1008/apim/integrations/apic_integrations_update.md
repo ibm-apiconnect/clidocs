@@ -17,12 +17,10 @@ apic integrations:update [flags]
 ## Possible Usages
 
 ```
-
-      apic integrations:update [flags] --subcollection user-registry INTEGRATION INTEGRATION_FILE
-      apic integrations:update [flags] --subcollection payment-method INTEGRATION INTEGRATION_FILE
-      apic integrations:update [flags] --subcollection gateway-service INTEGRATION INTEGRATION_FILE
-      apic integrations:update [flags] --subcollection billing INTEGRATION INTEGRATION_FILE
-
+apic integrations:update [flags] --subcollection user-registry INTEGRATION INTEGRATION_FILE
+apic integrations:update [flags] --subcollection payment-method INTEGRATION INTEGRATION_FILE
+apic integrations:update [flags] --subcollection gateway-service INTEGRATION INTEGRATION_FILE
+apic integrations:update [flags] --subcollection billing INTEGRATION INTEGRATION_FILE
 ```
 
 ## Options

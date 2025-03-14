@@ -17,9 +17,7 @@ apic permissions:list-all [flags]
 ## Possible Usages
 
 ```
-
-      apic permissions:list-all [flags]
-
+apic permissions:list-all [flags]
 ```
 
 ## Options

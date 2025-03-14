@@ -18,9 +18,7 @@ apic reports:catalogPlanDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:catalogPlanDetail --mode analytics [flags]
-
+apic reports:catalogPlanDetail --mode analytics [flags]
 ```
 
 ## Options

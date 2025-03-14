@@ -19,10 +19,34 @@ apic global-policy-prehooks:create [flags]
 ## Possible Usages
 
 ```
+apic global-policy-prehooks:create [flags] --scope space GLOBAL_POLICY_PREHOOK_FILE
+apic global-policy-prehooks:create [flags] --scope catalog GLOBAL_POLICY_PREHOOK_FILE
+```
 
-      apic global-policy-prehooks:create [flags] --scope space GLOBAL_POLICY_PREHOOK_FILE
-      apic global-policy-prehooks:create [flags] --scope catalog GLOBAL_POLICY_PREHOOK_FILE
+## Request examples
 
+-----------------------------------------------------------------
+#### Example of global policy prehooks creation at catalog scope.
+-----------------------------------------------------------------
+
+```
+global_policy_url: https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/configured-gateway-services/acme-configured-gateway-service/global-policies/global-policy-id
+name: acme
+scope: catalog
+summary: An example global policy prehooks creation
+title: Acme Global policy prehooks creation
+```
+
+---------------------------------------------------------------
+#### Example of global policy prehooks creation at space scope.
+---------------------------------------------------------------
+
+```
+global_policy_url: https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/configured-gateway-services/acme-configured-gateway-service/global-policies/global-policy-id
+name: acme
+scope: space
+summary: An example global policy prehooks creation
+title: Acme Global policy prehooks creation
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic reports:spaceInactiveProductReport --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceInactiveProductReport --mode analytics [flags]
-
+apic reports:spaceInactiveProductReport --mode analytics [flags]
 ```
 
 ## Options

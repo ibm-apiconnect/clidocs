@@ -18,9 +18,7 @@ apic reports:catalogApisLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:catalogApisLeaderboard --mode analytics [flags]
-
+apic reports:catalogApisLeaderboard --mode analytics [flags]
 ```
 
 ## Options

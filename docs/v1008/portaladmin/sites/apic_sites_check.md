@@ -17,9 +17,7 @@ apic sites:check --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic sites:check --mode portaladmin [flags]
-
+apic sites:check --mode portaladmin [flags]
 ```
 
 ## Options

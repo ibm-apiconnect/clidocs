@@ -17,10 +17,8 @@ apic payment-methods:get [flags]
 ## Possible Usages
 
 ```
-
-      apic payment-methods:get [flags] --space-initiated PAYMENT_METHOD
-      apic payment-methods:get [flags] PAYMENT_METHOD
-
+apic payment-methods:get [flags] --space-initiated PAYMENT_METHOD
+apic payment-methods:get [flags] PAYMENT_METHOD
 ```
 
 ## Options

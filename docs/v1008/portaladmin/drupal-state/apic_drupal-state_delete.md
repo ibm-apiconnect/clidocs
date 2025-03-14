@@ -17,9 +17,7 @@ apic drupal-state:delete --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic drupal-state:delete --mode portaladmin [flags]
-
+apic drupal-state:delete --mode portaladmin [flags]
 ```
 
 ## Options

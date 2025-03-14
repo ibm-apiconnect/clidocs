@@ -17,9 +17,7 @@ apic keystores:get [flags]
 ## Possible Usages
 
 ```
-
-      apic keystores:get [flags] KEYSTORE
-
+apic keystores:get [flags] KEYSTORE
 ```
 
 ## Options

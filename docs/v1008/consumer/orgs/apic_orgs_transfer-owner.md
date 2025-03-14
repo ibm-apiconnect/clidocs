@@ -17,9 +17,7 @@ apic orgs:transfer-owner --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:transfer-owner --mode consumer [flags] ORG TRANSFER_OWNER_FILE
-
+apic orgs:transfer-owner --mode consumer [flags] ORG TRANSFER_OWNER_FILE
 ```
 
 ## Options

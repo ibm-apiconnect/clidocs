@@ -17,9 +17,7 @@ apic api-keys:get [flags]
 ## Possible Usages
 
 ```
-
-      apic api-keys:get [flags] API_KEY
-
+apic api-keys:get [flags] API_KEY
 ```
 
 ## Options

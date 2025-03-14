@@ -17,9 +17,7 @@ apic clustermgmt:getPendingTasks --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getPendingTasks --mode analytics [flags]
-
+apic clustermgmt:getPendingTasks --mode analytics [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic reports:orgConsumption --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:orgConsumption --mode analytics [flags]
-
+apic reports:orgConsumption --mode analytics [flags]
 ```
 
 ## Options

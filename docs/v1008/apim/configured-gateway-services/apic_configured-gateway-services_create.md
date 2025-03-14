@@ -19,10 +19,26 @@ apic configured-gateway-services:create [flags]
 ## Possible Usages
 
 ```
+apic configured-gateway-services:create [flags] --scope space CONFIGURED_GATEWAY_SERVICE_FILE
+apic configured-gateway-services:create [flags] --scope catalog CONFIGURED_GATEWAY_SERVICE_FILE
+```
 
-      apic configured-gateway-services:create [flags] --scope space CONFIGURED_GATEWAY_SERVICE_FILE
-      apic configured-gateway-services:create [flags] --scope catalog CONFIGURED_GATEWAY_SERVICE_FILE
+## Request examples
 
+---------------------------------------------------------------------
+#### Example of configured gateway service creation at catalog scope.
+---------------------------------------------------------------------
+
+```
+gateway_service_url: https://acme-apim.example.com/api/orgs/org1/gateway-services/acme-gateway-service
+```
+
+-------------------------------------------------------------------
+#### Example of configured gateway service creation at space scope.
+-------------------------------------------------------------------
+
+```
+gateway_service_url: https://acme-apim.example.com/api/orgs/org1/gateway-services/acme-gateway-service
 ```
 
 ## Options

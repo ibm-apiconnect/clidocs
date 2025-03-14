@@ -19,10 +19,8 @@ apic subscriber-events:get [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriber-events:get [flags] --scope cloud SUBSCRIBER_EVENT
-      apic subscriber-events:get [flags] --scope catalog SUBSCRIBER_EVENT
-
+apic subscriber-events:get [flags] --scope cloud SUBSCRIBER_EVENT
+apic subscriber-events:get [flags] --scope catalog SUBSCRIBER_EVENT
 ```
 
 ## Options

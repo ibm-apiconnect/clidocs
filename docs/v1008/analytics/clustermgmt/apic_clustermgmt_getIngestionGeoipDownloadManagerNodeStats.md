@@ -17,9 +17,7 @@ apic clustermgmt:getIngestionGeoipDownloadManagerNodeStats --mode analytics [fla
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIngestionGeoipDownloadManagerNodeStats --mode analytics [flags]
-
+apic clustermgmt:getIngestionGeoipDownloadManagerNodeStats --mode analytics [flags]
 ```
 
 ## Options

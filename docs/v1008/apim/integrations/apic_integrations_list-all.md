@@ -17,9 +17,7 @@ apic integrations:list-all [flags]
 ## Possible Usages
 
 ```
-
-      apic integrations:list-all [flags]
-
+apic integrations:list-all [flags]
 ```
 
 ## Options

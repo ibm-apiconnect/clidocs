@@ -17,9 +17,7 @@ apic custom-webserver-page:get --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic custom-webserver-page:get --mode portaladmin [flags]
-
+apic custom-webserver-page:get --mode portaladmin [flags]
 ```
 
 ## Options

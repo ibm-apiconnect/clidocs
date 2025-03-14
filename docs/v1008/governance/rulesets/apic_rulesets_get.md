@@ -17,9 +17,7 @@ apic rulesets:get --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rulesets:get --mode governance [flags] RULESET
-
+apic rulesets:get --mode governance [flags] RULESET
 ```
 
 ## Options

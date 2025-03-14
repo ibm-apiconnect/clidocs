@@ -18,9 +18,7 @@ apic members:create --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic members:create --mode consumer [flags] --scope org MEMBER_FILE
-
+apic members:create --mode consumer [flags] --scope org MEMBER_FILE
 ```
 
 ## Options

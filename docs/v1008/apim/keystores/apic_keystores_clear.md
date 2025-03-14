@@ -17,9 +17,7 @@ apic keystores:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic keystores:clear [flags]
-
+apic keystores:clear [flags]
 ```
 
 ## Options

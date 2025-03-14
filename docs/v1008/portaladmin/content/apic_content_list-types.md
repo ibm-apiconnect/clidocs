@@ -17,9 +17,7 @@ apic content:list-types --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic content:list-types --mode portaladmin [flags]
-
+apic content:list-types --mode portaladmin [flags]
 ```
 
 ## Options

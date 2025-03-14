@@ -17,9 +17,7 @@ apic user-registry-settings:get [flags]
 ## Possible Usages
 
 ```
-
-      apic user-registry-settings:get [flags]
-
+apic user-registry-settings:get [flags]
 ```
 
 ## Options

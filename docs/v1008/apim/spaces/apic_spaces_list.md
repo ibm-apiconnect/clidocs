@@ -17,10 +17,8 @@ apic spaces:list [flags]
 ## Possible Usages
 
 ```
-
-      apic spaces:list [flags] --my
-      apic spaces:list [flags]
-
+apic spaces:list [flags] --my
+apic spaces:list [flags]
 ```
 
 ## Options

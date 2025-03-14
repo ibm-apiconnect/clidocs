@@ -19,11 +19,47 @@ apic groups:update [flags]
 ## Possible Usages
 
 ```
+apic groups:update [flags] --space-initiated GROUP GROUP_FILE
+apic groups:update [flags] --scope cloud GROUP GROUP_FILE
+apic groups:update [flags] --scope catalog GROUP GROUP_FILE
+```
 
-      apic groups:update [flags] --space-initiated GROUP GROUP_FILE
-      apic groups:update [flags] --scope cloud GROUP GROUP_FILE
-      apic groups:update [flags] --scope catalog GROUP GROUP_FILE
+## Request examples
 
+--------------------------------------------
+#### Example of group update at space scope.
+--------------------------------------------
+
+```
+org_urls:
+- https://api.acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org1
+- https://api.acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org2
+summary: An example group update
+title: Acme group update
+```
+
+----------------------------------------------
+#### Example of group update at catalog scope.
+----------------------------------------------
+
+```
+org_urls:
+- https://api.acme-apim.example.com/api/consumer-orgs/org1/catalog1/consumer-org1
+- https://api.acme-apim.example.com/api/consumer-orgs/org1/catalog1/consumer-org2
+summary: An example group update
+title: Acme group update
+```
+
+--------------------------------------------
+#### Example of group update at cloud scope.
+--------------------------------------------
+
+```
+org_urls:
+- https://api.acme-apim.example.com/api/orgs/org1
+- https://api.acme-apim.example.com/api/orgs/org2
+summary: An example group update
+title: Acme group update
 ```
 
 ## Options

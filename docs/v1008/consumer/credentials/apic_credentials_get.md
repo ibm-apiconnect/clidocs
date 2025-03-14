@@ -17,9 +17,7 @@ apic credentials:get --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:get --mode consumer [flags] CREDENTIAL
-
+apic credentials:get --mode consumer [flags] CREDENTIAL
 ```
 
 ## Options

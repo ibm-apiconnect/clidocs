@@ -17,9 +17,7 @@ apic clustermgmt:putStorageSettings --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:putStorageSettings --mode analytics [flags] SETTINGS_BODY_FILE
-
+apic clustermgmt:putStorageSettings --mode analytics [flags] SETTINGS_BODY_FILE
 ```
 
 ## Options

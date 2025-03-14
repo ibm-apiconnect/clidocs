@@ -18,9 +18,7 @@ apic queries:orgUnshare --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:orgUnshare --mode analytics [flags] ID
-
+apic queries:orgUnshare --mode analytics [flags] ID
 ```
 
 ## Options

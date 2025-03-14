@@ -17,9 +17,7 @@ apic draft-products:list [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-products:list [flags] DRAFT_PRODUCT_NAME
-
+apic draft-products:list [flags] DRAFT_PRODUCT_NAME
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic queries:catalogCreate --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:catalogCreate --mode analytics [flags] QUERY_REQUEST_FILE
-
+apic queries:catalogCreate --mode analytics [flags] QUERY_REQUEST_FILE
 ```
 
 ## Options

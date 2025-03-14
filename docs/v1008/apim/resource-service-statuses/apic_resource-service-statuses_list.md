@@ -17,9 +17,7 @@ apic resource-service-statuses:list [flags]
 ## Possible Usages
 
 ```
-
-      apic resource-service-statuses:list [flags]
-
+apic resource-service-statuses:list [flags]
 ```
 
 ## Options

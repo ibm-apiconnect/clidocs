@@ -17,9 +17,7 @@ apic jobs:list [flags]
 ## Possible Usages
 
 ```
-
-      apic jobs:list [flags]
-
+apic jobs:list [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic user:remove-role --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic user:remove-role --mode portaladmin [flags]
-
+apic user:remove-role --mode portaladmin [flags]
 ```
 
 ## Options

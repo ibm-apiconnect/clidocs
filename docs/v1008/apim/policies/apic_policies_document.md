@@ -20,14 +20,12 @@ apic policies:document [flags]
 ## Possible Usages
 
 ```
-
-      apic policies:document [flags] --id --scope space ID
-      apic policies:document [flags] --id --scope org ID
-      apic policies:document [flags] --id --scope catalog ID
-      apic policies:document [flags] --scope space NAME:VERSION
-      apic policies:document [flags] --scope org NAME:VERSION
-      apic policies:document [flags] --scope catalog NAME:VERSION
-
+apic policies:document [flags] --id --scope space ID
+apic policies:document [flags] --id --scope org ID
+apic policies:document [flags] --id --scope catalog ID
+apic policies:document [flags] --scope space NAME:VERSION
+apic policies:document [flags] --scope org NAME:VERSION
+apic policies:document [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

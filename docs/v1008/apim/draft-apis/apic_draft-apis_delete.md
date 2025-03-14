@@ -17,10 +17,8 @@ apic draft-apis:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-apis:delete [flags] --id ID
-      apic draft-apis:delete [flags] NAME:VERSION
-
+apic draft-apis:delete [flags] --id ID
+apic draft-apis:delete [flags] NAME:VERSION
 ```
 
 ## Options

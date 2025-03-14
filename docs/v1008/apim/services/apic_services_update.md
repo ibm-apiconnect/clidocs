@@ -17,10 +17,8 @@ apic services:update [flags]
 ## Possible Usages
 
 ```
-
-      apic services:update [flags] --id --space-initiated ID SERVICE_FILE
-      apic services:update [flags] --space-initiated NAME:VERSION SERVICE_FILE
-
+apic services:update [flags] --id --space-initiated ID SERVICE_FILE
+apic services:update [flags] --space-initiated NAME:VERSION SERVICE_FILE
 ```
 
 ## Options

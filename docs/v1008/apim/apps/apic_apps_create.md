@@ -29,10 +29,20 @@ apic apps:create [flags]
 ## Possible Usages
 
 ```
+apic apps:create [flags] --space-initiated APP_FILE
+apic apps:create [flags] APP_FILE
+```
 
-      apic apps:create [flags] --space-initiated APP_FILE
-      apic apps:create [flags] APP_FILE
+## Request examples
 
+---------------------------
+#### Example of app create.
+---------------------------
+
+```
+name: acme-app
+summary: An example app create
+title: ACME App
 ```
 
 ## Options

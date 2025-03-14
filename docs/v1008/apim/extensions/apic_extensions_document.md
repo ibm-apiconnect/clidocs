@@ -20,14 +20,12 @@ apic extensions:document [flags]
 ## Possible Usages
 
 ```
-
-      apic extensions:document [flags] --id --scope space ID
-      apic extensions:document [flags] --id --scope org ID
-      apic extensions:document [flags] --id --scope catalog ID
-      apic extensions:document [flags] --scope space NAME:VERSION
-      apic extensions:document [flags] --scope org NAME:VERSION
-      apic extensions:document [flags] --scope catalog NAME:VERSION
-
+apic extensions:document [flags] --id --scope space ID
+apic extensions:document [flags] --id --scope org ID
+apic extensions:document [flags] --id --scope catalog ID
+apic extensions:document [flags] --scope space NAME:VERSION
+apic extensions:document [flags] --scope org NAME:VERSION
+apic extensions:document [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

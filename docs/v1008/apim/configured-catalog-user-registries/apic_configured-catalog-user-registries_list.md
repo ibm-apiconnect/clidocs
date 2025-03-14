@@ -17,9 +17,7 @@ apic configured-catalog-user-registries:list [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-catalog-user-registries:list [flags]
-
+apic configured-catalog-user-registries:list [flags]
 ```
 
 ## Options

@@ -19,10 +19,8 @@ apic webhooks:update [flags]
 ## Possible Usages
 
 ```
-
-      apic webhooks:update [flags] --scope cloud WEBHOOK WEBHOOK_FILE
-      apic webhooks:update [flags] --scope catalog WEBHOOK WEBHOOK_FILE
-
+apic webhooks:update [flags] --scope cloud WEBHOOK WEBHOOK_FILE
+apic webhooks:update [flags] --scope catalog WEBHOOK WEBHOOK_FILE
 ```
 
 ## Options

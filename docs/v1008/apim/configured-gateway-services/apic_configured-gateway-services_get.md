@@ -19,10 +19,8 @@ apic configured-gateway-services:get [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-gateway-services:get [flags] --scope space CONFIGURED_GATEWAY_SERVICE
-      apic configured-gateway-services:get [flags] --scope catalog CONFIGURED_GATEWAY_SERVICE
-
+apic configured-gateway-services:get [flags] --scope space CONFIGURED_GATEWAY_SERVICE
+apic configured-gateway-services:get [flags] --scope catalog CONFIGURED_GATEWAY_SERVICE
 ```
 
 ## Options

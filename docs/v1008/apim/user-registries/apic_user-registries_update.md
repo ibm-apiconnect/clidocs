@@ -34,9 +34,19 @@ apic user-registries:update [flags]
 ## Possible Usages
 
 ```
+apic user-registries:update [flags] USER_REGISTRY USER_REGISTRY_FILE
+```
 
-      apic user-registries:update [flags] USER_REGISTRY USER_REGISTRY_FILE
+## Request examples
 
+----------------------------------------
+#### Example Local User Registry update.
+----------------------------------------
+
+```
+email_required: false
+summary: An example Local User Registry update
+title: Acme LUR update
 ```
 
 ## Options

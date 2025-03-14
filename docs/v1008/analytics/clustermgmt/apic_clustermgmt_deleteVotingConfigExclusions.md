@@ -17,9 +17,7 @@ apic clustermgmt:deleteVotingConfigExclusions --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:deleteVotingConfigExclusions --mode analytics [flags]
-
+apic clustermgmt:deleteVotingConfigExclusions --mode analytics [flags]
 ```
 
 ## Options

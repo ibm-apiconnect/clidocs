@@ -17,10 +17,8 @@ apic tls-client-profiles:get [flags]
 ## Possible Usages
 
 ```
-
-      apic tls-client-profiles:get [flags] --id ID
-      apic tls-client-profiles:get [flags] NAME:VERSION
-
+apic tls-client-profiles:get [flags] --id ID
+apic tls-client-profiles:get [flags] NAME:VERSION
 ```
 
 ## Options

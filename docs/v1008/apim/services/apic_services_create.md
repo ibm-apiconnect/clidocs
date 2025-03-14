@@ -17,9 +17,7 @@ apic services:create [flags]
 ## Possible Usages
 
 ```
-
-      apic services:create [flags] --space-initiated SERVICE_FILE
-
+apic services:create [flags] --space-initiated SERVICE_FILE
 ```
 
 ## Options

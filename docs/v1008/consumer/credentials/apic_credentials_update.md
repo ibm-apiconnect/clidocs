@@ -28,9 +28,7 @@ apic credentials:update --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic credentials:update --mode consumer [flags] CREDENTIAL CREDENTIAL_FILE
-
+apic credentials:update --mode consumer [flags] CREDENTIAL CREDENTIAL_FILE
 ```
 
 ## Options

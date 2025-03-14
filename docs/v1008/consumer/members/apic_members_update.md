@@ -18,9 +18,7 @@ apic members:update --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic members:update --mode consumer [flags] --scope org MEMBER MEMBER_FILE
-
+apic members:update --mode consumer [flags] --scope org MEMBER MEMBER_FILE
 ```
 
 ## Options

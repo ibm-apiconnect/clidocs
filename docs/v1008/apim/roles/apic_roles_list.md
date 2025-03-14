@@ -21,13 +21,11 @@ apic roles:list [flags]
 ## Possible Usages
 
 ```
-
-      apic roles:list [flags] --scope consumer-org --space-initiated
-      apic roles:list [flags] --scope space
-      apic roles:list [flags] --scope org
-      apic roles:list [flags] --scope consumer-org
-      apic roles:list [flags] --scope catalog
-
+apic roles:list [flags] --scope consumer-org --space-initiated
+apic roles:list [flags] --scope space
+apic roles:list [flags] --scope org
+apic roles:list [flags] --scope consumer-org
+apic roles:list [flags] --scope catalog
 ```
 
 ## Options

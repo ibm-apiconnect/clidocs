@@ -17,9 +17,7 @@ apic me:change-password --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic me:change-password --mode consumer [flags] CHANGE_PASSWORD_FILE
-
+apic me:change-password --mode consumer [flags] CHANGE_PASSWORD_FILE
 ```
 
 ## Options

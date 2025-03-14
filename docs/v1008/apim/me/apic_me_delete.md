@@ -17,9 +17,7 @@ apic me:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic me:delete [flags]
-
+apic me:delete [flags]
 ```
 
 ## Options

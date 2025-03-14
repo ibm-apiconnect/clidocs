@@ -18,9 +18,7 @@ apic task-queues:list [flags]
 ## Possible Usages
 
 ```
-
-      apic task-queues:list [flags] --scope cloud
-
+apic task-queues:list [flags] --scope cloud
 ```
 
 ## Options

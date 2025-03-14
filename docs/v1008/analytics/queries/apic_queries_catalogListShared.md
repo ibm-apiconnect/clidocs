@@ -18,9 +18,7 @@ apic queries:catalogListShared --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:catalogListShared --mode analytics [flags]
-
+apic queries:catalogListShared --mode analytics [flags]
 ```
 
 ## Options

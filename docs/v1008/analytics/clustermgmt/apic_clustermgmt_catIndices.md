@@ -17,9 +17,7 @@ apic clustermgmt:catIndices --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:catIndices --mode analytics [flags]
-
+apic clustermgmt:catIndices --mode analytics [flags]
 ```
 
 ## Options

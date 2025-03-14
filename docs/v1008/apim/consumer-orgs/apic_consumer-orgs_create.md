@@ -31,10 +31,21 @@ apic consumer-orgs:create [flags]
 ## Possible Usages
 
 ```
+apic consumer-orgs:create [flags] --space-initiated CONSUMER_ORG_FILE
+apic consumer-orgs:create [flags] CONSUMER_ORG_FILE
+```
 
-      apic consumer-orgs:create [flags] --space-initiated CONSUMER_ORG_FILE
-      apic consumer-orgs:create [flags] CONSUMER_ORG_FILE
+## Request examples
 
+------------------------------------------------
+#### Example consumer org create at space scope.
+------------------------------------------------
+
+```
+name: acme-consumer-org
+owner_url: https://api.acme-apim.example.com/api/user-registries/acme-org/acme-user-registry/users/acme-user
+summary: An example consumer org create
+title: ACME Consumer Org
 ```
 
 ## Options

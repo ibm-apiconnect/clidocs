@@ -17,9 +17,7 @@ apic clustermgmt:rolloverToTarget --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:rolloverToTarget --mode analytics [flags]
-
+apic clustermgmt:rolloverToTarget --mode analytics [flags]
 ```
 
 ## Options

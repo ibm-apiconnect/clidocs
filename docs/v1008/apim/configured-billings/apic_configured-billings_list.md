@@ -17,9 +17,7 @@ apic configured-billings:list [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-billings:list [flags]
-
+apic configured-billings:list [flags]
 ```
 
 ## Options

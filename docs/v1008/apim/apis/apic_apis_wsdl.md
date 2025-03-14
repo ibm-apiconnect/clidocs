@@ -19,12 +19,10 @@ apic apis:wsdl [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:wsdl [flags] --id --scope space ID
-      apic apis:wsdl [flags] --id --scope catalog ID
-      apic apis:wsdl [flags] --scope space NAME:VERSION
-      apic apis:wsdl [flags] --scope catalog NAME:VERSION
-
+apic apis:wsdl [flags] --id --scope space ID
+apic apis:wsdl [flags] --id --scope catalog ID
+apic apis:wsdl [flags] --scope space NAME:VERSION
+apic apis:wsdl [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

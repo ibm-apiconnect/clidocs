@@ -14,6 +14,7 @@ Log out of an IBM API Connect cloud
 apic logout [flags]
 ```
 
+
 ## Examples
 
 ```

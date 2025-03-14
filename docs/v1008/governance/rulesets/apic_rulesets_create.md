@@ -17,9 +17,7 @@ apic rulesets:create --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rulesets:create --mode governance [flags] RULESET_REQUEST_FILE
-
+apic rulesets:create --mode governance [flags] RULESET_REQUEST_FILE
 ```
 
 ## Options

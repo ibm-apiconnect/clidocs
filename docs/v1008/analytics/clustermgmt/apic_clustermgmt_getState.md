@@ -17,9 +17,7 @@ apic clustermgmt:getState --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getState --mode analytics [flags]
-
+apic clustermgmt:getState --mode analytics [flags]
 ```
 
 ## Options

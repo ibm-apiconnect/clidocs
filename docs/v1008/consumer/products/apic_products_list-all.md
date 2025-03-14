@@ -17,10 +17,8 @@ apic products:list-all --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic products:list-all --mode consumer [flags] --scope org
-      apic products:list-all --mode consumer [flags]
-
+apic products:list-all --mode consumer [flags] --scope org
+apic products:list-all --mode consumer [flags]
 ```
 
 ## Options

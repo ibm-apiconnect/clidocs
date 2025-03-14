@@ -2,6 +2,9 @@
 tags:
 - "group: notification-languages"
 - "scope: catalog"
+- "scope: cloud"
+- "scope: org"
+- "scope: space"
 ---
 # apic notification-languages:update
 
@@ -18,24 +21,312 @@ apic notification-languages:update [flags]
 ## Possible Usages
 
 ```
+apic notification-languages:update [flags] --scope space --subcollection space NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope space --subcollection consumer NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope org --subcollection space NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope org --subcollection provider NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope org --subcollection consumer NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope org --subcollection catalog NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope org --subcollection admin NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope cloud --subcollection space NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope cloud --subcollection provider NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope cloud --subcollection consumer NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope cloud --subcollection cloud NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope cloud --subcollection catalog NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope cloud --subcollection admin NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope catalog --subcollection space NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope catalog --subcollection consumer NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+apic notification-languages:update [flags] --scope catalog --subcollection catalog NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+```
 
-      apic notification-languages:update [flags] --scope space --subcollection space NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope space --subcollection consumer NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope org --subcollection space NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope org --subcollection provider NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope org --subcollection consumer NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope org --subcollection catalog NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope org --subcollection admin NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope cloud --subcollection space NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope cloud --subcollection provider NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope cloud --subcollection consumer NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope cloud --subcollection cloud NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope cloud --subcollection catalog NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope cloud --subcollection admin NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope catalog --subcollection space NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope catalog --subcollection consumer NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
-      apic notification-languages:update [flags] --scope catalog --subcollection catalog NOTIFICATION_LANGUAGE NOTIFICATION_LANGUAGE_FILE
+## Request examples
 
+----------------------------------------------------------------------------------------
+#### Example of notification language update at catalog scope and catalog subcollection.
+----------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: catalog
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+-----------------------------------------------------------------------------------------
+#### Example of notification language update at catalog scope and consumer subcollection.
+-----------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: consumer
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+--------------------------------------------------------------------------------------
+#### Example of notification language update at catalog scope and space subcollection.
+--------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: space
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+--------------------------------------------------------------------------------------
+#### Example of notification language update at cloud scope and catalog subcollection.
+--------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: catalog
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+------------------------------------------------------------------------------------
+#### Example of notification language update at cloud scope and admin subcollection.
+------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: member-invitation
+notification_template_type: admin
+subject: Invitation to an admin organization in IBM API Connect
+title: Example notification language update
+```
+
+------------------------------------------------------------------------------------
+#### Example of notification language update at cloud scope and cloud subcollection.
+------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: consumer
+subject: Invitation to create an API consumer organization in the Acme catalog
+title: Example notification language update
+```
+
+---------------------------------------------------------------------------------------
+#### Example of notification language update at cloud scope and consumer subcollection.
+---------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: consumer
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+---------------------------------------------------------------------------------------
+#### Example of notification language update at cloud scope and provider subcollection.
+---------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: provider
+subject: Invitation to create an API provider organization in IBM API Connect
+title: Example notification language update
+```
+
+------------------------------------------------------------------------------------
+#### Example of notification language update at cloud scope and space subcollection.
+------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: space
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+------------------------------------------------------------------------------------
+#### Example of notification language update at org scope and catalog subcollection.
+------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: catalog
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+----------------------------------------------------------------------------------
+#### Example of notification language update at org scope and admin subcollection.
+----------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: admin
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+-------------------------------------------------------------------------------------
+#### Example of notification language update at org scope and consumer subcollection.
+-------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: consumer
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+-------------------------------------------------------------------------------------
+#### Example of notification language update at org scope and provider subcollection.
+-------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: provider
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+----------------------------------------------------------------------------------
+#### Example of notification language update at org scope and space subcollection.
+----------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: space
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+---------------------------------------------------------------------------------------
+#### Example of notification language update at space scope and consumer subcollection.
+---------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: consumer
+subject: Invitation to join Acme
+title: Example notification language update
+```
+
+------------------------------------------------------------------------------------
+#### Example of notification language update at space scope and space subcollection.
+------------------------------------------------------------------------------------
+
+```
+body: |
+  Hello, You have been invited to join Acme. This invitation provides access to collaborate and manage resources within the platform.
+body_html: Hello,<br><br>You have been invited to join Acme. This invitation provides
+  access to collaborate and manage resources within the platform.<br><br>
+content_type:
+- text
+- html
+notification_template_name: invitation
+notification_template_type: space
+subject: Invitation to join Acme
+title: Example notification language update
 ```
 
 ## Options

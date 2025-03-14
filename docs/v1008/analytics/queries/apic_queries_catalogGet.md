@@ -18,9 +18,7 @@ apic queries:catalogGet --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:catalogGet --mode analytics [flags] ID
-
+apic queries:catalogGet --mode analytics [flags] ID
 ```
 
 ## Options

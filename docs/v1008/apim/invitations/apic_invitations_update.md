@@ -21,13 +21,63 @@ apic invitations:update [flags]
 ## Possible Usages
 
 ```
+apic invitations:update [flags] --scope consumer-org --space-initiated INVITATION INVITATION_FILE
+apic invitations:update [flags] --scope space INVITATION INVITATION_FILE
+apic invitations:update [flags] --scope org INVITATION INVITATION_FILE
+apic invitations:update [flags] --scope consumer-org INVITATION INVITATION_FILE
+apic invitations:update [flags] --scope catalog INVITATION INVITATION_FILE
+```
 
-      apic invitations:update [flags] --scope consumer-org --space-initiated INVITATION INVITATION_FILE
-      apic invitations:update [flags] --scope space INVITATION INVITATION_FILE
-      apic invitations:update [flags] --scope org INVITATION INVITATION_FILE
-      apic invitations:update [flags] --scope consumer-org INVITATION INVITATION_FILE
-      apic invitations:update [flags] --scope catalog INVITATION INVITATION_FILE
+## Request examples
 
+---------------------------------------------------
+#### Example of invitation update at catalog scope.
+---------------------------------------------------
+
+```
+email: acme@example.com
+summary: An example invitation update at catalog scope
+title: Acme invitation
+```
+
+--------------------------------------------------------
+#### Example of invitation update at consumer-org scope.
+--------------------------------------------------------
+
+```
+email: acme@example.com
+summary: An example invitation update at consumer-org scope
+title: Acme invitation
+```
+
+-------------------------------------------------------------------------
+#### Example of invitation update at consumer-org(space-initiated) scope.
+-------------------------------------------------------------------------
+
+```
+email: acme@example.com
+summary: An example invitation update at consumer-org(space-initiated) scope
+title: Acme invitation
+```
+
+-----------------------------------------------
+#### Example of invitation update at org scope.
+-----------------------------------------------
+
+```
+email: acme@example.com
+summary: An example invitation update at org scope
+title: Acme invitation
+```
+
+-------------------------------------------------
+#### Example of invitation update at space scope.
+-------------------------------------------------
+
+```
+email: acme@example.com
+summary: An example invitation update at space scope
+title: Acme invitation
 ```
 
 ## Options

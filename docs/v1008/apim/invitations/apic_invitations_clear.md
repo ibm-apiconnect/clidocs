@@ -21,13 +21,11 @@ apic invitations:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic invitations:clear [flags] --scope consumer-org --space-initiated
-      apic invitations:clear [flags] --scope space
-      apic invitations:clear [flags] --scope org
-      apic invitations:clear [flags] --scope consumer-org
-      apic invitations:clear [flags] --scope catalog
-
+apic invitations:clear [flags] --scope consumer-org --space-initiated
+apic invitations:clear [flags] --scope space
+apic invitations:clear [flags] --scope org
+apic invitations:clear [flags] --scope consumer-org
+apic invitations:clear [flags] --scope catalog
 ```
 
 ## Options

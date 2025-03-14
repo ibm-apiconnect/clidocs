@@ -19,10 +19,8 @@ apic webhooks:get [flags]
 ## Possible Usages
 
 ```
-
-      apic webhooks:get [flags] --scope cloud WEBHOOK
-      apic webhooks:get [flags] --scope catalog WEBHOOK
-
+apic webhooks:get [flags] --scope cloud WEBHOOK
+apic webhooks:get [flags] --scope catalog WEBHOOK
 ```
 
 ## Options

@@ -19,10 +19,8 @@ apic global-policy-errors:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policy-errors:delete [flags] --scope space
-      apic global-policy-errors:delete [flags] --scope catalog
-
+apic global-policy-errors:delete [flags] --scope space
+apic global-policy-errors:delete [flags] --scope catalog
 ```
 
 ## Options

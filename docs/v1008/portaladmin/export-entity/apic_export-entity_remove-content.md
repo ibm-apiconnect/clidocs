@@ -17,9 +17,7 @@ apic export-entity:remove-content --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic export-entity:remove-content --mode portaladmin [flags]
-
+apic export-entity:remove-content --mode portaladmin [flags]
 ```
 
 ## Options

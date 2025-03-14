@@ -17,12 +17,10 @@ apic integrations:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic integrations:clear [flags] --subcollection user-registry
-      apic integrations:clear [flags] --subcollection payment-method
-      apic integrations:clear [flags] --subcollection gateway-service
-      apic integrations:clear [flags] --subcollection billing
-
+apic integrations:clear [flags] --subcollection user-registry
+apic integrations:clear [flags] --subcollection payment-method
+apic integrations:clear [flags] --subcollection gateway-service
+apic integrations:clear [flags] --subcollection billing
 ```
 
 ## Options

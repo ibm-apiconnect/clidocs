@@ -19,11 +19,47 @@ apic groups:create [flags]
 ## Possible Usages
 
 ```
+apic groups:create [flags] --space-initiated GROUP_FILE
+apic groups:create [flags] --scope cloud GROUP_FILE
+apic groups:create [flags] --scope catalog GROUP_FILE
+```
 
-      apic groups:create [flags] --space-initiated GROUP_FILE
-      apic groups:create [flags] --scope cloud GROUP_FILE
-      apic groups:create [flags] --scope catalog GROUP_FILE
+## Request examples
 
+----------------------------------------------
+#### Example of group creation at space scope.
+----------------------------------------------
+
+```
+name: acme-group
+org_urls:
+- https://api.acme-apim.example.com/api/consumer-orgs/org1/catalog1/space1/consumer-org1
+summary: An example group creation
+title: Acme group creation
+```
+
+------------------------------------------------
+#### Example of group creation at catalog scope.
+------------------------------------------------
+
+```
+name: acme-group
+org_urls:
+- https://api.acme-apim.example.com/api/consumer-orgs/org1/catalog1/consumer-org1
+summary: An example group creation
+title: Acme group creation
+```
+
+----------------------------------------------
+#### Example of group creation at cloud scope.
+----------------------------------------------
+
+```
+name: acme-group
+org_urls:
+- https://api.acme-apim.example.com/api/orgs/org1
+summary: An example group creation
+title: Acme group creation
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic mail-servers:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic mail-servers:clear [flags]
-
+apic mail-servers:clear [flags]
 ```
 
 ## Options

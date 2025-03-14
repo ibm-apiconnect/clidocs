@@ -19,11 +19,9 @@ apic associates:get [flags]
 ## Possible Usages
 
 ```
-
-      apic associates:get [flags] --scope consumer-org --space-initiated ASSOCIATE
-      apic associates:get [flags] --scope org ASSOCIATE
-      apic associates:get [flags] --scope consumer-org ASSOCIATE
-
+apic associates:get [flags] --scope consumer-org --space-initiated ASSOCIATE
+apic associates:get [flags] --scope org ASSOCIATE
+apic associates:get [flags] --scope consumer-org ASSOCIATE
 ```
 
 ## Options

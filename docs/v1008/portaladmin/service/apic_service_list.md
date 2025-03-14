@@ -17,9 +17,7 @@ apic service:list --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic service:list --mode portaladmin [flags]
-
+apic service:list --mode portaladmin [flags]
 ```
 
 ## Options

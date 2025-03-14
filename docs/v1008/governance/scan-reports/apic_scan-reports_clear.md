@@ -19,10 +19,8 @@ apic scan-reports:clear --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic scan-reports:clear --mode governance [flags] --scope space
-      apic scan-reports:clear --mode governance [flags] --scope catalog
-
+apic scan-reports:clear --mode governance [flags] --scope space
+apic scan-reports:clear --mode governance [flags] --scope catalog
 ```
 
 ## Options

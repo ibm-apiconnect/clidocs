@@ -18,9 +18,7 @@ apic activations:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic activations:delete [flags] --scope org ACTIVATION
-
+apic activations:delete [flags] --scope org ACTIVATION
 ```
 
 ## Options

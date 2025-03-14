@@ -19,10 +19,8 @@ apic policies:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic policies:clear [flags] --scope space POLICY_NAME
-      apic policies:clear [flags] --scope catalog POLICY_NAME
-
+apic policies:clear [flags] --scope space POLICY_NAME
+apic policies:clear [flags] --scope catalog POLICY_NAME
 ```
 
 ## Options

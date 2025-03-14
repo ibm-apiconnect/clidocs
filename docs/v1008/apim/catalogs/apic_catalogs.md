@@ -14,6 +14,7 @@ Catalogs operations
 apic catalogs [flags]
 ```
 
+
 ## Options
 
 ```

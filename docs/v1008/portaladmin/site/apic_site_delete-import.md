@@ -17,9 +17,7 @@ apic site:delete-import --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic site:delete-import --mode portaladmin [flags]
-
+apic site:delete-import --mode portaladmin [flags]
 ```
 
 ## Options

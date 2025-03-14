@@ -17,10 +17,8 @@ apic consumer-org-settings:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic consumer-org-settings:delete [flags] --space-initiated
-      apic consumer-org-settings:delete [flags]
-
+apic consumer-org-settings:delete [flags] --space-initiated
+apic consumer-org-settings:delete [flags]
 ```
 
 ## Options

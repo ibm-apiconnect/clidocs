@@ -18,9 +18,7 @@ apic reports:spaceApplicationDetail --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:spaceApplicationDetail --mode analytics [flags] APP_NAME
-
+apic reports:spaceApplicationDetail --mode analytics [flags] APP_NAME
 ```
 
 ## Options

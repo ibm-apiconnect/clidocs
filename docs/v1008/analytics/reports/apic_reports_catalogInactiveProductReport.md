@@ -18,9 +18,7 @@ apic reports:catalogInactiveProductReport --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:catalogInactiveProductReport --mode analytics [flags]
-
+apic reports:catalogInactiveProductReport --mode analytics [flags]
 ```
 
 ## Options

@@ -19,10 +19,8 @@ apic configured-tls-client-profiles:clear-all [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-tls-client-profiles:clear-all [flags] --scope space
-      apic configured-tls-client-profiles:clear-all [flags] --scope catalog
-
+apic configured-tls-client-profiles:clear-all [flags] --scope space
+apic configured-tls-client-profiles:clear-all [flags] --scope catalog
 ```
 
 ## Options

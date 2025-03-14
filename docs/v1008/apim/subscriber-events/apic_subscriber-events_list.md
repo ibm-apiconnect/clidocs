@@ -19,10 +19,8 @@ apic subscriber-events:list [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriber-events:list [flags] --scope cloud
-      apic subscriber-events:list [flags] --scope catalog
-
+apic subscriber-events:list [flags] --scope cloud
+apic subscriber-events:list [flags] --scope catalog
 ```
 
 ## Options

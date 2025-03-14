@@ -17,9 +17,7 @@ apic rulesets:clear --mode governance [flags]
 ## Possible Usages
 
 ```
-
-      apic rulesets:clear --mode governance [flags]
-
+apic rulesets:clear --mode governance [flags]
 ```
 
 ## Options

@@ -18,9 +18,7 @@ apic entries:create [flags]
 ## Possible Usages
 
 ```
-
-      apic entries:create [flags] --scope truststore ENTRY_FILE
-
+apic entries:create [flags] --scope truststore ENTRY_FILE
 ```
 
 ## Options

@@ -19,12 +19,10 @@ apic global-policies:document [flags]
 ## Possible Usages
 
 ```
-
-      apic global-policies:document [flags] --id --scope space ID
-      apic global-policies:document [flags] --id --scope catalog ID
-      apic global-policies:document [flags] --scope space NAME:VERSION
-      apic global-policies:document [flags] --scope catalog NAME:VERSION
-
+apic global-policies:document [flags] --id --scope space ID
+apic global-policies:document [flags] --id --scope catalog ID
+apic global-policies:document [flags] --scope space NAME:VERSION
+apic global-policies:document [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

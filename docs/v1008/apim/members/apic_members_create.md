@@ -21,13 +21,88 @@ apic members:create [flags]
 ## Possible Usages
 
 ```
+apic members:create [flags] --scope consumer-org --space-initiated MEMBER_FILE
+apic members:create [flags] --scope space MEMBER_FILE
+apic members:create [flags] --scope org MEMBER_FILE
+apic members:create [flags] --scope consumer-org MEMBER_FILE
+apic members:create [flags] --scope catalog MEMBER_FILE
+```
 
-      apic members:create [flags] --scope consumer-org --space-initiated MEMBER_FILE
-      apic members:create [flags] --scope space MEMBER_FILE
-      apic members:create [flags] --scope org MEMBER_FILE
-      apic members:create [flags] --scope consumer-org MEMBER_FILE
-      apic members:create [flags] --scope catalog MEMBER_FILE
+## Request examples
 
+-----------------------------------------------
+#### Example of member create at catalog scope.
+-----------------------------------------------
+
+```
+name: acme-member
+role_urls:
+- https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/roles/role1
+- https://acme-apim.example.com/api/catalogs/acme-org/acme-catalog/roles/role1
+summary: An example member create
+title: ACME Member
+user:
+  url: https://acme-apim.example.com/api/user-registries/acme-org/acme-user-registry1/users/acme-user
+```
+
+----------------------------------------------------
+#### Example of member create at consumer-org scope.
+----------------------------------------------------
+
+```
+name: acme-member
+role_urls:
+- https://acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org/roles/role1
+- https://acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-consumer-org/roles/role2
+summary: An example member create
+title: ACME Member
+user:
+  url: https://acme-apim.example.com/api/user-registries/acme-org/acme-user-registry1/users/acme-user
+```
+
+---------------------------------------------------------------------
+#### Example of member create at consumer-org(space-initiated) scope.
+---------------------------------------------------------------------
+
+```
+name: acme-member
+role_urls:
+- https://acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-space/acme-consumer-org/roles/role1
+- https://acme-apim.example.com/api/consumer-orgs/acme-org/acme-catalog/acme-space/acme-consumer-org/roles/role1
+summary: An example member create
+title: ACME Member
+user:
+  url: https://acme-apim.example.com/api/user-registries/acme-org/acme-user-registry1/users/acme-user
+```
+
+-------------------------------------------
+#### Example of member create at org scope.
+-------------------------------------------
+
+```
+name: acme-member
+role_urls:
+- https://acme-apim.example.com/api/orgs/acme-org/roles/role1
+- https://acme-apim.example.com/api/orgs/acme-org/roles/role2
+summary: An example member create
+title: ACME Member
+user:
+  url: https://acme-apim.example.com/api/user-registries/acme-org/acme-user-registry1/users/acme-user
+```
+
+---------------------------------------------
+#### Example of member create at space scope.
+---------------------------------------------
+
+```
+name: acme-member
+role_urls:
+- https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/roles/role1
+- https://acme-apim.example.com/api/spaces/acme-org/acme-catalog/acme-space/roles/role2
+summary: An example member create
+title: ACME Member
+user:
+  url: https://acme-apim.example.com/api/user-registries/acme-org/acme-user-registry1/users/acme-user
 ```
 
 ## Options

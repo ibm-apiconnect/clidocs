@@ -27,9 +27,20 @@ apic catalogs:create [flags]
 ## Possible Usages
 
 ```
+apic catalogs:create [flags] CATALOG_FILE
+```
 
-      apic catalogs:create [flags] CATALOG_FILE
+## Request examples
 
+-------------------------------
+#### Example of catalog create.
+-------------------------------
+
+```
+name: acme-catalog
+owner_url: https://api.acme-apim.example.com/api/user-registries/acme-org/acme-user-registry/users/acme-user
+summary: An example catalog create
+title: ACME Catalog
 ```
 
 ## Options

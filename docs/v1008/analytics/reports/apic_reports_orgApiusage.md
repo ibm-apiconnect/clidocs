@@ -18,9 +18,7 @@ apic reports:orgApiusage --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:orgApiusage --mode analytics [flags]
-
+apic reports:orgApiusage --mode analytics [flags]
 ```
 
 ## Options

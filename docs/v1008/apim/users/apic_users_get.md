@@ -17,9 +17,7 @@ apic users:get [flags]
 ## Possible Usages
 
 ```
-
-      apic users:get [flags] USER
-
+apic users:get [flags] USER
 ```
 
 ## Options

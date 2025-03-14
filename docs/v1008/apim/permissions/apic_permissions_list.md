@@ -17,14 +17,12 @@ apic permissions:list [flags]
 ## Possible Usages
 
 ```
-
-      apic permissions:list [flags] --subcollection provider
-      apic permissions:list [flags] --subcollection org
-      apic permissions:list [flags] --subcollection deployment
-      apic permissions:list [flags] --subcollection consumer
-      apic permissions:list [flags] --subcollection cloud
-      apic permissions:list [flags] --my
-
+apic permissions:list [flags] --subcollection provider
+apic permissions:list [flags] --subcollection org
+apic permissions:list [flags] --subcollection deployment
+apic permissions:list [flags] --subcollection consumer
+apic permissions:list [flags] --subcollection cloud
+apic permissions:list [flags] --my
 ```
 
 ## Options

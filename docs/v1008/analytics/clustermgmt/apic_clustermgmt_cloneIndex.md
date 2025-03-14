@@ -17,9 +17,7 @@ apic clustermgmt:cloneIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:cloneIndex --mode analytics [flags]
-
+apic clustermgmt:cloneIndex --mode analytics [flags]
 ```
 
 ## Options

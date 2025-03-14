@@ -17,9 +17,7 @@ apic modules:delete --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic modules:delete --mode portaladmin [flags]
-
+apic modules:delete --mode portaladmin [flags]
 ```
 
 ## Options

@@ -17,10 +17,8 @@ apic apps:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic apps:delete [flags] --space-initiated APP
-      apic apps:delete [flags] APP
-
+apic apps:delete [flags] --space-initiated APP
+apic apps:delete [flags] APP
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic jwk-sets:list [flags]
 ## Possible Usages
 
 ```
-
-      apic jwk-sets:list [flags]
-
+apic jwk-sets:list [flags]
 ```
 
 ## Options

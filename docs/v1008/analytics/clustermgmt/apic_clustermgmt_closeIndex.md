@@ -17,9 +17,7 @@ apic clustermgmt:closeIndex --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:closeIndex --mode analytics [flags]
-
+apic clustermgmt:closeIndex --mode analytics [flags]
 ```
 
 ## Options

@@ -17,12 +17,10 @@ apic subscriptions:list [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriptions:list [flags] --space-initiated
-      apic subscriptions:list [flags] --scope space
-      apic subscriptions:list [flags] --scope catalog
-      apic subscriptions:list [flags]
-
+apic subscriptions:list [flags] --space-initiated
+apic subscriptions:list [flags] --scope space
+apic subscriptions:list [flags] --scope catalog
+apic subscriptions:list [flags]
 ```
 
 ## Options

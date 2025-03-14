@@ -18,9 +18,7 @@ apic members:get --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic members:get --mode consumer [flags] --scope org MEMBER
-
+apic members:get --mode consumer [flags] --scope org MEMBER
 ```
 
 ## Options

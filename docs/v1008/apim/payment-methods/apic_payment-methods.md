@@ -14,6 +14,7 @@ Payment Methods operations
 apic payment-methods [flags]
 ```
 
+
 ## Options
 
 ```

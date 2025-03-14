@@ -19,10 +19,8 @@ apic configured-oauth-providers:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic configured-oauth-providers:clear [flags] --scope space
-      apic configured-oauth-providers:clear [flags] --scope catalog
-
+apic configured-oauth-providers:clear [flags] --scope space
+apic configured-oauth-providers:clear [flags] --scope catalog
 ```
 
 ## Options

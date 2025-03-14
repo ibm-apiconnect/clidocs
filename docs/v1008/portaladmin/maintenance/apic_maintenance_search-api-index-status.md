@@ -17,9 +17,7 @@ apic maintenance:search-api-index-status --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic maintenance:search-api-index-status --mode portaladmin [flags]
-
+apic maintenance:search-api-index-status --mode portaladmin [flags]
 ```
 
 ## Options

@@ -32,9 +32,17 @@ apic configured-catalog-user-registries:create [flags]
 ## Possible Usages
 
 ```
+apic configured-catalog-user-registries:create [flags] CONFIGURED_CATALOG_USER_REGISTRY_FILE
+```
 
-      apic configured-catalog-user-registries:create [flags] CONFIGURED_CATALOG_USER_REGISTRY_FILE
+## Request examples
 
+-----------------------------------------------------
+#### Example configured catalog user registry create.
+-----------------------------------------------------
+
+```
+user_registry_url: https://acme-apim.example.com/api/user-registries/acme-org/acme-user-regsitry
 ```
 
 ## Options

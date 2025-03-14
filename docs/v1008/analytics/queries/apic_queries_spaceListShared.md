@@ -18,9 +18,7 @@ apic queries:spaceListShared --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:spaceListShared --mode analytics [flags]
-
+apic queries:spaceListShared --mode analytics [flags]
 ```
 
 ## Options

@@ -17,9 +17,7 @@ apic twig:debug-status --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic twig:debug-status --mode portaladmin [flags]
-
+apic twig:debug-status --mode portaladmin [flags]
 ```
 
 ## Options

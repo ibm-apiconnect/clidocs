@@ -17,10 +17,8 @@ apic draft-products:get [flags]
 ## Possible Usages
 
 ```
-
-      apic draft-products:get [flags] --id ID
-      apic draft-products:get [flags] NAME:VERSION
-
+apic draft-products:get [flags] --id ID
+apic draft-products:get [flags] NAME:VERSION
 ```
 
 ## Options

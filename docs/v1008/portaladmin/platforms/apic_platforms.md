@@ -14,6 +14,7 @@ Platforms operations
 apic platforms --mode portaladmin [flags]
 ```
 
+
 ## Options
 
 ```

@@ -17,9 +17,7 @@ apic export-entity:add-content --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic export-entity:add-content --mode portaladmin [flags]
-
+apic export-entity:add-content --mode portaladmin [flags]
 ```
 
 ## Options

@@ -17,10 +17,8 @@ apic subscriptions:get [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriptions:get [flags] --space-initiated SUBSCRIPTION
-      apic subscriptions:get [flags] SUBSCRIPTION
-
+apic subscriptions:get [flags] --space-initiated SUBSCRIPTION
+apic subscriptions:get [flags] SUBSCRIPTION
 ```
 
 ## Options

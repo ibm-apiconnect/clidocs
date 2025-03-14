@@ -17,9 +17,7 @@ apic drafts:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic drafts:clear [flags]
-
+apic drafts:clear [flags]
 ```
 
 ## Options

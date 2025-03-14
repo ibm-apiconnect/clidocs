@@ -18,9 +18,7 @@ apic queries:spaceTransferOwner --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:spaceTransferOwner --mode analytics [flags] ID NEW_OWNER_USER_URL
-
+apic queries:spaceTransferOwner --mode analytics [flags] ID NEW_OWNER_USER_URL
 ```
 
 ## Options

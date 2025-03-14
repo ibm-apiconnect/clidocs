@@ -18,9 +18,7 @@ apic role-defaults:delete [flags]
 ## Possible Usages
 
 ```
-
-      apic role-defaults:delete [flags] --scope cloud --subcollection provider ROLE_DEFAULT
-
+apic role-defaults:delete [flags] --scope cloud --subcollection provider ROLE_DEFAULT
 ```
 
 ## Options

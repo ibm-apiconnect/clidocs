@@ -17,9 +17,7 @@ apic clustermgmt:deleteAliasByIndexAlias --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:deleteAliasByIndexAlias --mode analytics [flags]
-
+apic clustermgmt:deleteAliasByIndexAlias --mode analytics [flags]
 ```
 
 ## Options

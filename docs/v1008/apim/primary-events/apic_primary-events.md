@@ -14,6 +14,7 @@ Primary Events operations
 apic primary-events [flags]
 ```
 
+
 ## Options
 
 ```

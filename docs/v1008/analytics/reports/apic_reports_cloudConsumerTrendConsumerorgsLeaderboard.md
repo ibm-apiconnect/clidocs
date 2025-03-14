@@ -18,9 +18,7 @@ apic reports:cloudConsumerTrendConsumerorgsLeaderboard --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudConsumerTrendConsumerorgsLeaderboard --mode analytics [flags]
-
+apic reports:cloudConsumerTrendConsumerorgsLeaderboard --mode analytics [flags]
 ```
 
 ## Options

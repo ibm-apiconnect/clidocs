@@ -37,9 +37,19 @@ apic portal-services:update [flags]
 ## Possible Usages
 
 ```
+apic portal-services:update [flags] PORTAL_SERVICE PORTAL_SERVICE_FILE
+```
 
-      apic portal-services:update [flags] PORTAL_SERVICE PORTAL_SERVICE_FILE
+## Request examples
 
+-----------------------------------
+#### Example portal service update.
+-----------------------------------
+
+```
+summary: An example portal service update
+title: acme portal service
+web_endpoint_base: https://portal.acme-apim.example.com
 ```
 
 ## Options

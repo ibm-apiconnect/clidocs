@@ -18,9 +18,7 @@ apic queries:cloudGet --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic queries:cloudGet --mode analytics [flags] ID
-
+apic queries:cloudGet --mode analytics [flags] ID
 ```
 
 ## Options

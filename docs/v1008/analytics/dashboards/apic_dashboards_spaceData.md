@@ -18,9 +18,7 @@ apic dashboards:spaceData --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic dashboards:spaceData --mode analytics [flags]
-
+apic dashboards:spaceData --mode analytics [flags]
 ```
 
 ## Options

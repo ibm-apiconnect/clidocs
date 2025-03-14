@@ -20,14 +20,12 @@ apic extensions:get [flags]
 ## Possible Usages
 
 ```
-
-      apic extensions:get [flags] --id --scope space ID
-      apic extensions:get [flags] --id --scope org ID
-      apic extensions:get [flags] --id --scope catalog ID
-      apic extensions:get [flags] --scope space NAME:VERSION
-      apic extensions:get [flags] --scope org NAME:VERSION
-      apic extensions:get [flags] --scope catalog NAME:VERSION
-
+apic extensions:get [flags] --id --scope space ID
+apic extensions:get [flags] --id --scope org ID
+apic extensions:get [flags] --id --scope catalog ID
+apic extensions:get [flags] --scope space NAME:VERSION
+apic extensions:get [flags] --scope org NAME:VERSION
+apic extensions:get [flags] --scope catalog NAME:VERSION
 ```
 
 ## Options

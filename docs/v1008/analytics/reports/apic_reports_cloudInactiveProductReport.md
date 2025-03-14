@@ -18,9 +18,7 @@ apic reports:cloudInactiveProductReport --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudInactiveProductReport --mode analytics [flags]
-
+apic reports:cloudInactiveProductReport --mode analytics [flags]
 ```
 
 ## Options

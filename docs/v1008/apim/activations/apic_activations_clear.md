@@ -18,9 +18,7 @@ apic activations:clear [flags]
 ## Possible Usages
 
 ```
-
-      apic activations:clear [flags] --scope org
-
+apic activations:clear [flags] --scope org
 ```
 
 ## Options

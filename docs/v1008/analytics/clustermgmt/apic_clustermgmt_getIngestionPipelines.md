@@ -17,9 +17,7 @@ apic clustermgmt:getIngestionPipelines --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:getIngestionPipelines --mode analytics [flags]
-
+apic clustermgmt:getIngestionPipelines --mode analytics [flags]
 ```
 
 ## Options

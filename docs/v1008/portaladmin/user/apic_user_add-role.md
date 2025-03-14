@@ -17,9 +17,7 @@ apic user:add-role --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic user:add-role --mode portaladmin [flags]
-
+apic user:add-role --mode portaladmin [flags]
 ```
 
 ## Options

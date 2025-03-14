@@ -14,6 +14,7 @@ Permissions operations
 apic permissions --mode consumer [flags]
 ```
 
+
 ## Options
 
 ```

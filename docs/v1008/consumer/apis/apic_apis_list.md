@@ -17,10 +17,8 @@ apic apis:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic apis:list --mode consumer [flags] --scope org API_NAME
-      apic apis:list --mode consumer [flags] API_NAME
-
+apic apis:list --mode consumer [flags] --scope org API_NAME
+apic apis:list --mode consumer [flags] API_NAME
 ```
 
 ## Options

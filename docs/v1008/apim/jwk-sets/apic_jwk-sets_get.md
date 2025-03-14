@@ -17,9 +17,7 @@ apic jwk-sets:get [flags]
 ## Possible Usages
 
 ```
-
-      apic jwk-sets:get [flags] JWK_SET
-
+apic jwk-sets:get [flags] JWK_SET
 ```
 
 ## Options

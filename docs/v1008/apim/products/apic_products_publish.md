@@ -17,12 +17,10 @@ apic products:publish [flags]
 ## Possible Usages
 
 ```
-
-      apic products:publish [flags] --stage --scope space PRODUCTS_FILE
-      apic products:publish [flags] --stage PRODUCTS_FILE
-      apic products:publish [flags] --scope space PRODUCTS_FILE
-      apic products:publish [flags] PRODUCTS_FILE
-
+apic products:publish [flags] --stage --scope space PRODUCTS_FILE
+apic products:publish [flags] --stage PRODUCTS_FILE
+apic products:publish [flags] --scope space PRODUCTS_FILE
+apic products:publish [flags] PRODUCTS_FILE
 ```
 
 ## Options

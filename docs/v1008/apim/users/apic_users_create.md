@@ -31,9 +31,24 @@ apic users:create [flags]
 ## Possible Usages
 
 ```
+apic users:create [flags] USER_FILE
+```
 
-      apic users:create [flags] USER_FILE
+## Request examples
 
+----------------------------
+#### Example of user create.
+----------------------------
+
+```
+email: acme@example.com
+first_name: ACME
+last_name: Lastname
+name: acme
+password: acme@123
+summary: An example user create
+title: ACME User
+username: acmeuser
 ```
 
 ## Options

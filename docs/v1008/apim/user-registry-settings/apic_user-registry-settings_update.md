@@ -26,9 +26,27 @@ apic user-registry-settings:update [flags]
 ## Possible Usages
 
 ```
+apic user-registry-settings:update [flags] USER_REGISTRY_SETTING_FILE
+```
 
-      apic user-registry-settings:update [flags] USER_REGISTRY_SETTING_FILE
+## Request examples
 
+---------------------------------------------
+#### Example of User Registry Setting update.
+---------------------------------------------
+
+```
+admin_user_registry_default_url: https://acme-apim.example.com/api/user-registries/org1/user-registry-2
+admin_user_registry_urls:
+- https://acme-apim.example.com/api/user-registries/org1/user-registry-1
+- https://acme-apim.example.com/api/user-registries/org1/user-registry-2
+- https://acme-apim.example.com/api/user-registries/org1/user-registry-3
+provider_user_registry_default_url: https://acme-apim.example.com/api/user-registries/org1/user-registry-5
+provider_user_registry_urls:
+- https://acme-apim.example.com/api/user-registries/org1/user-registry-4
+- https://acme-apim.example.com/api/user-registries/org1/user-registry-5
+summary: An example User Registry Setting Update
+title: User Registry Setting Update
 ```
 
 ## Options

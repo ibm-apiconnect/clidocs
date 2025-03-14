@@ -14,6 +14,7 @@ Subscriptions operations
 apic subscriptions --mode consumer [flags]
 ```
 
+
 ## Options
 
 ```

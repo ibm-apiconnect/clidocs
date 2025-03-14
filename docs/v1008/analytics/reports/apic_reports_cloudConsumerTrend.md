@@ -18,9 +18,7 @@ apic reports:cloudConsumerTrend --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic reports:cloudConsumerTrend --mode analytics [flags]
-
+apic reports:cloudConsumerTrend --mode analytics [flags]
 ```
 
 ## Options

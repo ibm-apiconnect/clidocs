@@ -17,10 +17,8 @@ apic apps:get [flags]
 ## Possible Usages
 
 ```
-
-      apic apps:get [flags] --space-initiated APP
-      apic apps:get [flags] APP
-
+apic apps:get [flags] --space-initiated APP
+apic apps:get [flags] APP
 ```
 
 ## Options

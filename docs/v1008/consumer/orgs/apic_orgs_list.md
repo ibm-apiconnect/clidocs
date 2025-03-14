@@ -17,9 +17,7 @@ apic orgs:list --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic orgs:list --mode consumer [flags] --my
-
+apic orgs:list --mode consumer [flags] --my
 ```
 
 ## Options

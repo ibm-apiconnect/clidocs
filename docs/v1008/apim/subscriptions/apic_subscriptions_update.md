@@ -34,10 +34,21 @@ apic subscriptions:update [flags]
 ## Possible Usages
 
 ```
+apic subscriptions:update [flags] --space-initiated SUBSCRIPTION SUBSCRIPTION_FILE
+apic subscriptions:update [flags] SUBSCRIPTION SUBSCRIPTION_FILE
+```
 
-      apic subscriptions:update [flags] --space-initiated SUBSCRIPTION SUBSCRIPTION_FILE
-      apic subscriptions:update [flags] SUBSCRIPTION SUBSCRIPTION_FILE
+## Request examples
 
+-------------------------------------------------------
+#### Example of subscription update with state enabled.
+-------------------------------------------------------
+
+```
+name: acme-subscription
+state: enabled
+summary: An example subscription update
+title: ACME Subscription
 ```
 
 ## Options

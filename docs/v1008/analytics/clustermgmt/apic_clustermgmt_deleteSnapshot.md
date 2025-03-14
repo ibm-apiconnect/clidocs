@@ -17,9 +17,7 @@ apic clustermgmt:deleteSnapshot --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:deleteSnapshot --mode analytics [flags]
-
+apic clustermgmt:deleteSnapshot --mode analytics [flags]
 ```
 
 ## Options

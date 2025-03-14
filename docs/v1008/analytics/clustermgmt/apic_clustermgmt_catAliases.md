@@ -17,9 +17,7 @@ apic clustermgmt:catAliases --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:catAliases --mode analytics [flags]
-
+apic clustermgmt:catAliases --mode analytics [flags]
 ```
 
 ## Options

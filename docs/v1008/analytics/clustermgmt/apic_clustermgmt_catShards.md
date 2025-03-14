@@ -17,9 +17,7 @@ apic clustermgmt:catShards --mode analytics [flags]
 ## Possible Usages
 
 ```
-
-      apic clustermgmt:catShards --mode analytics [flags]
-
+apic clustermgmt:catShards --mode analytics [flags]
 ```
 
 ## Options

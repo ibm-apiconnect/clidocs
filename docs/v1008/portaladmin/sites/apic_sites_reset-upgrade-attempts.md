@@ -17,9 +17,7 @@ apic sites:reset-upgrade-attempts --mode portaladmin [flags]
 ## Possible Usages
 
 ```
-
-      apic sites:reset-upgrade-attempts --mode portaladmin [flags]
-
+apic sites:reset-upgrade-attempts --mode portaladmin [flags]
 ```
 
 ## Options

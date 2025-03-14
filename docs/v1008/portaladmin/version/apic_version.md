@@ -14,6 +14,7 @@ Get the APIConnect toolkit version
 apic version --mode portaladmin [flags]
 ```
 
+
 ## Options
 
 ```

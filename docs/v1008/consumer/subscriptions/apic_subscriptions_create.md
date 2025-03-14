@@ -28,9 +28,7 @@ apic subscriptions:create --mode consumer [flags]
 ## Possible Usages
 
 ```
-
-      apic subscriptions:create --mode consumer [flags] SUBSCRIPTION_FILE
-
+apic subscriptions:create --mode consumer [flags] SUBSCRIPTION_FILE
 ```
 
 ## Options

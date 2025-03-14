@@ -17,9 +17,7 @@ apic data-sources:clear --mode discovery [flags]
 ## Possible Usages
 
 ```
-
-      apic data-sources:clear --mode discovery [flags]
-
+apic data-sources:clear --mode discovery [flags]
 ```
 
 ## Options

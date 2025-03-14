@@ -17,9 +17,7 @@ apic gateway-extensions:implementation [flags]
 ## Possible Usages
 
 ```
-
-      apic gateway-extensions:implementation [flags]
-
+apic gateway-extensions:implementation [flags]
 ```
 
 ## Options

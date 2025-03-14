@@ -17,10 +17,8 @@ apic portal-services:list [flags]
 ## Possible Usages
 
 ```
-
-      apic portal-services:list [flags] --scope org
-      apic portal-services:list [flags]
-
+apic portal-services:list [flags] --scope org
+apic portal-services:list [flags]
 ```
 
 ## Options
