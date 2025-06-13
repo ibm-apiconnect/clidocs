@@ -18,7 +18,7 @@ You can download the toolkit from one of the following locations:
 - From IBM Fix Central.
 - From the Cloud Manager or API Manager user interface.
 
-Official installation instructions: [https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=configuration-installing-toolkit](https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=configuration-installing-toolkit)
+Official installation instructions: [https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts?topic=configuration-installing-toolkit](https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts?topic=configuration-installing-toolkit)
 
 ## Procedure
 

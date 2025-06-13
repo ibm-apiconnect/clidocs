@@ -75,7 +75,7 @@ const config = {
             label: 'CLI Reference',
           },
           {to: 'https://apic-api.apiconnect.ibmcloud.com/v10/10.0.LATEST.html#/documentation/introduction', label: 'API Docs', position: 'left'},
-          {to: 'https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts', label: 'API Connect v10.0.5 Docs', position: 'left'},
+          {to: 'https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts', label: 'API Connect v10.0.8 Docs', position: 'left'},
         ],
       },
       footer: {
@@ -94,8 +94,12 @@ const config = {
             title: 'IBM Documentation Centers',
             items: [
               {
-                label: 'IBM API Connect v10.0.5',
-                to: 'https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts',
+                label: 'IBM API Connect v10.0.8 LTS',
+                to: 'https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts',
+              },
+                            {
+                label: 'IBM API Connect v10.0.10 CD',
+                to: 'https://www.ibm.com/docs/en/api-connect/10.0.x_cd',
               },
             ],
           },

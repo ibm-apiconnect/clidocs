@@ -8,7 +8,7 @@ Information on how to login to the toolkit using different user registries and r
 
 ## Logging in to a management server
 
-[https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=tool-logging-in-management-server](https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=tool-logging-in-management-server)
+[https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts?topic=tool-logging-in-management-server](https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts?topic=tool-logging-in-management-server)
 
 You log in to a management server from the command line by using the `apic login` command. The parameters that you supply determine the identity provider that is used to authenticated the supplied user ID, and the scope of the tasks that can be performed after successful log in.
 
@@ -79,7 +79,7 @@ The format of the realm depends on the type of user, as follows:
   admin/identity_provider
   ```
 
-To determine the identity provider, see [How to determine the identity provider](https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=tool-logging-in-management-server#rapic_cli_login__determine_idp).
+To determine the identity provider, see [How to determine the identity provider](https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts?topic=tool-logging-in-management-server#rapic_cli_login__determine_idp).
 
 - Member of a provider organization:
 
@@ -87,7 +87,7 @@ To determine the identity provider, see [How to determine the identity provider]
   provider/identity_provider
   ```
 
-To determine the identity provider, see [How to determine the identity provider](https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=tool-logging-in-management-server#rapic_cli_login__determine_idp).
+To determine the identity provider, see [How to determine the identity provider](https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts?topic=tool-logging-in-management-server#rapic_cli_login__determine_idp).
 
 - Member of a consumer organization:
   
@@ -96,11 +96,11 @@ To determine the identity provider, see [How to determine the identity provider]
   ```
 
 where `provider_org` is the name of your provider organization, and `catalog` is the name of the Catalog in that provider organization.
-To determine the identity provider, see [How to determine the identity provider](https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=tool-logging-in-management-server#rapic_cli_login__determine_idp).
+To determine the identity provider, see [How to determine the identity provider](https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts?topic=tool-logging-in-management-server#rapic_cli_login__determine_idp).
 
 ## Logging in to a management server with an OIDC registry
 
-[https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=tool-logging-in-management-server-oidc-registry](https://www.ibm.com/docs/en/api-connect/10.0.5.x_lts?topic=tool-logging-in-management-server-oidc-registry)
+[https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts?topic=tool-logging-in-management-server-oidc-registry](https://www.ibm.com/docs/en/api-connect/10.0.8.x_lts?topic=tool-logging-in-management-server-oidc-registry)
 
 Logging in with an OIDC registry involves several steps, in which you obtain a temporary token and pass it to the toolkit to ensure it can communicate securely with the management server.
 
