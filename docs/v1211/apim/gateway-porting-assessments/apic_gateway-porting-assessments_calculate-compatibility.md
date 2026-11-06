@@ -20,6 +20,52 @@ apic gateway-porting-assessments:calculate-compatibility [flags]
 apic gateway-porting-assessments:calculate-compatibility [flags] GATEWAY_PORTING_ASSESSMENT_ACTION_REQUEST_FILE
 ```
 
+## Request examples
+
+----------------------------------------------------------------------------------------
+#### Example for gateway porting assessment calculate compatibility using product object
+----------------------------------------------------------------------------------------
+
+```
+catalog: sandbox
+product:
+  name: acme-product
+  version: 1.0.0
+```
+
+-------------------------------------------------------------------------------------
+#### Example for gateway porting assessment calculate compatibility using product URL
+-------------------------------------------------------------------------------------
+
+```
+catalog: sandbox
+product_url: https://acme-apim.example.com/api/catalogs/acme-org/sandbox/products/product-id
+```
+
+-------------------------------------------------------------------------------------------------------
+#### Example for gateway porting assessment calculate compatibility at space scope using product object
+-------------------------------------------------------------------------------------------------------
+
+```
+catalog: sandbox
+product:
+  name: acme-product
+  version: 1.0.0
+scope: space
+space: development
+```
+
+----------------------------------------------------------------------------------------------------
+#### Example for gateway porting assessment calculate compatibility at space scope using product URL
+----------------------------------------------------------------------------------------------------
+
+```
+catalog: sandbox
+product_url: https://acme-apim.example.com/api/spaces/acme-org/sandbox/development/products/product-id
+scope: space
+space: development
+```
+
 ## Options
 
 ```

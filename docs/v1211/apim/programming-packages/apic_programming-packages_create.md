@@ -30,6 +30,23 @@ apic programming-packages:create [flags]
 apic programming-packages:create [flags] PROGRAMMING_PACKAGES_FILE
 ```
 
+## Request examples
+
+-------------------------------------------
+#### Example for programming package create
+-------------------------------------------
+
+```
+name: acme-programming-package
+programming_package_files:
+- file_path: programming-packages/acme-module.lua
+  mimetype: text/x-lua
+programming_package_type: lua
+summary: Example programming package for ACME org
+title: ACME Programming Package
+version: 1.0.0
+```
+
 ## Options
 
 ```

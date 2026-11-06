@@ -20,6 +20,26 @@ apic gateway-porting-assessments:create-project [flags]
 apic gateway-porting-assessments:create-project [flags] GATEWAY_PORTING_ASSESSMENT_CREATE_PROJECT_REQUEST_FILE
 ```
 
+## Request examples
+
+----------------------------------------------------------
+#### Example for gateway porting assessment create project
+----------------------------------------------------------
+
+```
+apis:
+- acme-api
+- billing-api
+description: Project created from Gateway Porting Assessment
+gateway_porting_assessment_url: https://acme-apim.example.com/api/orgs/acme-org/gateway-porting-assessments/ta-id
+project_name: acme-product-nano-project
+project_title: Acme Product Nano Gateway Project
+tags:
+- porting
+- sandbox
+- acme-product
+```
+
 ## Options
 
 ```

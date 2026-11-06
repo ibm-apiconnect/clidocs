@@ -31,6 +31,19 @@ apic xslt-transformation-aliases:update [flags] --id ID XSLT_TRANSFORMATION_ALIA
 apic xslt-transformation-aliases:update [flags] NAME:VERSION XSLT_TRANSFORMATION_ALIAS_FILE
 ```
 
+## Request examples
+
+---------------------------------------------------------------------
+#### Example for XSLT transformation alias update by name and version
+---------------------------------------------------------------------
+
+```
+name: acme-xslt-alias
+summary: Updated XSLT transformation alias for ACME org
+title: ACME XSLT Transformation Alias
+xsl_file: xslt-transformation-aliases/acme-transform.xsl
+```
+
 ## Options
 
 ```

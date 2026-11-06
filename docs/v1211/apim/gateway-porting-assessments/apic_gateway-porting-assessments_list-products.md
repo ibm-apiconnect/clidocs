@@ -4,11 +4,11 @@ tags:
 ---
 # apic gateway-porting-assessments:list-products
 
-List products with porting compatibility analysis for a given catalog or space
+List products with porting compatibility details for a catalog or space
 
 ## Synopsis
 
-List products with porting compatibility analysis for a given catalog or space
+List products with porting compatibility details for a catalog or space
 
 ```
 apic gateway-porting-assessments:list-products [flags]
@@ -25,13 +25,17 @@ apic gateway-porting-assessments:list-products [flags]
 
 ```
   -c, --catalog string           Catalog name or id (required)
+      --expand string            List of transient field to expand
       --export_portable string   Transfer Advisor product export portable
       --format string            Output format. One of [json yaml octet-stream go-template=... go-template-file=...], defaults to yaml.
+      --gateway_type string      The type of the gateway (datapower-gateway, datapower-api-gateway, event-gateway)
       --limit int32              Maximum number of items to return
+      --name string              Filter by name (case-insensitive partial match)
       --offset int32             Offset item number from list to begin return
   -o, --org string               Organization name or id (required)
       --output string            Write file(s) to directory, instead of STDOUT (default "-")
   -s, --server string            management server endpoint (required)
+      --version string           Filter by version (exact match)
 ```
 
 ## Options inherited from parent commands

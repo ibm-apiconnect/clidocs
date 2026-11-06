@@ -1,34 +1,33 @@
 ---
 tags:
-- "group: members"
-- "scope: org"
+- "group: gateway-porting-assessments"
 ---
-# apic members:create
+# apic gateway-porting-assessments:list-catalogs
 
-Members create operations
+List catalogs for porting compatibility assessment
 
 ## Synopsis
 
-Members create operations
+List catalogs for porting compatibility assessment
 
 ```
-apic members:create --mode consumer [flags]
+apic gateway-porting-assessments:list-catalogs [flags]
 ```
 
 ## Possible Usages
 
 ```
-apic members:create --mode consumer [flags] --scope org MEMBER_FILE
+apic gateway-porting-assessments:list-catalogs [flags]
 ```
 
 ## Options
 
 ```
       --format string   Output format. One of [json yaml octet-stream go-template=... go-template-file=...], defaults to yaml.
-  -h, --help            Help for members:create
+      --limit int32     Maximum number of items to return
+      --offset int32    Offset item number from list to begin return
   -o, --org string      Organization name or id (required)
       --output string   Write file(s) to directory, instead of STDOUT (default "-")
-      --scope string    scope
   -s, --server string   management server endpoint (required)
 ```
 

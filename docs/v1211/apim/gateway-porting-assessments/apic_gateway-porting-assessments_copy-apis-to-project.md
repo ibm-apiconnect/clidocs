@@ -20,6 +20,19 @@ apic gateway-porting-assessments:copy-apis-to-project [flags]
 apic gateway-porting-assessments:copy-apis-to-project [flags] GATEWAY_PORTING_ASSESSMENT_COPY_APIS_TO_PROJECT_REQUEST_FILE
 ```
 
+## Request examples
+
+----------------------------------------------------------------
+#### Example for gateway porting assessment copy APIs to project
+----------------------------------------------------------------
+
+```
+apis:
+- shipping-api
+gateway_porting_assessment_url: https://acme-apim.example.com/api/orgs/acme-org/gateway-porting-assessments/ta-id
+project_name: acme-product-nano-project
+```
+
 ## Options
 
 ```

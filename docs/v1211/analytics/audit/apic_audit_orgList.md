@@ -43,7 +43,7 @@ apic audit:orgList --mode analytics [flags]
       --requestPath string         Filter audit result by request path
   -s, --server string              management server endpoint (required)
       --sort string                Specifies the field name to use to sort the results. By default, the sorting is in ascending order. To sort in descending order, prefix the field name with a -
-      --spaceId string             Filter results by space ID.
+      --spaceId string             Filter result by space Id
       --start string               If set, only return events with a datetime equal to or newer than this. The value must follow the date-time notation as defined by RFC 3339, section 5.6, for example, 2017-07-21T17:32:28Z. See https://datatracker.ietf.org/doc/html/rfc3339#section-5.6.
                                    
       --tags string                Filter result by audit tags

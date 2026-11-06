@@ -102,6 +102,10 @@ apic dashboards:orgConsumption --mode analytics [flags]
       --mcp_operation_name string                Filter results by MCP operation name.
       --mcp_prompt_name string                   Filter results by MCP prompt name.
       --mcp_resource_uri string                  Filter results by MCP resource URI.
+      --mcp_server_id string                     Filter results by MCP server ID.
+      --mcp_server_name string                   Filter results by MCP server name.
+      --mcp_server_title string                  Filter results by MCP server title.
+      --mcp_server_version string                Filter results by MCP server version.
       --mcp_session_id string                    Filter results by MCP session ID.
       --mcp_tool_call_arguments string           Filter results by MCP tool call arguments.
       --mcp_tool_call_result string              Filter results by MCP tool call result.

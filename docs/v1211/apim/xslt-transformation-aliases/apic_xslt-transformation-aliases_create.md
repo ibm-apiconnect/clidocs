@@ -30,6 +30,19 @@ apic xslt-transformation-aliases:create [flags]
 apic xslt-transformation-aliases:create [flags] XSLT_TRANSFORMATION_ALIAS_FILE
 ```
 
+## Request examples
+
+-------------------------------------------------
+#### Example for XSLT transformation alias create
+-------------------------------------------------
+
+```
+name: acme-xslt-alias
+summary: Example XSLT transformation alias for ACME org
+title: ACME XSLT Transformation Alias
+xsl_file: xslt-transformation-aliases/acme-transform.xsl
+```
+
 ## Options
 
 ```

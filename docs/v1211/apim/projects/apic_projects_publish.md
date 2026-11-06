@@ -17,8 +17,8 @@ apic projects:publish [flags]
 ## Possible Usages
 
 ```
-apic projects:publish [flags] --scope space PROJECTS_FILE
-apic projects:publish [flags] PROJECTS_FILE
+apic projects:publish [flags] --scope space PROJECT_URL_FILE
+apic projects:publish [flags] PROJECT_URL_FILE
 ```
 
 ## Options

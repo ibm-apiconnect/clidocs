@@ -31,6 +31,23 @@ apic programming-packages:update [flags] --id ID PROGRAMMING_PACKAGE_FILE
 apic programming-packages:update [flags] NAME:VERSION PROGRAMMING_PACKAGE_FILE
 ```
 
+## Request examples
+
+---------------------------------------------------------------
+#### Example for programming package update by name and version
+---------------------------------------------------------------
+
+```
+name: acme-programming-package
+programming_package_files:
+- file_path: programming-packages/acme-module.lua
+  mimetype: text/x-lua
+programming_package_type: lua
+summary: Updated programming package for ACME org
+title: ACME Programming Package
+version: 1.0.0
+```
+
 ## Options
 
 ```

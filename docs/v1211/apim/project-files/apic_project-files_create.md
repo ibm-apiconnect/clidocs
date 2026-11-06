@@ -45,6 +45,7 @@ files:
 ## Options
 
 ```
+      --calc_dep         Calculate dependencies
       --format string    Output format. One of [json yaml octet-stream go-template=... go-template-file=...], defaults to yaml.
   -o, --org string       Organization name or id (required)
       --output string    Write file(s) to directory, instead of STDOUT (default "-")

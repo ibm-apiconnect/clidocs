@@ -23,15 +23,6 @@ apic mail-servers:test-connection [flags] MAIL_SERVER MAIL_SERVER_SAVED_TEST_CON
 
 ## Request examples
 
---------------------------------------------
-#### Example of mail server test connection.
---------------------------------------------
-
-```
-recipients:
-- acme@example.com
-```
-
 ---------------------------------------------------------------
 #### Example of mail server test connection (test config only).
 ---------------------------------------------------------------
@@ -46,6 +37,15 @@ mail_server:
   port: 25
   secure: true
   title: Acme mail server test connection
+recipients:
+- acme@example.com
+```
+
+--------------------------------------------
+#### Example of mail server test connection.
+--------------------------------------------
+
+```
 recipients:
 - acme@example.com
 ```
